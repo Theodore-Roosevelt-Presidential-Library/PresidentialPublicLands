@@ -26,11 +26,12 @@
   <div class="viewer">
     <div id="map" role="region" aria-label="Map of lands protected by Theodore Roosevelt"></div>
     <nav class="tabs" id="tabs" aria-label="Kind of land"></nav>
-    <div class="yearbox" aria-live="polite">
-      <div class="yearstamp" id="stamp">1909</div>
-      <div class="yearsub" id="stampsub">Left office March 4</div>
-    </div>
+    <div class="insets" id="insets" aria-label="Alaska, Hawaii and Puerto Rico"></div>
     <div class="timebar">
+      <div class="yearbox" aria-live="polite">
+        <div class="yearstamp" id="stamp">1909</div>
+        <div class="yearsub" id="stampsub">Left office March 4</div>
+      </div>
       <button id="play" class="playbtn" aria-pressed="false" aria-label="Play 1901 to 1909">▶</button>
       <div class="slider">
         <input type="range" id="t" min="1901" max="1909" step="1" value="1909" aria-label="Show lands protected through this year" list="ticks">
@@ -70,7 +71,7 @@
         <div class="note" id="about">
           <p><b>About the shapes.</b> Each shape is the boundary of the place today, drawn from current U.S. Forest Service, National Park Service and U.S. Fish and Wildlife Service data. Many places have grown or shrunk since Roosevelt's day, so a shape shows where a place is, not its exact 1909 outline. Reserves that no longer exist, and places too small to draw, appear as markers.</p>
           <p><b>About the forests.</b> The roughly 150 national forests of 1909 were later merged and renamed into the units mapped here. Each forest is shaded by the reserve at its core: green where Roosevelt first protected it, tan where it was already protected in September 1901. Many tan forests grew larger under Roosevelt; a dashed green edge marks the year he first added land. Acreage figures in the chart are the official totals reported at the time.</p>
-          <p><b>About the water projects.</b> The 24 reclamation projects are those whose construction the Secretary of the Interior approved under the Newlands Reclamation Act before March 4, 1909, as listed in the Reclamation Service's annual reports. Each marker sits at the project's signature dam, tunnel or pumping plant. The Rio Grande Project's Elephant Butte Dam, funded by Congress in 1907, was approved for construction in 1910 and is not counted.</p>
+          <p><b>About the water projects.</b> The map shows the 24 projects whose construction the Secretary of the Interior approved under the Newlands Reclamation Act before March 4, 1909, as recorded in the Reclamation Service's annual reports. Each marker sits at the project's signature dam, tunnel or pumping plant. The Rio Grande Project's Elephant Butte Dam, funded by Congress in 1907, was not approved for construction until 1910 and is not counted. Counts vary with how projects and their units are grouped: the Reclamation Service reported 24 approved projects in early 1906, and Roosevelt's <i>Autobiography</i> (1913) refers to "the twenty-eight projects begun in the years 1902 to 1906."</p>
           <p><b>Sources.</b> Totals: <a href="https://www.trlibrary.com/tr/conservation/by-the-numbers" target="_blank" rel="noopener">TR Library, Conservation by the Numbers</a>. Forest history: U.S. Forest Service, <i>Establishment and Modification of National Forest Boundaries and Names, 1891–2012</i> (FS-612) and the Reports of the Forester, 1902–1909. Bird and game reserves: T.S. Palmer, <i>National Reservations for the Protection of Wild Life</i> (Biological Survey Circular 87, 1912). Parks and monuments: presidential proclamations and acts of Congress; National Park Service. Reclamation: <i>Ninth Annual Report of the Reclamation Service</i> (1910). Boundaries: USFS, NPS, USFWS. Basemap © OpenStreetMap contributors, OpenFreeMap.</p>
         </div>
       </div>

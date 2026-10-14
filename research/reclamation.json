@@ -1,439 +1,465 @@
 [
-  {
-    "name": "Salt River Project",
-    "states": "AZ",
-    "date": "1903-03-14",
-    "structure": "Theodore Roosevelt Dam",
-    "lat": 33.6715,
-    "lon": -111.1615,
-    "acres_irrigated": 220000,
-    "note": "One of the first five projects; Roosevelt came back in March 1911 to dedicate the stone dam that carries his name.",
-    "sources": [
-      "https://archive.org/details/ninthannualrepor09unit",
-      "https://www.waterhistory.org/histories/reclamation/t1.html",
-      "http://www.wikidata.org/entity/Q979378"
-    ],
-    "confidence": "high",
-    "in_count_24": true,
-    "verify": null
-  },
-  {
-    "name": "Truckee-Carson Project (Newlands Project)",
-    "states": "NV",
-    "date": "1903-03-14",
-    "structure": "Derby Dam",
-    "lat": 39.5867,
-    "lon": -119.4478,
-    "acres_irrigated": 206000,
-    "note": "Derby Dam turned Truckee River water into a canal bound for the Carson desert, and the main Truckee canal was finished in June 1905.",
-    "sources": [
-      "https://archive.org/details/ninthannualrepor09unit",
-      "https://www.waterhistory.org/histories/reclamation/t1.html",
-      "http://www.wikidata.org/entity/Q5261452"
-    ],
-    "confidence": "high",
-    "in_count_24": true,
-    "verify": null
-  },
-  {
-    "name": "Uncompahgre Valley Project",
-    "states": "CO",
-    "date": "1903-03-14",
-    "structure": "Gunnison Tunnel",
-    "lat": 38.4933,
-    "lon": -107.7214,
-    "acres_irrigated": 140000,
-    "note": "Crews bored a tunnel about six miles through solid rock to carry Gunnison River water into the Uncompahgre Valley.",
-    "sources": [
-      "https://archive.org/details/ninthannualrepor09unit",
-      "https://www.waterhistory.org/histories/reclamation/t1.html",
-      "http://www.wikidata.org/entity/Q5619278"
-    ],
-    "confidence": "high",
-    "in_count_24": true,
-    "verify": "Coordinate is Wikidata's single point for the tunnel; the tunnel runs roughly 6 miles, so confirm which portal the map should mark."
-  },
-  {
-    "name": "Milk River Project",
-    "states": "MT",
-    "date": "1903-03-14",
-    "structure": "Dodson Diversion Dam",
-    "lat": 48.4119,
-    "lon": -108.31,
-    "acres_irrigated": 255000,
-    "note": "This project planned to borrow water from the St. Mary River near Glacier and send it down the Milk River to farms on Montana's Hi-Line.",
-    "sources": [
-      "https://archive.org/details/ninthannualrepor09unit",
-      "https://www.waterhistory.org/histories/reclamation/t1.html",
-      "http://www.wikidata.org/entity/Q48984801"
-    ],
-    "confidence": "high",
-    "in_count_24": true,
-    "verify": "The St. Mary storage works were authorized separately on 1905-03-25 and later folded into Milk River. Dodson Diversion Dam was finished in January 1910, after TR left office."
-  },
-  {
-    "name": "North Platte Project",
-    "states": "NE, WY",
-    "date": "1903-03-14",
-    "structure": "Pathfinder Dam",
-    "lat": 42.4681,
-    "lon": -106.854,
-    "acres_irrigated": 129000,
-    "note": "Pathfinder Dam stores North Platte water in Wyoming, and the Interstate Canal carries it to farms in western Nebraska.",
-    "sources": [
-      "https://archive.org/details/ninthannualrepor09unit",
-      "https://www.waterhistory.org/histories/reclamation/t1.html",
-      "http://www.wikidata.org/entity/Q7144759"
-    ],
-    "confidence": "high",
-    "in_count_24": true,
-    "verify": "Authorized in 1903 as the 'Sweetwater' project. The acreage shown is the Interstate Canal unit only (1910 report)."
-  },
-  {
-    "name": "Shoshone Project",
-    "states": "WY",
-    "date": "1904-02-10",
-    "structure": "Shoshone Dam (Buffalo Bill Dam)",
-    "lat": 44.5017,
-    "lon": -109.1842,
-    "acres_irrigated": 155000,
-    "note": "A 328-foot concrete arch dam in the canyon above Cody holds the Shoshone River for farms around Powell.",
-    "sources": [
-      "https://archive.org/details/ninthannualrepor09unit",
-      "https://archive.org/details/sixthannualrepor06unit",
-      "http://www.wikidata.org/entity/Q1001929"
-    ],
-    "confidence": "high",
-    "in_count_24": true,
-    "verify": "The dam was finished in January 1910 and renamed Buffalo Bill Dam in 1946."
-  },
-  {
-    "name": "Minidoka Project",
-    "states": "ID",
-    "date": "1904-04-23",
-    "structure": "Minidoka Dam",
-    "lat": 42.6694,
-    "lon": -113.484,
-    "acres_irrigated": 124700,
-    "note": "Minidoka Dam on the Snake River was finished in 1906 and created Lake Walcott.",
-    "sources": [
-      "https://archive.org/details/ninthannualrepor09unit",
-      "https://archive.org/details/sixthannualrepor06unit",
-      "http://www.wikidata.org/entity/Q6865229"
-    ],
-    "confidence": "high",
-    "in_count_24": true,
-    "verify": null
-  },
-  {
-    "name": "Yuma Project",
-    "states": "AZ, CA",
-    "date": "1904-05-10",
-    "structure": "Laguna Dam",
-    "lat": 32.8231,
-    "lon": -114.4942,
-    "acres_irrigated": 90160,
-    "note": "Laguna Dam spans the Colorado River above Yuma and was finished in March 1909.",
-    "sources": [
-      "https://archive.org/details/ninthannualrepor09unit",
-      "http://www.wikidata.org/entity/Q6472848"
-    ],
-    "confidence": "high",
-    "in_count_24": true,
-    "verify": "The 'first dam on the lower Colorado' claim should be checked before it goes on the map (Reclamation's Yuma project history)."
-  },
-  {
-    "name": "Lower Yellowstone Project",
-    "states": "MT, ND",
-    "date": "1904-05-10",
-    "structure": "Lower Yellowstone Diversion Dam (Intake Dam)",
-    "lat": 47.2806,
-    "lon": -104.5297,
-    "acres_irrigated": 63780,
-    "note": "A low rock-and-timber weir near Intake, Montana, sends Yellowstone River water to farms reaching into North Dakota.",
-    "sources": [
-      "https://archive.org/details/ninthannualrepor09unit",
-      "http://www.wikidata.org/entity/Q48992933"
-    ],
-    "confidence": "high",
-    "in_count_24": true,
-    "verify": "The dam was finished in January 1910."
-  },
-  {
-    "name": "Belle Fourche Project",
-    "states": "SD",
-    "date": "1904-05-10",
-    "structure": "Belle Fourche Dam (Orman Dam)",
-    "lat": 44.7311,
-    "lon": -103.6774,
-    "acres_irrigated": 100000,
-    "note": "An earthen dam 115 feet high and more than a mile long on Owl Creek stores Belle Fourche River water for western South Dakota farms.",
-    "sources": [
-      "https://archive.org/details/ninthannualrepor09unit",
-      "https://archive.org/details/sixthannualrepor06unit",
-      "http://www.wikidata.org/entity/Q4883630"
-    ],
-    "confidence": "high",
-    "in_count_24": true,
-    "verify": "The dam was about 97 percent finished in June 1910 and completed in 1911."
-  },
-  {
-    "name": "Hondo Project",
-    "states": "NM",
-    "date": "1904-09-06",
-    "structure": "Hondo Reservoir",
-    "lat": 33.33,
-    "lon": -104.67,
-    "acres_irrigated": 10000,
-    "note": "Engineers built a reservoir near Roswell, but the water seeped into the ground, and the project never delivered much.",
-    "sources": [
-      "https://archive.org/details/ninthannualrepor09unit",
-      "https://archive.org/details/sixthannualrepor06unit",
-      "https://www.usbr.gov/history/ProjectHistories/HONDO%20PROJECT%20MASTER%20ZLA%20HC%20FC%20BC%20IC%20SC%207.2010.pdf"
-    ],
-    "confidence": "low",
-    "in_count_24": true,
-    "verify": "Date conflict. The 9th Annual Report (1910) chronology gives 1904-09-06, but that is also the bid-opening date. The 6th Annual Report says construction was authorized 1903-11-10, and Reclamation's project history says 'authorized in 1904.' The coordinate is APPROXIMATE (about 10 to 12 miles west/southwest of Roswell, from the report text) and must be checked on a USGS topo map."
-  },
-  {
-    "name": "Boise Project (Payette-Boise)",
-    "states": "ID",
-    "date": "1905-03-27",
-    "structure": "Boise River Diversion Dam",
-    "lat": 43.5378,
-    "lon": -116.0936,
-    "acres_irrigated": 243000,
-    "note": "The Boise River Diversion Dam, finished in 1908, sends river water into the New York Canal for the Boise Valley.",
-    "sources": [
-      "https://archive.org/details/ninthannualrepor09unit",
-      "https://archive.org/details/sixthannualrepor06unit",
-      "http://www.wikidata.org/entity/Q4938457"
-    ],
-    "confidence": "high",
-    "in_count_24": true,
-    "verify": "Called the Payette-Boise project at the time. Arrowrock Dam came later (1915)."
-  },
-  {
-    "name": "Huntley Project",
-    "states": "MT",
-    "date": "1905-04-18",
-    "structure": "Huntley Diversion Dam",
-    "lat": 45.8994,
-    "lon": -108.301,
-    "acres_irrigated": 32521,
-    "note": "Opened on land ceded by the Crow Tribe, this Yellowstone River project east of Billings first delivered water in 1908.",
-    "sources": [
-      "https://archive.org/details/ninthannualrepor09unit",
-      "http://www.wikidata.org/entity/Q14704566"
-    ],
-    "confidence": "medium",
-    "in_count_24": true,
-    "verify": "Coordinate is the Wikidata point for the Huntley Project / town area, not the diversion dam itself (about 2 miles above Huntley). Confirm before mapping. The Crow cession tie should be checked in Reclamation's Huntley history."
-  },
-  {
-    "name": "Klamath Project",
-    "states": "OR, CA",
-    "date": "1905-05-15",
-    "structure": "Clear Lake Dam",
-    "lat": 41.9261,
-    "lon": -121.0764,
-    "acres_irrigated": 127000,
-    "note": "Klamath engineers drained lakebeds and marshes along the Oregon-California line for farmland, and Clear Lake Dam was finished in January 1910.",
-    "sources": [
-      "https://archive.org/details/ninthannualrepor09unit",
-      "http://www.wikidata.org/entity/Q48982999"
-    ],
-    "confidence": "medium",
-    "in_count_24": true,
-    "verify": "The acreage is the lower division only. Link River Dam, now the best-known structure, came in 1921; pick the marker structure accordingly."
-  },
-  {
-    "name": "Garden City Project",
-    "states": "KS",
-    "date": "1905-10-05",
-    "structure": "Garden City pumping plant (Deerfield)",
-    "lat": 37.98,
-    "lon": -101.13,
-    "acres_irrigated": 10677,
-    "note": "Kansas's only early project pumped groundwater from under the Arkansas River, but farmers stopped paying their charges and the pumps went quiet by 1910.",
-    "sources": [
-      "https://archive.org/details/ninthannualrepor09unit"
-    ],
-    "confidence": "medium",
-    "in_count_24": true,
-    "verify": "No dam; the works were a steam power plant and wells near Deerfield, Kansas. The coordinate is APPROXIMATE (Deerfield area) and should be checked."
-  },
-  {
-    "name": "Okanogan Project",
-    "states": "WA",
-    "date": "1905-12-02",
-    "structure": "Conconully Dam",
-    "lat": 48.5381,
-    "lon": -119.7489,
-    "acres_irrigated": 10000,
-    "note": "An earthen dam on Salmon Creek above Okanogan stored water for orchards in north-central Washington.",
-    "sources": [
-      "https://archive.org/details/ninthannualrepor09unit",
-      "https://archive.org/details/sixthannualrepor06unit",
-      "http://www.wikidata.org/entity/Q5158741"
-    ],
-    "confidence": "high",
-    "in_count_24": true,
-    "verify": "The dam was 99 percent finished in June 1910."
-  },
-  {
-    "name": "Umatilla Project",
-    "states": "OR",
-    "date": "1905-12-04",
-    "structure": "Cold Springs Dam",
-    "lat": 45.8608,
-    "lon": -119.172,
-    "acres_irrigated": 25000,
-    "note": "Cold Springs Dam, finished in June 1908, stores Umatilla River water for farms around Hermiston in northeastern Oregon.",
-    "sources": [
-      "https://archive.org/details/ninthannualrepor09unit",
-      "https://archive.org/details/sixthannualrepor06unit",
-      "http://www.wikidata.org/entity/Q5142378"
-    ],
-    "confidence": "high",
-    "in_count_24": true,
-    "verify": null
-  },
-  {
-    "name": "Yakima Project (Sunnyside and Tieton units)",
-    "states": "WA",
-    "date": "1905-12-12",
-    "structure": "Sunnyside Diversion Dam",
-    "lat": 46.4975,
-    "lon": -120.4453,
-    "acres_irrigated": 135000,
-    "note": "The government bought and rebuilt the old Sunnyside canal, and its first water reached farms in 1907.",
-    "sources": [
-      "https://archive.org/details/ninthannualrepor09unit",
-      "https://archive.org/details/sixthannualrepor06unit",
-      "http://www.wikidata.org/entity/Q49000895"
-    ],
-    "confidence": "high",
-    "in_count_24": true,
-    "verify": "Only the Sunnyside unit (100,000 acres) and Tieton unit (35,000 acres) were authorized on this date. The Wapato unit followed on 1906-06-16. Yakima units were combined into one project on 1909-03-31."
-  },
-  {
-    "name": "Strawberry Valley Project",
-    "states": "UT",
-    "date": "1905-12-15",
-    "structure": "Strawberry Tunnel / Strawberry Reservoir",
-    "lat": 40.1744,
-    "lon": -111.1268,
-    "acres_irrigated": 60000,
-    "note": "A tunnel about 3\u00bd miles long sends water from the Colorado River basin west to farms around Spanish Fork.",
-    "sources": [
-      "https://archive.org/details/ninthannualrepor09unit",
-      "https://archive.org/details/sixthannualrepor06unit",
-      "http://www.wikidata.org/entity/Q7336423"
-    ],
-    "confidence": "medium",
-    "in_count_24": true,
-    "verify": "The coordinate is the reservoir centroid, not the original 1913 Strawberry Dam or the tunnel portal. The tunnel was only 26 percent dug in June 1910. The tunnel length ('about 3\u00bd miles' in the 1910 report) should be checked."
-  },
-  {
-    "name": "Williston Project",
-    "states": "ND",
-    "date": "1906-01-23",
-    "structure": "Williston steam power and pumping plant",
-    "lat": 48.147,
-    "lon": -103.618,
-    "acres_irrigated": 12000,
-    "note": "Steam power pumped Missouri River water uphill to farms around Williston.",
-    "sources": [
-      "https://archive.org/details/ninthannualrepor09unit"
-    ],
-    "confidence": "medium",
-    "in_count_24": true,
-    "verify": "No dam. The coordinate is APPROXIMATE (Williston town area)."
-  },
-  {
-    "name": "Buford-Trenton Project",
-    "states": "ND",
-    "date": "1906-01-23",
-    "structure": "Buford-Trenton pumping plant (barge on the Missouri River)",
-    "lat": 47.99,
-    "lon": -103.98,
-    "acres_irrigated": 12500,
-    "note": "A pump on a barge on the Missouri lifted river water about 30 feet into canals near Buford and Trenton, using power sent from Williston.",
-    "sources": [
-      "https://archive.org/details/ninthannualrepor09unit"
-    ],
-    "confidence": "medium",
-    "in_count_24": true,
-    "verify": "No dam. The coordinate is APPROXIMATE (Buford area); the barge site has not been confirmed."
-  },
-  {
-    "name": "Carlsbad Project",
-    "states": "NM",
-    "date": "1906-02-24",
-    "structure": "Avalon Dam",
-    "lat": 32.4908,
-    "lon": -104.252,
-    "acres_irrigated": 20255,
-    "note": "Reclamation bought a struggling private Pecos River canal system and rebuilt Avalon Dam by November 1907.",
-    "sources": [
-      "https://archive.org/details/ninthannualrepor09unit",
-      "http://www.wikidata.org/entity/Q4827568"
-    ],
-    "confidence": "medium",
-    "in_count_24": true,
-    "verify": "Two dates appear. The Secretary approved the board's purchase recommendation on 1905-11-28, and the 1910 chronology says construction was authorized 1906-02-24."
-  },
-  {
-    "name": "Sun River Project",
-    "states": "MT",
-    "date": "1906-02-26",
-    "structure": "Willow Creek Dam",
-    "lat": 47.5466,
-    "lon": -112.431,
-    "acres_irrigated": 300000,
-    "note": "The first unit was built on the former Fort Shaw military reservation west of Great Falls and first delivered water in 1909.",
-    "sources": [
-      "https://archive.org/details/ninthannualrepor09unit",
-      "http://www.wikidata.org/entity/Q8022292"
-    ],
-    "confidence": "high",
-    "in_count_24": true,
-    "verify": "The 300,000 acres was the planned whole-project total in 1910; the Fort Shaw unit was 16,000 acres. Willow Creek Dam was begun in 1907 and only 10 percent finished in June 1910."
-  },
-  {
-    "name": "Orland Project",
-    "states": "CA",
-    "date": "1906-12-18",
-    "structure": "East Park Dam",
-    "lat": 39.3613,
-    "lon": -122.513,
-    "acres_irrigated": 14000,
-    "note": "East Park Dam on Little Stony Creek stored water for the Sacramento Valley's first federal project, around the town of Orland.",
-    "sources": [
-      "https://archive.org/details/ninthannualrepor09unit",
-      "http://www.wikidata.org/entity/Q5329111"
-    ],
-    "confidence": "high",
-    "in_count_24": true,
-    "verify": "East Park Dam was finished in June 1910."
-  },
-  {
-    "name": "Rio Grande Project",
-    "states": "NM, TX",
-    "date": "1907-03-04",
-    "structure": "Elephant Butte Dam (Engle Dam)",
-    "lat": 33.154,
-    "lon": -107.1921,
-    "acres_irrigated": 160000,
-    "note": "Roosevelt signed the 1907 law that paid for a big storage dam on the Rio Grande, though most of it was built after he left office.",
-    "sources": [
-      "https://archive.org/details/ninthannualrepor09unit",
-      "http://www.wikidata.org/entity/Q5359304",
-      "http://www.wikidata.org/entity/Q6510270"
-    ],
-    "confidence": "medium",
-    "in_count_24": false,
-    "verify": "This is the likely reason the count is 24 and not 25. Congress authorized Engle (Elephant Butte) Dam and appropriated money on 1907-03-04, but the Secretary did not authorize its construction until 1910-05-23. The only Rio Grande work the Secretary approved under TR was the separate Leasburg project (diversion dam at 32.4972, -106.923; authorized 1905-12-02; 25,000 acres; finished 1908). The 160,000 acres is the US share of the full plan and includes Leasburg's 25,000."
-  }
+ {
+  "name": "Salt River Project",
+  "states": "AZ",
+  "date": "1903-03-14",
+  "structure": "Theodore Roosevelt Dam",
+  "lat": 33.6715,
+  "lon": -111.1615,
+  "acres_irrigated": 220000,
+  "note": "One of the first five projects; Roosevelt came back in March 1911 to dedicate the stone dam that carries his name.",
+  "sources": [
+   "https://archive.org/details/ninthannualrepor09unit",
+   "https://www.waterhistory.org/histories/reclamation/t1.html",
+   "http://www.wikidata.org/entity/Q979378"
+  ],
+  "confidence": "high",
+  "in_count_24": true,
+  "verify": null,
+  "count_basis": "Counted in the recommended 24: construction authorized by the Secretary of the Interior under the 1902 Act before March 4, 1909 (Rio Grande excluded). Also among Blanchard's early-1906 list of 24."
+ },
+ {
+  "name": "Truckee-Carson Project (Newlands Project)",
+  "states": "NV",
+  "date": "1903-03-14",
+  "structure": "Derby Dam",
+  "lat": 39.5867,
+  "lon": -119.4478,
+  "acres_irrigated": 206000,
+  "note": "Derby Dam turned Truckee River water into a canal bound for the Carson desert, and the main Truckee canal was finished in June 1905.",
+  "sources": [
+   "https://archive.org/details/ninthannualrepor09unit",
+   "https://www.waterhistory.org/histories/reclamation/t1.html",
+   "http://www.wikidata.org/entity/Q5261452"
+  ],
+  "confidence": "high",
+  "in_count_24": true,
+  "verify": null,
+  "count_basis": "Counted in the recommended 24: construction authorized by the Secretary of the Interior under the 1902 Act before March 4, 1909 (Rio Grande excluded). Also among Blanchard's early-1906 list of 24."
+ },
+ {
+  "name": "Uncompahgre Valley Project",
+  "states": "CO",
+  "date": "1903-03-14",
+  "structure": "Gunnison Tunnel",
+  "lat": 38.4933,
+  "lon": -107.7214,
+  "acres_irrigated": 140000,
+  "note": "Crews bored a tunnel about six miles through solid rock to carry Gunnison River water into the Uncompahgre Valley.",
+  "sources": [
+   "https://archive.org/details/ninthannualrepor09unit",
+   "https://www.waterhistory.org/histories/reclamation/t1.html",
+   "http://www.wikidata.org/entity/Q5619278"
+  ],
+  "confidence": "high",
+  "in_count_24": true,
+  "verify": "Coordinate is Wikidata's single point for the tunnel; the tunnel runs roughly 6 miles, so confirm which portal the map should mark.",
+  "count_basis": "Counted in the recommended 24: construction authorized by the Secretary of the Interior under the 1902 Act before March 4, 1909 (Rio Grande excluded). Also among Blanchard's early-1906 list of 24."
+ },
+ {
+  "name": "Milk River Project",
+  "states": "MT",
+  "date": "1903-03-14",
+  "structure": "Dodson Diversion Dam",
+  "lat": 48.4119,
+  "lon": -108.31,
+  "acres_irrigated": 255000,
+  "note": "This project planned to borrow water from the St. Mary River near Glacier and send it down the Milk River to farms on Montana's Hi-Line.",
+  "sources": [
+   "https://archive.org/details/ninthannualrepor09unit",
+   "https://www.waterhistory.org/histories/reclamation/t1.html",
+   "http://www.wikidata.org/entity/Q48984801"
+  ],
+  "confidence": "high",
+  "in_count_24": true,
+  "verify": "The St. Mary storage works were authorized separately on 1905-03-25 and later folded into Milk River. Dodson Diversion Dam was finished in January 1910, after TR left office.",
+  "count_basis": "Counted in the recommended 24: construction authorized by the Secretary of the Interior under the 1902 Act before March 4, 1909 (Rio Grande excluded). Also among Blanchard's early-1906 list of 24."
+ },
+ {
+  "name": "North Platte Project",
+  "states": "NE, WY",
+  "date": "1903-03-14",
+  "structure": "Pathfinder Dam",
+  "lat": 42.4681,
+  "lon": -106.854,
+  "acres_irrigated": 129000,
+  "note": "Pathfinder Dam stores North Platte water in Wyoming, and the Interstate Canal carries it to farms in western Nebraska.",
+  "sources": [
+   "https://archive.org/details/ninthannualrepor09unit",
+   "https://www.waterhistory.org/histories/reclamation/t1.html",
+   "http://www.wikidata.org/entity/Q7144759"
+  ],
+  "confidence": "high",
+  "in_count_24": true,
+  "verify": "Authorized in 1903 as the 'Sweetwater' project. The acreage shown is the Interstate Canal unit only (1910 report).",
+  "count_basis": "Counted in the recommended 24: construction authorized by the Secretary of the Interior under the 1902 Act before March 4, 1909 (Rio Grande excluded). Also among Blanchard's early-1906 list of 24."
+ },
+ {
+  "name": "Hondo Project",
+  "states": "NM",
+  "date": "1903-11-10",
+  "structure": "Hondo Reservoir",
+  "lat": 33.33,
+  "lon": -104.67,
+  "acres_irrigated": 10000,
+  "note": "Engineers built a reservoir near Roswell, but the water seeped into the ground, and the project never delivered much.",
+  "sources": [
+   "https://archive.org/details/annualreportbur26unkngoog",
+   "https://archive.org/details/sixthannualrepor06unit",
+   "https://archive.org/details/ninthannualrepor09unit",
+   "https://www.usbr.gov/history/ProjectHistories/HONDO%20PROJECT%20MASTER%20ZLA%20HC%20FC%20BC%20IC%20SC%207.2010.pdf"
+  ],
+  "confidence": "medium",
+  "in_count_24": true,
+  "verify": "Date resolved Oct 14: the Secretary of the Interior approved the project on 1903-11-10. The 5th Annual Report's chronological list of authorizations (item 2) reads 'Nov. 10, 1903, approving Hondo project, New Mexico, estimated cost $240,000'. The 6th Report says 'On November 10, 1903, construction of the project was authorized.' The 9th Report narrative (p. 209) says the Director approved on November 3, 1903, 'and on November 10 the Secretary of the Interior granted authority to take such further action as might be necessary.' The 9th Report's one-line chronology ('Construction authorized by Secretary September 6, 1904') contradicts its own narrative. September 6, 1904 is the day bids were opened at Roswell, so the chronology line appears to be an error. The coordinate is still APPROXIMATE (about 10 to 12 miles west/southwest of Roswell, from the report text) and must be checked on a USGS topo map.",
+  "count_basis": "Counted in the recommended 24: construction authorized by the Secretary of the Interior under the 1902 Act before March 4, 1909 (Rio Grande excluded). Also among Blanchard's early-1906 list of 24."
+ },
+ {
+  "name": "Shoshone Project",
+  "states": "WY",
+  "date": "1904-02-10",
+  "structure": "Shoshone Dam (Buffalo Bill Dam)",
+  "lat": 44.5017,
+  "lon": -109.1842,
+  "acres_irrigated": 155000,
+  "note": "A 328-foot concrete arch dam in the canyon above Cody holds the Shoshone River for farms around Powell.",
+  "sources": [
+   "https://archive.org/details/ninthannualrepor09unit",
+   "https://archive.org/details/sixthannualrepor06unit",
+   "http://www.wikidata.org/entity/Q1001929"
+  ],
+  "confidence": "high",
+  "in_count_24": true,
+  "verify": "The dam was finished in January 1910 and renamed Buffalo Bill Dam in 1946.",
+  "count_basis": "Counted in the recommended 24: construction authorized by the Secretary of the Interior under the 1902 Act before March 4, 1909 (Rio Grande excluded). Also among Blanchard's early-1906 list of 24."
+ },
+ {
+  "name": "Minidoka Project",
+  "states": "ID",
+  "date": "1904-04-23",
+  "structure": "Minidoka Dam",
+  "lat": 42.6694,
+  "lon": -113.484,
+  "acres_irrigated": 124700,
+  "note": "Minidoka Dam on the Snake River was finished in 1906 and created Lake Walcott.",
+  "sources": [
+   "https://archive.org/details/ninthannualrepor09unit",
+   "https://archive.org/details/sixthannualrepor06unit",
+   "http://www.wikidata.org/entity/Q6865229"
+  ],
+  "confidence": "high",
+  "in_count_24": true,
+  "verify": null,
+  "count_basis": "Counted in the recommended 24: construction authorized by the Secretary of the Interior under the 1902 Act before March 4, 1909 (Rio Grande excluded). Also among Blanchard's early-1906 list of 24."
+ },
+ {
+  "name": "Yuma Project",
+  "states": "AZ, CA",
+  "date": "1904-05-10",
+  "structure": "Laguna Dam",
+  "lat": 32.8231,
+  "lon": -114.4942,
+  "acres_irrigated": 90160,
+  "note": "Laguna Dam spans the Colorado River above Yuma and was finished in March 1909.",
+  "sources": [
+   "https://archive.org/details/ninthannualrepor09unit",
+   "http://www.wikidata.org/entity/Q6472848"
+  ],
+  "confidence": "high",
+  "in_count_24": true,
+  "verify": "The 'first dam on the lower Colorado' claim should be checked before it goes on the map (Reclamation's Yuma project history).",
+  "count_basis": "Counted in the recommended 24: construction authorized by the Secretary of the Interior under the 1902 Act before March 4, 1909 (Rio Grande excluded). Also among Blanchard's early-1906 list of 24."
+ },
+ {
+  "name": "Lower Yellowstone Project",
+  "states": "MT, ND",
+  "date": "1904-05-10",
+  "structure": "Lower Yellowstone Diversion Dam (Intake Dam)",
+  "lat": 47.2806,
+  "lon": -104.5297,
+  "acres_irrigated": 63780,
+  "note": "A low rock-and-timber weir near Intake, Montana, sends Yellowstone River water to farms reaching into North Dakota.",
+  "sources": [
+   "https://archive.org/details/ninthannualrepor09unit",
+   "http://www.wikidata.org/entity/Q48992933"
+  ],
+  "confidence": "high",
+  "in_count_24": true,
+  "verify": "The dam was finished in January 1910.",
+  "count_basis": "Counted in the recommended 24: construction authorized by the Secretary of the Interior under the 1902 Act before March 4, 1909 (Rio Grande excluded). Also among Blanchard's early-1906 list of 24."
+ },
+ {
+  "name": "Belle Fourche Project",
+  "states": "SD",
+  "date": "1904-05-10",
+  "structure": "Belle Fourche Dam (Orman Dam)",
+  "lat": 44.7311,
+  "lon": -103.6774,
+  "acres_irrigated": 100000,
+  "note": "An earthen dam 115 feet high and more than a mile long on Owl Creek stores Belle Fourche River water for western South Dakota farms.",
+  "sources": [
+   "https://archive.org/details/ninthannualrepor09unit",
+   "https://archive.org/details/sixthannualrepor06unit",
+   "http://www.wikidata.org/entity/Q4883630"
+  ],
+  "confidence": "high",
+  "in_count_24": true,
+  "verify": "The dam was about 97 percent finished in June 1910 and completed in 1911.",
+  "count_basis": "Counted in the recommended 24: construction authorized by the Secretary of the Interior under the 1902 Act before March 4, 1909 (Rio Grande excluded). Also among Blanchard's early-1906 list of 24."
+ },
+ {
+  "name": "Boise Project (Payette-Boise)",
+  "states": "ID",
+  "date": "1905-03-27",
+  "structure": "Boise River Diversion Dam",
+  "lat": 43.5378,
+  "lon": -116.0936,
+  "acres_irrigated": 243000,
+  "note": "The Boise River Diversion Dam, finished in 1908, sends river water into the New York Canal for the Boise Valley.",
+  "sources": [
+   "https://archive.org/details/ninthannualrepor09unit",
+   "https://archive.org/details/sixthannualrepor06unit",
+   "http://www.wikidata.org/entity/Q4938457"
+  ],
+  "confidence": "high",
+  "in_count_24": true,
+  "verify": "Called the Payette-Boise project at the time. Arrowrock Dam came later (1915).",
+  "count_basis": "Counted in the recommended 24: construction authorized by the Secretary of the Interior under the 1902 Act before March 4, 1909 (Rio Grande excluded). Also among Blanchard's early-1906 list of 24."
+ },
+ {
+  "name": "Huntley Project",
+  "states": "MT",
+  "date": "1905-04-18",
+  "structure": "Huntley Diversion Dam",
+  "lat": 45.8994,
+  "lon": -108.301,
+  "acres_irrigated": 32521,
+  "note": "Opened on land ceded by the Crow Tribe, this Yellowstone River project east of Billings first delivered water in 1908.",
+  "sources": [
+   "https://archive.org/details/ninthannualrepor09unit",
+   "http://www.wikidata.org/entity/Q14704566"
+  ],
+  "confidence": "medium",
+  "in_count_24": true,
+  "verify": "Coordinate is the Wikidata point for the Huntley Project / town area, not the diversion dam itself (about 2 miles above Huntley). Confirm before mapping. The Crow cession tie should be checked in Reclamation's Huntley history.",
+  "count_basis": "Counted in the recommended 24: construction authorized by the Secretary of the Interior under the 1902 Act before March 4, 1909 (Rio Grande excluded). Also among Blanchard's early-1906 list of 24."
+ },
+ {
+  "name": "Klamath Project",
+  "states": "OR, CA",
+  "date": "1905-05-15",
+  "structure": "Clear Lake Dam",
+  "lat": 41.9261,
+  "lon": -121.0764,
+  "acres_irrigated": 127000,
+  "note": "Klamath engineers drained lakebeds and marshes along the Oregon-California line for farmland, and Clear Lake Dam was finished in January 1910.",
+  "sources": [
+   "https://archive.org/details/ninthannualrepor09unit",
+   "http://www.wikidata.org/entity/Q48982999"
+  ],
+  "confidence": "medium",
+  "in_count_24": true,
+  "verify": "The acreage is the lower division only. Link River Dam, now the best-known structure, came in 1921; pick the marker structure accordingly.",
+  "count_basis": "Counted in the recommended 24: construction authorized by the Secretary of the Interior under the 1902 Act before March 4, 1909 (Rio Grande excluded). Also among Blanchard's early-1906 list of 24."
+ },
+ {
+  "name": "Garden City Project",
+  "states": "KS",
+  "date": "1905-10-05",
+  "structure": "Garden City pumping plant (Deerfield)",
+  "lat": 37.98,
+  "lon": -101.13,
+  "acres_irrigated": 10677,
+  "note": "Kansas's only early project pumped groundwater from under the Arkansas River, but farmers stopped paying their charges and the pumps went quiet by 1910.",
+  "sources": [
+   "https://archive.org/details/ninthannualrepor09unit"
+  ],
+  "confidence": "medium",
+  "in_count_24": true,
+  "verify": "No dam; the works were a steam power plant and wells near Deerfield, Kansas. The coordinate is APPROXIMATE (Deerfield area) and should be checked.",
+  "count_basis": "Counted in the recommended 24: construction authorized by the Secretary of the Interior under the 1902 Act before March 4, 1909 (Rio Grande excluded). Also among Blanchard's early-1906 list of 24."
+ },
+ {
+  "name": "Okanogan Project",
+  "states": "WA",
+  "date": "1905-12-02",
+  "structure": "Conconully Dam",
+  "lat": 48.5381,
+  "lon": -119.7489,
+  "acres_irrigated": 10000,
+  "note": "An earthen dam on Salmon Creek above Okanogan stored water for orchards in north-central Washington.",
+  "sources": [
+   "https://archive.org/details/ninthannualrepor09unit",
+   "https://archive.org/details/sixthannualrepor06unit",
+   "http://www.wikidata.org/entity/Q5158741"
+  ],
+  "confidence": "high",
+  "in_count_24": true,
+  "verify": "The dam was 99 percent finished in June 1910.",
+  "count_basis": "Counted in the recommended 24: construction authorized by the Secretary of the Interior under the 1902 Act before March 4, 1909 (Rio Grande excluded). Also among Blanchard's early-1906 list of 24."
+ },
+ {
+  "name": "Umatilla Project",
+  "states": "OR",
+  "date": "1905-12-04",
+  "structure": "Cold Springs Dam",
+  "lat": 45.8608,
+  "lon": -119.172,
+  "acres_irrigated": 25000,
+  "note": "Cold Springs Dam, finished in June 1908, stores Umatilla River water for farms around Hermiston in northeastern Oregon.",
+  "sources": [
+   "https://archive.org/details/ninthannualrepor09unit",
+   "https://archive.org/details/sixthannualrepor06unit",
+   "http://www.wikidata.org/entity/Q5142378"
+  ],
+  "confidence": "high",
+  "in_count_24": true,
+  "verify": null,
+  "count_basis": "Counted in the recommended 24: construction authorized by the Secretary of the Interior under the 1902 Act before March 4, 1909 (Rio Grande excluded). Also among Blanchard's early-1906 list of 24."
+ },
+ {
+  "name": "Yakima Project (Sunnyside and Tieton units)",
+  "states": "WA",
+  "date": "1905-12-12",
+  "structure": "Sunnyside Diversion Dam",
+  "lat": 46.4975,
+  "lon": -120.4453,
+  "acres_irrigated": 135000,
+  "note": "The government bought and rebuilt the old Sunnyside canal, and its first water reached farms in 1907.",
+  "sources": [
+   "https://archive.org/details/ninthannualrepor09unit",
+   "https://archive.org/details/sixthannualrepor06unit",
+   "http://www.wikidata.org/entity/Q49000895"
+  ],
+  "confidence": "high",
+  "in_count_24": true,
+  "verify": "Only the Sunnyside unit (100,000 acres) and Tieton unit (35,000 acres) were authorized on this date. The Wapato unit followed on 1906-06-16. Yakima units were combined into one project on 1909-03-31.",
+  "count_basis": "Counted in the recommended 24: construction authorized by the Secretary of the Interior under the 1902 Act before March 4, 1909 (Rio Grande excluded). Blanchard's 1906 list of 24 counts this as two (Sunnyside and Tieton)."
+ },
+ {
+  "name": "Strawberry Valley Project",
+  "states": "UT",
+  "date": "1905-12-15",
+  "structure": "Strawberry Tunnel / Strawberry Reservoir",
+  "lat": 40.1744,
+  "lon": -111.1268,
+  "acres_irrigated": 60000,
+  "note": "A tunnel about 3½ miles long sends water from the Colorado River basin west to farms around Spanish Fork.",
+  "sources": [
+   "https://archive.org/details/ninthannualrepor09unit",
+   "https://archive.org/details/sixthannualrepor06unit",
+   "http://www.wikidata.org/entity/Q7336423"
+  ],
+  "confidence": "medium",
+  "in_count_24": true,
+  "verify": "The coordinate is the reservoir centroid, not the original 1913 Strawberry Dam or the tunnel portal. The tunnel was only 26 percent dug in June 1910. The tunnel length ('about 3½ miles' in the 1910 report) should be checked.",
+  "count_basis": "Counted in the recommended 24: construction authorized by the Secretary of the Interior under the 1902 Act before March 4, 1909 (Rio Grande excluded). Also among Blanchard's early-1906 list of 24."
+ },
+ {
+  "name": "Williston Project",
+  "states": "ND",
+  "date": "1906-01-23",
+  "structure": "Williston steam power and pumping plant",
+  "lat": 48.147,
+  "lon": -103.618,
+  "acres_irrigated": 12000,
+  "note": "Steam power pumped Missouri River water uphill to farms around Williston.",
+  "sources": [
+   "https://archive.org/details/ninthannualrepor09unit"
+  ],
+  "confidence": "medium",
+  "in_count_24": true,
+  "verify": "No dam. The coordinate is APPROXIMATE (Williston town area).",
+  "count_basis": "Counted in the recommended 24: construction authorized by the Secretary of the Interior under the 1902 Act before March 4, 1909 (Rio Grande excluded). Blanchard 1906 groups it under 'North Dakota Pumping Projects'. Some counts merge Williston and Buford-Trenton into one."
+ },
+ {
+  "name": "Buford-Trenton Project",
+  "states": "ND",
+  "date": "1906-01-23",
+  "structure": "Buford-Trenton pumping plant (barge on the Missouri River)",
+  "lat": 47.99,
+  "lon": -103.98,
+  "acres_irrigated": 12500,
+  "note": "A pump on a barge on the Missouri lifted river water about 30 feet into canals near Buford and Trenton, using power sent from Williston.",
+  "sources": [
+   "https://archive.org/details/ninthannualrepor09unit"
+  ],
+  "confidence": "medium",
+  "in_count_24": true,
+  "verify": "No dam. The coordinate is APPROXIMATE (Buford area); the barge site has not been confirmed.",
+  "count_basis": "Counted in the recommended 24: construction authorized by the Secretary of the Interior under the 1902 Act before March 4, 1909 (Rio Grande excluded). Blanchard 1906 groups it under 'North Dakota Pumping Projects'. Some counts merge Williston and Buford-Trenton into one."
+ },
+ {
+  "name": "Carlsbad Project",
+  "states": "NM",
+  "date": "1906-02-24",
+  "structure": "Avalon Dam",
+  "lat": 32.4908,
+  "lon": -104.252,
+  "acres_irrigated": 20255,
+  "note": "Reclamation bought a struggling private Pecos River canal system and rebuilt Avalon Dam by November 1907.",
+  "sources": [
+   "https://archive.org/details/ninthannualrepor09unit",
+   "http://www.wikidata.org/entity/Q4827568"
+  ],
+  "confidence": "medium",
+  "in_count_24": true,
+  "verify": "Two dates appear. The Secretary approved the board's purchase recommendation on 1905-11-28, and the 1910 chronology says construction was authorized 1906-02-24.",
+  "count_basis": "Counted in the recommended 24: construction authorized by the Secretary of the Interior under the 1902 Act before March 4, 1909 (Rio Grande excluded). Also among Blanchard's early-1906 list of 24."
+ },
+ {
+  "name": "Sun River Project",
+  "states": "MT",
+  "date": "1906-02-26",
+  "structure": "Willow Creek Dam",
+  "lat": 47.5466,
+  "lon": -112.431,
+  "acres_irrigated": 300000,
+  "note": "The first unit was built on the former Fort Shaw military reservation west of Great Falls and first delivered water in 1909.",
+  "sources": [
+   "https://archive.org/details/ninthannualrepor09unit",
+   "http://www.wikidata.org/entity/Q8022292"
+  ],
+  "confidence": "high",
+  "in_count_24": true,
+  "verify": "The 300,000 acres was the planned whole-project total in 1910; the Fort Shaw unit was 16,000 acres. Willow Creek Dam was begun in 1907 and only 10 percent finished in June 1910. The 5th Annual Report's authorization list has 1906-02-26 'approving Sun River project, Montana, work of construction to be deferred' and 1906-03-19 'approving construction of Sun River project'. Pick one of those dates and use it consistently.",
+  "count_basis": "Counted in the recommended 24: construction authorized by the Secretary of the Interior under the 1902 Act before March 4, 1909 (Rio Grande excluded). Not among Blanchard's early-1906 list of 24; it was approved after that list was compiled."
+ },
+ {
+  "name": "Orland Project",
+  "states": "CA",
+  "date": "1906-12-18",
+  "structure": "East Park Dam",
+  "lat": 39.3613,
+  "lon": -122.513,
+  "acres_irrigated": 14000,
+  "note": "East Park Dam on Little Stony Creek stored water for the Sacramento Valley's first federal project, around the town of Orland.",
+  "sources": [
+   "https://archive.org/details/ninthannualrepor09unit",
+   "http://www.wikidata.org/entity/Q5329111"
+  ],
+  "confidence": "high",
+  "in_count_24": true,
+  "verify": "East Park Dam was finished in June 1910.",
+  "count_basis": "Counted in the recommended 24: construction authorized by the Secretary of the Interior under the 1902 Act before March 4, 1909 (Rio Grande excluded). Not among Blanchard's early-1906 list of 24; it was approved after that list was compiled."
+ },
+ {
+  "name": "Rio Grande Project",
+  "states": "NM, TX",
+  "date": "1907-03-04",
+  "structure": "Elephant Butte Dam (Engle Dam)",
+  "lat": 33.154,
+  "lon": -107.1921,
+  "acres_irrigated": 160000,
+  "note": "Roosevelt signed the 1907 law that paid for a big storage dam on the Rio Grande, though most of it was built after he left office.",
+  "sources": [
+   "https://archive.org/details/ninthannualrepor09unit",
+   "http://www.wikidata.org/entity/Q5359304",
+   "http://www.wikidata.org/entity/Q6510270"
+  ],
+  "confidence": "medium",
+  "in_count_24": false,
+  "verify": "This is the likely reason the count is 24 and not 25. Congress authorized Engle (Elephant Butte) Dam and appropriated money on 1907-03-04, but the Secretary did not authorize its construction until 1910-05-23. The only Rio Grande work the Secretary approved under TR was the separate Leasburg project (diversion dam at 32.4972, -106.923; authorized 1905-12-02; 25,000 acres; finished 1908). The 160,000 acres is the US share of the full plan and includes Leasburg's 25,000.",
+  "count_basis": "Not in the recommended 24 because the Secretary did not authorize Engle Dam until 1910-05-23. It IS among the 24 projects C. J. Blanchard of the Reclamation Service listed as approved in early 1906 (Bull. Amer. Geog. Soc. 38:4, 1906), on the strength of the Leasburg diversion (approved 1905-12-02)."
+ }
 ]

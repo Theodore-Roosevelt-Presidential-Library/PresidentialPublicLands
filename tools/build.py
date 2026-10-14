@@ -28,7 +28,11 @@ for r in json.load(open(R+'parks_monuments.json')):
     sites.append(dict(id=sid,name=nm,cat=cat,era=era,st=r['state'],date=r['date'],acres=r['acres'],acres_label='acres when protected',lat=r['lat'],lon=r['lon'],note=r['note'],today=TODAY.get(r['name'],r['name'] if era=='pre' else None),shape=bool(n),sources=r['sources']))
 # ---- birds & game
 FWSMAP={"Pelican Island":"PELICAN ISLAND NATIONAL","Breton Island":"BRETON","Stump Lake":"STUMP LAKE","Huron Islands":"HURON NATIONAL","Passage Key":"PASSAGE KEY","Shell Keys":"SHELL KEYS","Three Arch Rocks":"THREE ARCH","Flattery Rocks":"FLATTERY","Quillayute Needles":"QUILLAYUTE","Copalis Rock":"COPALIS","Key West":"KEY WEST","Klamath Lake":"LOWER KLAMATH","Lake Malheur":"MALHEUR","Chase Lake":"CHASE LAKE NATIONAL","Pine Island":"PINE ISLAND","Matlacha Pass":"MATLACHA","Island Bay":"ISLAND BAY","Hawaiian Islands":"HAWAIIAN ISLANDS","Deer Flat":"DEER FLAT","Minidoka":"MINIDOKA","Cold Springs":"COLD SPRINGS","Pathfinder":"PATHFINDER","Culebra":"CULEBRA","Farallon":"FARALLON","Wichita Game Preserve":"WICHITA"}
+FU={x['name']:x for x in json.load(open(R+'birds_followup.json'))}
+TODAYFU={'Tern Islands':'No longer a reservation (revoked 1953)','Indian Key':'Pinellas National Wildlife Refuge (since 1951; the 1906 reservation was revoked in 1950)','Siskiwit Islands':'Isle Royale National Park (since 1942)'}
 for r in json.load(open(R+'birds_game.json')):
+    if r['name'] in FU:
+        u=FU[r['name']]; r=dict(r,lat=u['lat'],lon=u['lon'],note=u['note'],sources=u['sources'],modern_name=TODAYFU[r['name']],modern_agency='FU',abolished=None)
     cat=r['cat']; sid=('b-' if cat=='bird' else 'g-')+slug(r['name'])
     nm=r['name']
     if cat=='bird' and 'Reservation' not in nm: nm+=' Reservation'

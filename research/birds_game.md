@@ -57,3 +57,49 @@ All other bird dates match Palmer and TR's appendix.
 - **Willow Creek, MT coordinates:** placed at Willow Creek Reservoir near Augusta (approximate).
 - **Grand Canyon Game Preserve:** The designation was never formally revoked, as far as I found, but its present-day legal status was not confirmed.
 - Coordinates are approximate map markers, not boundaries.
+
+## Follow-up (Oct 14)
+This pass resolves the three open questions. The details are in `birds_followup.json`. All three reservations ended through a formal action, and each action was confirmed from its primary text.
+
+### Tern Islands, LA (EO 675, Aug. 8, 1907): revoked 1953
+- **What it was:** EO 675 reserved "all small islets, commonly called mud lumps, in or near the mouths of the Mississippi river" that fall inside an oval drawn on the GLO diagram attached to the order. The oval covers the birdfoot delta from Southwest Pass around to North Pass and Pass a Loutre. **It was not the Chandeleur or Breton Sound islands**, which were the separate Breton Island Reservation.
+- **Marker:** moved to about 29.13, -89.22, the center of the diagram's oval near Head of Passes. This is approximate. The mud lumps came and went, so there is no single island to pin.
+- **What happened:** It was renamed Tern Islands NWR by Proclamation 2416 (1940). **Public Land Order 892 revoked it on Apr. 15, 1953** (Sec. Douglas McKay; 18 FR 2342, published Apr. 22, 1953). It was not merged into Breton or any other refuge. Delta NWR and the state's Pass a Loutre WMA protect parts of the delta today, but they are separate, later designations.
+- **Story detail:** Palmer (1912) cites H.H. Kopman's survey in *Bird-Lore* IX, pp. 236–238. Kopman found brown pelicans, laughing gulls, and royal, Forster's and Caspian terns nesting on the mud lumps in June 1907.
+- **Confidence:** high on history; medium on the marker.
+
+### Indian Key, FL (EO 409, Feb. 10, 1906): revoked 1950, protected again in 1951 as part of Pinellas NWR
+- **Same island?** Yes, with medium-high confidence. EO 409 puts it in secs. 10 and 15, T32S, R16E. FWS's own 1979 Tampa Bay Refuges narrative (NARA RG 22) dates Pinellas refuge to "1906 with redefinement in 1921." BLM's GLO "record of the week" also identifies Indian Key as Pinellas NWR.
+- **Chain of actions:**
+  - 1906: EO 409 creates the reservation, 90 acres.
+  - **June 25, 1921:** EO 3502 (Harding) enlarges it to include the mangrove islands in secs. 20, 27, 28, 33 and 34. This enlargement was not in the earlier research.
+  - 1940: Proclamation 2416 renames it Indian Key NWR.
+  - **June 26, 1950:** PLO 650 (Sec. Oscar Chapman; 15 FR 4193) revokes both orders. The order puts the area at about 191 acres.
+  - 1951: Pinellas NWR is established, including Indian Key and Tarpon Key. **I could not find the legal instrument for the 1951 establishment.** It was not a Public Land Order; BLM's PLO tables for 1951–60 list none for it.
+- **Marker:** 27.7008, -82.6904 (Indian Key, Pinellas NWR).
+- **For the map:** this follows the same pattern as Pathfinder (revoked, then restored). It is fair to show it as "protected today in Pinellas NWR," with a footnote that the 1906 order itself was revoked in 1950.
+
+### Siskiwit Islands, MI (EO 357-C, Oct. 10, 1905): abolished by Congress 1942
+- The **Act of Mar. 6, 1942** (ch. 152, sec. 2, 56 Stat. 138; 16 U.S.C. 408f) reads: "The Siskiwit Islands Bird Reservation is abolished and shall after March 6, 1942, be a part of the Isle Royale National Park."
+- The park was authorized in 1931 and established in 1940, but neither step ended the reservation. **Wikisource's note that it was "incorporated ... in 1931" is wrong.**
+- It is not an FWS unit and is not listed by FWS today.
+- **Marker:** refined to 47.96, -88.79, between Wright Island and Menagerie Island (Isle Royale Light). The order covers the "Siskiwit or Menagerie group" in T64N R36W.
+- **Confidence:** high.
+
+### Consistency check
+TRPL's own "Then and Now" page (trlibrary.com/tr/presidency/executive-actions/then-and-now) already agrees on all three: Tern Islands revoked by PLO 892 in 1953, Indian Key revoked in 1950, Siskiwit abolished in 1942. It does not mention that Indian Key was protected again in 1951 as part of Pinellas NWR. That page may be worth a one-line addition.
+
+### Updates to the summary above
+- Move **Siskiwit** from "Now NPS, end date unconfirmed" to "Abolished 1942 by act of Congress, now part of Isle Royale NP."
+- Move **Tern Islands** to "Abolished (1953)."
+- **Indian Key:** revoked 1950; the island has been protected again since 1951 as part of Pinellas NWR.
+- With these changes, abolished or ended reservations number 20 (18 + Tern Islands + Siskiwit). Indian Key is counted separately as "revoked, then protected again."
+
+### Sources added
+- PLO 892 text: https://www.govinfo.gov/content/pkg/FR-1953-04-22/pdf/FR-1953-04-22.pdf
+- PLO 650 text: https://www.govinfo.gov/content/pkg/FR-1950-06-30/pdf/FR-1950-06-30.pdf
+- BLM PLO tables: https://www.blm.gov/sites/blm.gov/files/uploads/programs_lands-and-realty_land-tenure_withdrawals_public-land-orders_1-694.pdf and https://www.blm.gov/sites/blm.gov/files/uploads/programs_lands-and-realty_land-tenure_withdrawals_public-land-orders_695-2250.pdf
+- 16 U.S.C. 408f: https://www.law.cornell.edu/uscode/text/16/408f
+- EO texts on Wikisource: https://en.wikisource.org/wiki/Executive_Order_675, https://en.wikisource.org/wiki/Executive_Order_409, https://en.wikisource.org/wiki/Executive_Order_357-C
+- EO 675 diagram: https://commons.wikimedia.org/wiki/File:Tern_Islands_Reservation_EO_675_illustration.jpg
+- FWS 1979 narrative (NARA): https://nara-media.s3.amazonaws.com/dc-metro/rg-022/6102316/JND_1979_NARRATIVEREPORT/JND_1979_NARRATIVEREPORT.pdf

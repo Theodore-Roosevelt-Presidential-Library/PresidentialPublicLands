@@ -1,0 +1,76 @@
+[
+  {
+    "name": "Tern Islands",
+    "date": "1907-08-08",
+    "lat": 29.13,
+    "lon": -89.22,
+    "status_today": "No longer exists. Revoked by Public Land Order 892 (Apr. 15, 1953; 18 FR 2342). Parts of the birdfoot delta are protected today by Delta NWR (FWS) and the state's Pass a Loutre WMA, but neither is a legal successor to the reservation.",
+    "abolished": 1953,
+    "note": "This reservation took in the little mud lumps that rise at the mouths of the Mississippi, from Southwest Pass around to North Pass. Bird surveyors in 1907 found brown pelicans, laughing gulls and royal, Forster's and Caspian terns nesting on them. It was dropped in 1953.",
+    "location_basis": "EO 675 reserved 'all small islets, commonly called mud lumps, in or near the mouths of the Mississippi river' inside an oval drawn on the attached GLO diagram. The oval spans the birdfoot delta from Southwest Pass to North Pass and Pass a Loutre, centered near Head of Passes (29.152, -89.251). The marker is the approximate center of that oval. These are not the Chandeleur or Breton Sound islands, which belonged to the separate Breton Island Reservation (1904).",
+    "history": [
+      "1907-08-08: EO 675 establishes Tern Islands Reservation (Palmer's No. 8)",
+      "1940-07-25: Proclamation 2416 renames it Tern Islands National Wildlife Refuge (named as such in PLO 892)",
+      "1953-04-15: PLO 892, signed by Secretary of the Interior Douglas McKay, revokes the EO of Aug. 8, 1907"
+    ],
+    "sources": [
+      "https://en.wikisource.org/wiki/Executive_Order_675",
+      "https://commons.wikimedia.org/wiki/File:Tern_Islands_Reservation_EO_675_illustration.jpg",
+      "https://www.govinfo.gov/content/pkg/FR-1953-04-22/pdf/FR-1953-04-22.pdf",
+      "https://www.blm.gov/sites/blm.gov/files/uploads/programs_lands-and-realty_land-tenure_withdrawals_public-land-orders_695-2250.pdf",
+      "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+      "https://archive.org/stream/birdlore09nati#page/230/mode/2up"
+    ],
+    "confidence": "high (dates and revocation); medium (marker is the center of the 1907 diagram's oval, not a single island)"
+  },
+  {
+    "name": "Indian Key",
+    "date": "1906-02-10",
+    "lat": 27.7008,
+    "lon": -82.6904,
+    "status_today": "The 1906 reservation was revoked in 1950 (PLO 650). The same island has been protected again since 1951 as part of Pinellas NWR (FWS, Tampa Bay Refuges). It is closed to the public.",
+    "abolished": 1950,
+    "note": "Indian Key is a mangrove island in lower Tampa Bay, just off St. Petersburg. Roosevelt set it aside for nesting water birds in 1906. Its original order was revoked in 1950, and the next year the island became part of Pinellas National Wildlife Refuge, where pelicans, herons and egrets still nest.",
+    "location_basis": "EO 409 places it in secs. 10 and 15, T32S, R16E, Tallahassee Meridian; PLO 650 repeats that description. The marker is the island named Indian Key in Pinellas NWR (OSM/GNIS position). FWS's 1979 Tampa Bay Refuges narrative dates Pinellas refuge to '1906 with redefinement in 1921', which treats the two as the same place.",
+    "history": [
+      "1906-02-10: EO 409 establishes Indian Key Reservation, 90 acres (Palmer's No. 7)",
+      "1921-06-25: EO 3502 (Harding) enlarges it to take in the mangrove islands in secs. 20, 27, 28, 33 and 34, T32S R16E",
+      "1940-07-25: Proclamation 2416 renames it Indian Key National Wildlife Refuge",
+      "1950-06-26: PLO 650 (signed by Secretary Oscar L. Chapman; 15 FR 4193) revokes both EOs. The order puts the area at about 191 acres.",
+      "1951: Pinellas NWR is established, including Indian Key and Tarpon Key. The legal instrument for this was not found."
+    ],
+    "sources": [
+      "https://en.wikisource.org/wiki/Executive_Order_409",
+      "https://www.govinfo.gov/content/pkg/FR-1950-06-30/pdf/FR-1950-06-30.pdf",
+      "https://www.blm.gov/sites/blm.gov/files/uploads/programs_lands-and-realty_land-tenure_withdrawals_public-land-orders_1-694.pdf",
+      "https://nara-media.s3.amazonaws.com/dc-metro/rg-022/6102316/JND_1979_NARRATIVEREPORT/JND_1979_NARRATIVEREPORT.pdf",
+      "https://www.blm.gov/blog/2019-07-18/indian-key-florida",
+      "https://www.fws.gov/refuge/pinellas/about-us",
+      "https://www.archive.org/download/CAT31414456/CAT31414456.pdf"
+    ],
+    "confidence": "high (1906, 1921 and 1950 actions, all from primary texts); medium-high (same island as today's Indian Key in Pinellas NWR); unconfirmed (instrument that created Pinellas NWR in 1951)"
+  },
+  {
+    "name": "Siskiwit Islands",
+    "date": "1905-10-10",
+    "lat": 47.96,
+    "lon": -88.79,
+    "status_today": "Abolished by Congress in 1942 and made part of Isle Royale National Park (NPS). It is not an FWS unit and does not appear on current refuge lists.",
+    "abolished": 1942,
+    "note": "These small rocky islands, also called the Menagerie group, lie at the mouth of Siskiwit Bay on Isle Royale's south shore. They were set aside in 1905 as a nesting ground for gulls. In 1942 Congress folded them into Isle Royale National Park, where they're still protected.",
+    "location_basis": "EO 357-C covers the unsurveyed islands of the Siskiwit or Menagerie group near the mouth of Siskiwit Bay, in secs. 23-27 and 33-35, T64N, R36W. The marker sits between Wright Island (47.971, -88.826) and Menagerie Island, home of the Isle Royale Light (47.948, -88.761).",
+    "history": [
+      "1905-10-10: EO 357-C establishes Siskiwit Islands Reservation (Palmer's No. 5)",
+      "1931-03-03: Act authorizes Isle Royale National Park. This did not end the reservation; Wikisource's note that the park 'incorporated' it in 1931 is wrong.",
+      "1940-04-03: Isle Royale National Park is formally established",
+      "1942-03-06: Act of Mar. 6, 1942, ch. 152, sec. 2, 56 Stat. 138 (16 U.S.C. 408f): 'The Siskiwit Islands Bird Reservation is abolished and shall after March 6, 1942, be a part of the Isle Royale National Park.'"
+    ],
+    "sources": [
+      "https://en.wikisource.org/wiki/Executive_Order_357-C",
+      "https://www.law.cornell.edu/uscode/text/16/408f",
+      "https://www.govinfo.gov/content/pkg/USCODE-2011-title16/html/USCODE-2011-title16-chap1.htm",
+      "https://www.archive.org/download/CAT31414456/CAT31414456.pdf"
+    ],
+    "confidence": "high"
+  }
+]
