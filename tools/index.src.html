@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Roosevelt's Public Lands</title>
+<meta name="description" content="Explore the forests, parks, monuments, bird reserves, game preserves and reclamation projects Theodore Roosevelt protected from 1901 to 1909, year by year.">
+<meta property="og:title" content="Roosevelt's Public Lands">
+<meta property="og:description" content="About 230 million acres, mapped year by year: the forests, parks, monuments, wildlife reserves and water projects of Theodore Roosevelt's presidency.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://publiclands.labs.trlibrary.com/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="masthead">
+  <a class="logo" href="https://www.trlibrary.com" target="_blank" rel="noopener" aria-label="Theodore Roosevelt Presidential Library">{{LOGO}}</a>
+  <span class="title">Public Lands Map</span>
+  <a class="visit" href="https://www.trlibrary.com/tr/conservation/by-the-numbers" target="_blank" rel="noopener">Conservation by the numbers →</a>
+</header>
+
+<div class="app">
+  <div class="viewer">
+    <div id="map" role="region" aria-label="Map of lands protected by Theodore Roosevelt"></div>
+    <nav class="tabs" id="tabs" aria-label="Kind of land"></nav>
+    <div class="yearbox" aria-live="polite">
+      <div class="yearstamp" id="stamp">1909</div>
+      <div class="yearsub" id="stampsub">Left office March 4</div>
+    </div>
+    <div class="timebar">
+      <button id="play" class="playbtn" aria-pressed="false" aria-label="Play 1901 to 1909">▶</button>
+      <div class="slider">
+        <input type="range" id="t" min="1901" max="1909" step="1" value="1909" aria-label="Show lands protected through this year" list="ticks">
+        <div class="ticks" id="tickrow" aria-hidden="true"></div>
+      </div>
+    </div>
+    <div class="jump" id="jump" aria-label="Jump to region"></div>
+    <div class="place" id="tip" hidden></div>
+    <div class="legend" id="legend"></div>
+  </div>
+
+  <aside class="panel">
+    <div class="panel-body">
+      <div id="overview">
+        <div class="eyebrow">Theodore Roosevelt Presidential Library</div>
+        <h2>230 Million Acres</h2>
+        <p class="intro">Between September 1901 and March 1909, Theodore Roosevelt protected about 230 million acres of public land, roughly a tenth of the country. Slide through his years in office, or press play, to watch it add up.</p>
+
+        <div class="yearhead"><span id="yh-label">Through March 4, 1909</span><span id="yh-new"></span></div>
+        <div class="tally" id="tally"></div>
+
+        <h3 class="sec">National forest acres</h3>
+        <div class="chart" id="forestchart"></div>
+        <p class="chartnote" id="forestnote"></p>
+
+        <h3 class="sec">Added each year</h3>
+        <div class="chart" id="grid"></div>
+
+        <h3 class="sec">Show on the map</h3>
+        <div class="pick" id="pick"></div>
+        <label class="check"><input type="checkbox" id="showpre" checked> Show lands already protected when he took office</label>
+
+        <h3 class="sec">Every mapped place</h3>
+        <input class="search" id="q" type="search" placeholder="Search by name or state" aria-label="Search places">
+        <ul class="stops" id="index"></ul>
+
+        <div class="note" id="about">
+          <p><b>About the shapes.</b> Each shape is the boundary of the place today, drawn from current U.S. Forest Service, National Park Service and U.S. Fish and Wildlife Service data. Many places have grown or shrunk since Roosevelt's day, so a shape shows where a place is, not its exact 1909 outline. Reserves that no longer exist, and places too small to draw, appear as markers.</p>
+          <p><b>About the forests.</b> The roughly 150 national forests of 1909 were later merged and renamed into the units mapped here. Each forest is shaded by the reserve at its core: green where Roosevelt first protected it, tan where it was already protected in September 1901. Many tan forests grew larger under Roosevelt; a dashed green edge marks the year he first added land. Acreage figures in the chart are the official totals reported at the time.</p>
+          <p><b>About the water projects.</b> The 24 reclamation projects are those whose construction the Secretary of the Interior approved under the Newlands Reclamation Act before March 4, 1909, as listed in the Reclamation Service's annual reports. Each marker sits at the project's signature dam, tunnel or pumping plant. The Rio Grande Project's Elephant Butte Dam, funded by Congress in 1907, was approved for construction in 1910 and is not counted.</p>
+          <p><b>Sources.</b> Totals: <a href="https://www.trlibrary.com/tr/conservation/by-the-numbers" target="_blank" rel="noopener">TR Library, Conservation by the Numbers</a>. Forest history: U.S. Forest Service, <i>Establishment and Modification of National Forest Boundaries and Names, 1891–2012</i> (FS-612) and the Reports of the Forester, 1902–1909. Bird and game reserves: T.S. Palmer, <i>National Reservations for the Protection of Wild Life</i> (Biological Survey Circular 87, 1912). Parks and monuments: presidential proclamations and acts of Congress; National Park Service. Reclamation: <i>Ninth Annual Report of the Reclamation Service</i> (1910). Boundaries: USFS, NPS, USFWS. Basemap © OpenStreetMap contributors, OpenFreeMap.</p>
+        </div>
+      </div>
+
+      <div id="record" hidden aria-live="polite">
+        <div class="nav">
+          <button id="back">← Overview</button>
+          <span style="display:flex;gap:8px">
+            <button id="prev">← Previous</button>
+            <button id="next" class="next">Next →</button>
+          </span>
+        </div>
+        <div class="eyebrow" id="r-eyebrow"></div>
+        <h2 id="r-name"></h2>
+        <div class="stats">
+          <div><b id="r-year"></b><span id="r-date"></span></div>
+          <div><b id="r-acres"></b><span id="r-acres-l"></span></div>
+          <div><b id="r-state"></b><span>state or territory</span></div>
+        </div>
+        <div class="detail">
+          <p id="r-note"></p>
+          <dl id="r-facts"></dl>
+        </div>
+        <p class="note" id="r-src"></p>
+      </div>
+    </div>
+  </aside>
+</div>
+
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

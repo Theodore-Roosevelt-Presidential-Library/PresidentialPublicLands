@@ -1,0 +1,3043 @@
+{
+ "generated": "2026-10-14",
+ "description": "Lineage of modern U.S. national forests with western/AK/PR scope plus eastern forests with pre-March-4-1909 roots, and year-by-year forest reserve totals under Theodore Roosevelt.",
+ "field_notes": {
+  "origin": "Strict per spec: classification of the EARLIEST predecessor reserve whose land is (or is believed to be) inside the modern forest. pre-TR = proclaimed before 1901-09-14; TR = 1901-09-14..1909-03-04; post-TR after; 'uncertain' where not resolvable.",
+  "primary_origin": "Recommended for map coloring: classification of the core/namesake reserve. Differs from origin where a small fragment came from an older reserve (mixed_lineage=true).",
+  "first_tr_year": "Year TR first proclaimed land now in this forest (for TR-origin) or first enlarged it (for pre-TR); null if none known.",
+  "tr_enlarged": "Pre-TR forests only: did TR add land to the predecessor reserve (yes/no/unknown). Many TR proclamations both added and deleted land; 'yes' means at least one documented addition, not a verified net gain.",
+  "confidence": "high = direct FS-612 chain; medium = chain partly inferred; low = depends on unverified parcel transfers.",
+  "dates": "Proclamation (approval) dates from FS-612; several 1897 and 1908 documents have different effective dates (asterisked in FS-612)."
+ },
+ "source_key": {
+  "FS612": "USDA Forest Service, Establishment and Modification of National Forest Boundaries and National Grasslands: A Chronological Record 1891-2012 (FS-612, 2012 ed.), https://www.govinfo.gov/content/pkg/GOVPUB-A13-PURL-gpo107042/pdf/GOVPUB-A13-PURL-gpo107042.pdf",
+  "DAVIS": "Field Organization and Administrative History of the National Forest System (National Museum of Forest Service History, 2022 rev.), https://forestservicemuseum.org/wp-content/uploads/2022/01/Administrative-History-of-the-National-Forest-System.pdf",
+  "FHS75": "Forest History Society / USDA AIB-83 Highlights in the History of Forest Conservation, 'National Forests - Dates Established' (1975 list), https://foresthistory.org/research-explore/us-forest-service-history/u-s-forest-service-publications/general-publications/highlights-in-the-history-of-forest-conservation/national-forests/",
+  "FHSCHRON": "Highlights in the History of Forest Conservation, chronology 1898-1917, https://foresthistory.org/research-explore/us-forest-service-history/u-s-forest-service-publications/general-publications/highlights-in-the-history-of-forest-conservation/table-of-contents/the-conservation-movement-grows-1898-1917/",
+  "RF1902": "Report of the Forester for 1902 (USDA), archive.org/details/reportofforester00pinc_1",
+  "USDA1905": "Annual Reports of the Department of Agriculture 1905, Report of the Forester (area June 30, 1904), archive.org/details/reportofcommissi1905uni",
+  "USDA1906": "Annual Reports of the Department of Agriculture 1906, Report of the Forester (areas June 30, 1905 and 1906; 93 reserves July 1, 1905), archive.org/details/reportofcommissi1906uni",
+  "USDA1907": "Annual Reports of the Department of Agriculture 1907, Report of the Forester (159 National Forests, 150,832,665 acres, June 30, 1907), archive.org/details/reportofcommissi1907uni",
+  "USDA1908": "Annual Reports of the Department of Agriculture 1908, Report of the Forester (~168,000,000 acres; 164 forests under administration), archive.org/details/reportofcommissi1908uni",
+  "RF1909": "Report of the Forester for 1909 (gross area table June 30, 1908 and June 30, 1909), archive.org/details/reportofforester00pinc_2",
+  "FS650": "Gerald W. Williams, The USDA Forest Service - The First Century (FS-650, 2000/2005), https://www.fs.usda.gov/sites/default/files/media/2015/06/The_USDA_Forest_Service_TheFirstCentury.pdf",
+  "MILLER": "Char Miller, Forest History Today Spring/Fall 2015 (Harrison ~13M, Cleveland ~26M, McKinley ~7M acres)"
+ },
+ "units": [
+  {
+   "modern_name": "Beaverhead National Forest",
+   "admin_unit": "Beaverhead-Deerlodge National Forest",
+   "states": [
+    "MT"
+   ],
+   "earliest_reserve": "Madison Forest Reserve",
+   "earliest_date": "1902-08-16",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Big Hole (1906) and Hell Gate (1905) reserves via EO 877, Jul 1 1908",
+   "primary_date": "1908-07-01",
+   "primary_origin": "TR",
+   "first_tr_year": 1902,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": true,
+   "confidence": "medium",
+   "note": "Created Jul 1 1908 from parts of Big Hole and Hell Gate; Madison NF land (Madison FR 1902) added Dec 16 1931. FS-612 also shows a 1946 transfer from Gallatin NF (Gallatin FR 1899 lineage) - whether that parcel was originally 1899 reserve land is unverified.",
+   "sources": [
+    "FS612",
+    "DAVIS"
+   ]
+  },
+  {
+   "modern_name": "Deerlodge National Forest",
+   "admin_unit": "Beaverhead-Deerlodge National Forest",
+   "states": [
+    "MT"
+   ],
+   "earliest_reserve": "Madison Forest Reserve",
+   "earliest_date": "1902-08-16",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Hell Gate Forest Reserve (via Deerlodge, EO 880)",
+   "primary_date": "1905-10-03",
+   "primary_origin": "TR",
+   "first_tr_year": 1902,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": true,
+   "confidence": "medium",
+   "note": "Established Jul 1 1908 from parts of Hell Gate (1905), Big Hole (1906) and Helena; Madison and Missoula NF lands added Dec 16 1931. All known predecessors TR-proclaimed.",
+   "sources": [
+    "FS612",
+    "DAVIS"
+   ]
+  },
+  {
+   "modern_name": "Bitterroot National Forest",
+   "admin_unit": "Bitterroot National Forest",
+   "states": [
+    "MT",
+    "ID"
+   ],
+   "earliest_reserve": "Bitter Root Forest Reserve",
+   "earliest_date": "1897-02-22",
+   "earliest_president": "Cleveland",
+   "origin": "pre-TR",
+   "primary_predecessor": "Bitter Root Forest Reserve",
+   "primary_date": "1897-02-22",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "Washington's Birthday reserve. TR deleted land Jun 14 1904, added/deleted May 22 1905, and on Jul 1 1908 added lands from TR-proclaimed Big Hole and Hell Gate reserves. Selway NF lands added 1934.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Custer National Forest",
+   "admin_unit": "Custer Gallatin National Forest",
+   "states": [
+    "MT",
+    "SD"
+   ],
+   "earliest_reserve": "Cave Hills and Slim Buttes Forest Reserves",
+   "earliest_date": "1904-03-05",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Otter Forest Reserve (renamed Custer Jul 2 1908)",
+   "primary_date": "1907-03-02",
+   "primary_origin": "TR",
+   "first_tr_year": 1904,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": true,
+   "confidence": "medium",
+   "note": "Otter FR (a Mar 2 1907 'midnight' proclamation) renamed Custer 1908. Sioux NF (Cave Hills 1904, Slim Buttes 1904, Short Pine 1905, Ekalaka 1906, Long Pine 1906) merged 1920. Beartooth district via Beartooth NF (1908, from Yellowstone FR Montana lands = former Absaroka FR 1902, plus Pryor Mtns FR 1906) in 1932. Original 1891 Yellowstone Park Timber Land Reserve was Wyoming-only per FS-612. Admin unit combined with Gallatin 2014 (verify date). Dakota Prairie Grasslands are separate (not proclaimed NF).",
+   "sources": [
+    "FS612",
+    "DAVIS",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Gallatin National Forest",
+   "admin_unit": "Custer Gallatin National Forest",
+   "states": [
+    "MT"
+   ],
+   "earliest_reserve": "Gallatin Forest Reserve",
+   "earliest_date": "1899-02-10",
+   "earliest_president": "McKinley",
+   "origin": "pre-TR",
+   "primary_predecessor": "Gallatin Forest Reserve",
+   "primary_date": "1899-02-10",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1906,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": true,
+   "confidence": "high",
+   "note": "TR added land Mar 7 1906 and Jul 1 1908 (from Big Belt, TR 1905). Absaroka NF (Absaroka FR Sep 4 1902, TR) merged Dec 18 1945; part of Beartooth NF 1932.",
+   "sources": [
+    "FS612",
+    "DAVIS"
+   ]
+  },
+  {
+   "modern_name": "Flathead National Forest",
+   "admin_unit": "Flathead National Forest",
+   "states": [
+    "MT"
+   ],
+   "earliest_reserve": "Flathead Forest Reserve",
+   "earliest_date": "1897-02-22",
+   "earliest_president": "Cleveland",
+   "origin": "pre-TR",
+   "primary_predecessor": "Flathead Forest Reserve / Lewis & Clarke FR",
+   "primary_date": "1897-02-22",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1903,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "medium",
+   "note": "Flathead FR consolidated into Lewis & Clarke FR Jun 9 1903 (boundary re-described), which TR enlarged again Mar 2 1907; Flathead NF re-established from it Jul 1 1908. Part of Blackfeet NF (also L&C lineage) added 1935. Whether the specific 1903/1907 additions fall inside today's Flathead (vs. Lewis and Clark NF) is not resolved here.",
+   "sources": [
+    "FS612",
+    "DAVIS"
+   ]
+  },
+  {
+   "modern_name": "Kootenai National Forest",
+   "admin_unit": "Kootenai National Forest",
+   "states": [
+    "MT",
+    "ID"
+   ],
+   "earliest_reserve": "Lewis & Clarke Forest Reserve (via Blackfeet NF lands added 1935)",
+   "earliest_date": "1897-02-22",
+   "earliest_president": "Cleveland",
+   "origin": "pre-TR",
+   "primary_predecessor": "Kootenai Forest Reserve",
+   "primary_date": "1906-08-13",
+   "primary_origin": "TR",
+   "first_tr_year": 1906,
+   "tr_enlarged": "unknown",
+   "includes_tr_lands": true,
+   "mixed_lineage": true,
+   "confidence": "medium",
+   "note": "Core is Kootenai FR (Aug 13 1906, TR) plus Cabinet FR (Mar 2 1907, TR; abolished 1954 and divided among Kaniksu, Kootenai, Lolo). Blackfeet NF (carved Jun 25 1908 from Lewis & Clark, a 1897 reserve) was divided between Flathead and Kootenai Jun 22 1935, so a strict 'earliest predecessor' is 1897. For mapping, treat primary origin as TR.",
+   "sources": [
+    "FS612",
+    "DAVIS"
+   ]
+  },
+  {
+   "modern_name": "Helena National Forest",
+   "admin_unit": "Helena-Lewis and Clark National Forest",
+   "states": [
+    "MT"
+   ],
+   "earliest_reserve": "Lewis & Clarke Forest Reserve (via 1931 transfer from Lewis & Clark NF)",
+   "earliest_date": "1897-02-22",
+   "earliest_president": "Cleveland",
+   "origin": "pre-TR",
+   "primary_predecessor": "Elkhorn (1905) and Helena (1906) Forest Reserves",
+   "primary_date": "1905-05-12",
+   "primary_origin": "TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": "unknown",
+   "includes_tr_lands": true,
+   "mixed_lineage": true,
+   "confidence": "low",
+   "note": "Helena FR Apr 12 1906; Elkhorn FR (May 12 1905) and part of Big Belt (Oct 3 1905) combined into Helena Jul 1 1908. FS-612 records transfers into Helena from Gallatin (1912; Gallatin FR 1899) and Lewis & Clark (Dec 16 1931; L&C FR 1897) - whether those parcels were original pre-1901 reserve land is unverified. Primary origin TR.",
+   "sources": [
+    "FS612",
+    "DAVIS"
+   ]
+  },
+  {
+   "modern_name": "Lewis and Clark National Forest",
+   "admin_unit": "Helena-Lewis and Clark National Forest",
+   "states": [
+    "MT"
+   ],
+   "earliest_reserve": "Lewis & Clarke Forest Reserve",
+   "earliest_date": "1897-02-22",
+   "earliest_president": "Cleveland",
+   "origin": "pre-TR",
+   "primary_predecessor": "Lewis & Clarke Forest Reserve",
+   "primary_date": "1897-02-22",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1903,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": true,
+   "confidence": "high",
+   "note": "TR re-described/enlarged it Jun 9 1903 (absorbing Flathead) and added land Mar 2 1907 (midnight reserves; spelling changed to Lewis & Clark). Jefferson NF (from Little Belt Mtns 1902, Highwood Mtns 1903, Snowy Mtns 1906, Little Rockies 1907 - all TR) merged Apr 8 1932 = today's Jefferson Division.",
+   "sources": [
+    "FS612",
+    "DAVIS",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Lolo National Forest",
+   "admin_unit": "Lolo National Forest",
+   "states": [
+    "MT"
+   ],
+   "earliest_reserve": "Bitter Root Forest Reserve (via later transfers from Bitterroot, Selway, Clearwater NFs)",
+   "earliest_date": "1897-02-22",
+   "earliest_president": "Cleveland",
+   "origin": "pre-TR",
+   "primary_predecessor": "Lolo FR (1906) and Missoula FR (1906, incl. Hell Gate 1905 lands)",
+   "primary_date": "1906-09-20",
+   "primary_origin": "TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": "unknown",
+   "includes_tr_lands": true,
+   "mixed_lineage": true,
+   "confidence": "low",
+   "note": "Lolo FR Sep 20 1906; Missoula NF (Nov 6 1906 plus Hell Gate lands 1908) merged 1931; Cabinet (1907) part 1954. FS-612 shows parcels moving in from Bitterroot (1912, 1931), Selway (1934) and Clearwater (1935) - Bitter Root 1897 lineage. Primary origin TR.",
+   "sources": [
+    "FS612",
+    "DAVIS"
+   ]
+  },
+  {
+   "modern_name": "Clearwater National Forest",
+   "admin_unit": "Nez Perce-Clearwater National Forests",
+   "states": [
+    "ID"
+   ],
+   "earliest_reserve": "Bitter Root Forest Reserve",
+   "earliest_date": "1897-02-22",
+   "earliest_president": "Cleveland",
+   "origin": "pre-TR",
+   "primary_predecessor": "Bitter Root Forest Reserve (Clearwater carved Jul 1 1908)",
+   "primary_date": "1897-02-22",
+   "primary_origin": "pre-TR",
+   "first_tr_year": null,
+   "tr_enlarged": "unknown",
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "medium",
+   "note": "Created Jul 1 1908 from the Idaho part of Bitter Root FR. TR's May 22 1905 Bitter Root additions may lie here - unverified. Selway NF (1911) lands added 1934.",
+   "sources": [
+    "FS612",
+    "DAVIS",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Nez Perce National Forest",
+   "admin_unit": "Nez Perce-Clearwater National Forests",
+   "states": [
+    "ID"
+   ],
+   "earliest_reserve": "Bitter Root Forest Reserve",
+   "earliest_date": "1897-02-22",
+   "earliest_president": "Cleveland",
+   "origin": "pre-TR",
+   "primary_predecessor": "Bitter Root Forest Reserve (Nezperce carved Jun 26 1908)",
+   "primary_date": "1897-02-22",
+   "primary_origin": "pre-TR",
+   "first_tr_year": null,
+   "tr_enlarged": "unknown",
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "medium",
+   "note": "Established Jun 26 1908 (EO 854) from Bitter Root lands; also received Weiser (1905, TR) land. Whether TR additions are inside today's boundary is unverified.",
+   "sources": [
+    "FS612",
+    "DAVIS",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Coeur d'Alene National Forest",
+   "admin_unit": "Idaho Panhandle National Forests",
+   "states": [
+    "ID"
+   ],
+   "earliest_reserve": "Coeur d'Alene Forest Reserve",
+   "earliest_date": "1906-11-06",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Coeur d'Alene Forest Reserve",
+   "primary_date": "1906-11-06",
+   "primary_origin": "TR",
+   "first_tr_year": 1906,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "medium",
+   "note": "Also absorbed Palouse FR (Mar 2 1907) in 1908 and part of Pend Oreille NF (1933). Pend Oreille drew on Priest River FR (1897), so a small pre-TR fragment is possible but unverified.",
+   "sources": [
+    "FS612",
+    "DAVIS"
+   ]
+  },
+  {
+   "modern_name": "Kaniksu National Forest",
+   "admin_unit": "Idaho Panhandle National Forests",
+   "states": [
+    "ID",
+    "WA",
+    "MT"
+   ],
+   "earliest_reserve": "Priest River Forest Reserve",
+   "earliest_date": "1897-02-22",
+   "earliest_president": "Cleveland",
+   "origin": "pre-TR",
+   "primary_predecessor": "Priest River Forest Reserve",
+   "primary_date": "1897-02-22",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1906,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": true,
+   "confidence": "high",
+   "note": "TR added land to Priest River Nov 6 1906 and Mar 2 1907; Kaniksu formed Jun 26 1908 from Priest River. Most of Pend Oreille NF merged 1933; part of Cabinet (1907) 1954. Its Washington (Sullivan Lake) portion was later administered by Colville NF.",
+   "sources": [
+    "FS612",
+    "DAVIS"
+   ]
+  },
+  {
+   "modern_name": "St. Joe National Forest",
+   "admin_unit": "Idaho Panhandle National Forests",
+   "states": [
+    "ID"
+   ],
+   "earliest_reserve": "Bitter Root Forest Reserve (via Clearwater NF portion, 1911)",
+   "earliest_date": "1897-02-22",
+   "earliest_president": "Cleveland",
+   "origin": "pre-TR",
+   "primary_predecessor": "Coeur d'Alene Forest Reserve",
+   "primary_date": "1906-11-06",
+   "primary_origin": "TR",
+   "first_tr_year": 1906,
+   "tr_enlarged": "unknown",
+   "includes_tr_lands": true,
+   "mixed_lineage": true,
+   "confidence": "low",
+   "note": "Established Jun 29 1911 (Taft) from parts of Coeur d'Alene (TR 1906) and Clearwater (Bitter Root 1897 lineage). Which share is larger is not determined here.",
+   "sources": [
+    "FS612",
+    "DAVIS"
+   ]
+  },
+  {
+   "modern_name": "Arapaho National Forest",
+   "admin_unit": "Arapaho and Roosevelt National Forests and Pawnee National Grassland",
+   "states": [
+    "CO"
+   ],
+   "earliest_reserve": "Uncertain: Pikes Peak FR lands (1905 consolidation of 1892 Pikes Peak, Plum Creek and South Platte TLRs)",
+   "earliest_date": "1905-05-12",
+   "earliest_president": "T. Roosevelt",
+   "origin": "uncertain",
+   "primary_predecessor": "Pikes Peak FR (1905) and Leadville FR (1905) lands via EO 888/893, Jul 1 1908",
+   "primary_date": "1905-05-12",
+   "primary_origin": "TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": true,
+   "confidence": "low",
+   "note": "Established Jul 1 1908 from Pikes Peak FR and Leadville FR lands; later received Holy Cross and Leadville (1930), Pike and Roosevelt (1936), Routt (1946). Pikes Peak FR of 1905 combined three 1892 Harrison reserves plus new TR land; whether any original 1892 acreage ended up in Arapaho is unverified. Treat as TR for mapping, flag for verification.",
+   "sources": [
+    "FS612",
+    "DAVIS"
+   ]
+  },
+  {
+   "modern_name": "Roosevelt National Forest",
+   "admin_unit": "Arapaho and Roosevelt National Forests and Pawnee National Grassland",
+   "states": [
+    "CO"
+   ],
+   "earliest_reserve": "Medicine Bow Forest Reserve (Colorado portion added May 17 1905)",
+   "earliest_date": "1905-05-17",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Medicine Bow FR, Colorado division (renamed Colorado NF Jul 1 1910; Roosevelt NF Mar 28 1932)",
+   "primary_date": "1905-05-17",
+   "primary_origin": "TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "medium",
+   "note": "Medicine Bow FR was proclaimed May 22 1902 in Wyoming; its Colorado lands were added May 17 1905 and Mar 2 1907. Renamed for Theodore Roosevelt in 1932. FS-612 also notes a 1917 transfer from Pike NF (Pike lineage includes 1892 reserves) - unverified whether original 1892 land.",
+   "sources": [
+    "FS612",
+    "DAVIS",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Bighorn National Forest",
+   "admin_unit": "Bighorn National Forest",
+   "states": [
+    "WY"
+   ],
+   "earliest_reserve": "Big Horn Forest Reserve",
+   "earliest_date": "1897-02-22",
+   "earliest_president": "Cleveland",
+   "origin": "pre-TR",
+   "primary_predecessor": "Big Horn Forest Reserve",
+   "primary_date": "1897-02-22",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1902,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "McKinley added land 1900 and deleted 1901; TR added land May 22 1902 and added/deleted Dec 23 1904. Renamed Bighorn 1908.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Black Hills National Forest",
+   "admin_unit": "Black Hills National Forest",
+   "states": [
+    "SD",
+    "WY"
+   ],
+   "earliest_reserve": "Black Hills Forest Reserve",
+   "earliest_date": "1897-02-22",
+   "earliest_president": "Cleveland",
+   "origin": "pre-TR",
+   "primary_predecessor": "Black Hills Forest Reserve",
+   "primary_date": "1897-02-22",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1907,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "TR deleted land Oct 31 1905 but proclaimed Bear Lodge FR (WY) Mar 1 1907; Bear Lodge + part of Black Hills became Sundance NF 1908, returned to Black Hills 1915 (today's Bearlodge district). Harney NF (1911) folded back 1954.",
+   "sources": [
+    "FS612",
+    "DAVIS",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Grand Mesa National Forest",
+   "admin_unit": "Grand Mesa, Uncompahgre and Gunnison National Forests",
+   "states": [
+    "CO"
+   ],
+   "earliest_reserve": "Battlement Mesa Forest Reserve",
+   "earliest_date": "1892-12-24",
+   "earliest_president": "Harrison",
+   "origin": "pre-TR",
+   "primary_predecessor": "Battlement Mesa Forest Reserve",
+   "primary_date": "1892-12-24",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": "unknown",
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "medium",
+   "note": "Under TR: land deleted 1901-1904, boundary re-described May 16 1904, land added AND deleted Jun 5 1905 (net effect not determined). Renamed Battlement NF 1908, Grand Mesa 1924. Fruita division (Fruita FR 1906, TR) transferred in 1921.",
+   "sources": [
+    "FS612",
+    "DAVIS",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Gunnison National Forest",
+   "admin_unit": "Grand Mesa, Uncompahgre and Gunnison National Forests",
+   "states": [
+    "CO"
+   ],
+   "earliest_reserve": "Gunnison Forest Reserve",
+   "earliest_date": "1905-05-12",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Gunnison Forest Reserve",
+   "primary_date": "1905-05-12",
+   "primary_origin": "TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "Later absorbed parts of Cochetopa NF (Cochetopah FR 1905) and Leadville (1905).",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Uncompahgre National Forest",
+   "admin_unit": "Grand Mesa, Uncompahgre and Gunnison National Forests",
+   "states": [
+    "CO"
+   ],
+   "earliest_reserve": "Uncompahgre Forest Reserve",
+   "earliest_date": "1905-06-14",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Uncompahgre Forest Reserve",
+   "primary_date": "1905-06-14",
+   "primary_origin": "TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "Absorbed Ouray FR (1907) 1908 and part of Montezuma NF (1905) 1947.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Medicine Bow National Forest",
+   "admin_unit": "Medicine Bow-Routt National Forests and Thunder Basin National Grassland",
+   "states": [
+    "WY"
+   ],
+   "earliest_reserve": "Crow Creek Forest Reserve (probable, via 1925 addition from Fort F.E. Warren)",
+   "earliest_date": "1900-10-10",
+   "earliest_president": "McKinley",
+   "origin": "pre-TR",
+   "primary_predecessor": "Medicine Bow Forest Reserve",
+   "primary_date": "1902-05-22",
+   "primary_origin": "TR",
+   "first_tr_year": 1902,
+   "tr_enlarged": "unknown",
+   "includes_tr_lands": true,
+   "mixed_lineage": true,
+   "confidence": "low",
+   "note": "Medicine Bow FR proclaimed May 22 1902 by TR. Crow Creek FR (Oct 10 1900, McKinley) was merged into Cheyenne NF 1908; its division went to the War Department 1910, and FS-612 records land added to Medicine Bow from Fort Francis E. Warren Jun 5 1925 (likely today's Pole Mountain unit) - verify. Hayden NF (Sierra Madre 1906 / Park Range 1905) lands added 1929. Treat primary origin as TR.",
+   "sources": [
+    "FS612",
+    "DAVIS",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Routt National Forest",
+   "admin_unit": "Medicine Bow-Routt National Forests and Thunder Basin National Grassland",
+   "states": [
+    "CO"
+   ],
+   "earliest_reserve": "Park Range Forest Reserve",
+   "earliest_date": "1905-06-12",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Park Range Forest Reserve (Routt est. Jun 25 1908)",
+   "primary_date": "1905-06-12",
+   "primary_origin": "TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "Part of Hayden NF added 1929; small Colorado NF transfer 1930.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Pike National Forest",
+   "admin_unit": "Pike and San Isabel National Forests and Cimarron and Comanche National Grasslands",
+   "states": [
+    "CO"
+   ],
+   "earliest_reserve": "Pikes Peak Timber Land Reserve",
+   "earliest_date": "1892-02-11",
+   "earliest_president": "Harrison",
+   "origin": "pre-TR",
+   "primary_predecessor": "Pikes Peak / Plum Creek / South Platte Timber Land Reserves (1892)",
+   "primary_date": "1892-02-11",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1904,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "TR added/deleted land in South Platte Dec 6 1904 and on May 12 1905 consolidated the three 1892 reserves with new land as Pikes Peak FR; renamed Pike Jul 1 1908.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "San Isabel National Forest",
+   "admin_unit": "Pike and San Isabel National Forests and Cimarron and Comanche National Grasslands",
+   "states": [
+    "CO"
+   ],
+   "earliest_reserve": "San Isabel Forest Reserve",
+   "earliest_date": "1902-04-11",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "San Isabel Forest Reserve",
+   "primary_date": "1902-04-11",
+   "primary_origin": "TR",
+   "first_tr_year": 1902,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "Wet Mountains FR (1905) added 1908; part of Las Animas (1907) 1910.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Rio Grande National Forest",
+   "admin_unit": "Rio Grande National Forest",
+   "states": [
+    "CO"
+   ],
+   "earliest_reserve": "San Juan / Cochetopah Forest Reserves (Rio Grande est. Jul 1 1908, EO 887)",
+   "earliest_date": "1905-06-03",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Rio Grande NF (EO 887) from TR-proclaimed reserves",
+   "primary_date": "1908-07-01",
+   "primary_origin": "TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "medium",
+   "note": "Exact parent reserves of EO 887 not itemized in FS-612 extract; all candidate parents (San Juan Jun 3 1905, Cochetopah Jun 13 1905) were TR proclamations.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "San Juan National Forest",
+   "admin_unit": "San Juan National Forest",
+   "states": [
+    "CO"
+   ],
+   "earliest_reserve": "San Juan Forest Reserve",
+   "earliest_date": "1905-06-03",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "San Juan Forest Reserve",
+   "primary_date": "1905-06-03",
+   "primary_origin": "TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "Montezuma FR (Jun 13 1905) merged 1947; Durango NF (1911) returned 1920.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Shoshone National Forest",
+   "admin_unit": "Shoshone National Forest",
+   "states": [
+    "WY"
+   ],
+   "earliest_reserve": "Yellowstone Park Timber Land Reserve",
+   "earliest_date": "1891-03-30",
+   "earliest_president": "Harrison",
+   "origin": "pre-TR",
+   "primary_predecessor": "Yellowstone Park Timber Land Reserve (first U.S. forest reserve)",
+   "primary_date": "1891-03-30",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1902,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "TR renamed it Yellowstone FR and added land May 22 1902, added Teton and Absaroka reserves plus ~1 million new acres Jan 29 1903, and added more 1904, 1905 and Mar 2 1907; by 1908 Yellowstone FR was ~8.3 million acres before being split Jul 1 1908 (Shoshone created then). Washakie NF merged 1945.",
+   "sources": [
+    "FS612",
+    "DAVIS",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Nebraska National Forest",
+   "admin_unit": "Nebraska National Forest and Grasslands",
+   "states": [
+    "NE"
+   ],
+   "earliest_reserve": "Dismal River and Niobrara Forest Reserves",
+   "earliest_date": "1902-04-16",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Dismal River Forest Reserve (Bessey district)",
+   "primary_date": "1902-04-16",
+   "primary_origin": "TR",
+   "first_tr_year": 1902,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "Dismal River, Niobrara (both Apr 16 1902) and North Platte (Mar 10 1906) combined as Nebraska NF Jul 2 1908. Niobrara division became Samuel R. McKelvie NF in 1971. Pine Ridge district lands came later (post-TR; verify).",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Samuel R. McKelvie National Forest",
+   "admin_unit": "Nebraska National Forest and Grasslands",
+   "states": [
+    "NE"
+   ],
+   "earliest_reserve": "Niobrara Forest Reserve",
+   "earliest_date": "1902-04-16",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Niobrara Forest Reserve",
+   "primary_date": "1902-04-16",
+   "primary_origin": "TR",
+   "first_tr_year": 1902,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "Split from Nebraska NF by Act of Oct 15 1971.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "White River National Forest",
+   "admin_unit": "White River National Forest",
+   "states": [
+    "CO"
+   ],
+   "earliest_reserve": "White River Plateau Timber Land Reserve",
+   "earliest_date": "1891-10-16",
+   "earliest_president": "Harrison",
+   "origin": "pre-TR",
+   "primary_predecessor": "White River Plateau Timber Land Reserve",
+   "primary_date": "1891-10-16",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1902,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": true,
+   "confidence": "high",
+   "note": "TR re-described and renamed it White River Jun 28 1902 and added/deleted land May 21 1904. Holy Cross NF (Holy Cross FR Aug 25 1905, TR) merged 1945, a large TR-proclaimed addition.",
+   "sources": [
+    "FS612",
+    "DAVIS",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Apache National Forest",
+   "admin_unit": "Apache-Sitgreaves National Forests",
+   "states": [
+    "AZ",
+    "NM"
+   ],
+   "earliest_reserve": "Black Mesa Forest Reserve",
+   "earliest_date": "1898-08-17",
+   "earliest_president": "McKinley",
+   "origin": "pre-TR",
+   "primary_predecessor": "Black Mesa Forest Reserve",
+   "primary_date": "1898-08-17",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1906,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": true,
+   "confidence": "medium",
+   "note": "TR added land to Black Mesa Jun 30 1906 and Jul 12 1907; Apache created Jul 1 1908 (EO 876) from Black Mesa; Mar 2 1909 added part of Crook. Datil NF land added 1925.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Sitgreaves National Forest",
+   "admin_unit": "Apache-Sitgreaves National Forests",
+   "states": [
+    "AZ"
+   ],
+   "earliest_reserve": "Black Mesa Forest Reserve",
+   "earliest_date": "1898-08-17",
+   "earliest_president": "McKinley",
+   "origin": "pre-TR",
+   "primary_predecessor": "Black Mesa Forest Reserve",
+   "primary_date": "1898-08-17",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1906,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "medium",
+   "note": "Created Jul 1 1908 (EO 868) from Black Mesa, which TR enlarged 1906-1907.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Coconino National Forest",
+   "admin_unit": "Coconino National Forest",
+   "states": [
+    "AZ"
+   ],
+   "earliest_reserve": "Grand Canon Forest Reserve (part combined into Coconino 1908)",
+   "earliest_date": "1893-02-20",
+   "earliest_president": "Harrison",
+   "origin": "pre-TR",
+   "primary_predecessor": "San Francisco Mountains Forest Reserve",
+   "primary_date": "1898-08-17",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1902,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": true,
+   "confidence": "medium",
+   "note": "Created Jul 2 1908 (Proc. 818) from San Francisco Mtns (1898; TR added land Apr 12 1902) plus parts of Black Mesa, Tonto and Grand Canyon reserves.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Kaibab National Forest",
+   "admin_unit": "Kaibab National Forest",
+   "states": [
+    "AZ"
+   ],
+   "earliest_reserve": "Grand Canon Forest Reserve",
+   "earliest_date": "1893-02-20",
+   "earliest_president": "Harrison",
+   "origin": "pre-TR",
+   "primary_predecessor": "Grand Canyon Forest Reserve",
+   "primary_date": "1893-02-20",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": true,
+   "confidence": "high",
+   "note": "TR added land May 6 1905 and Aug 8 1906 (renamed Grand Canyon). North Kaibab created Jul 2 1908 (EO 909). Williams/Tusayan districts came via Tusayan NF (1910, from Coconino/San Francisco Mtns lineage). Large parts went to Grand Canyon NM (TR, 1908) and NP (1919).",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Prescott National Forest",
+   "admin_unit": "Prescott National Forest",
+   "states": [
+    "AZ"
+   ],
+   "earliest_reserve": "Prescott Forest Reserve",
+   "earliest_date": "1898-05-10",
+   "earliest_president": "McKinley",
+   "origin": "pre-TR",
+   "primary_predecessor": "Prescott Forest Reserve",
+   "primary_date": "1898-05-10",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1907,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": true,
+   "confidence": "high",
+   "note": "TR added land Nov 26 1907 and merged Verde FR (Dec 30 1907) in 1908.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Tonto National Forest",
+   "admin_unit": "Tonto National Forest",
+   "states": [
+    "AZ"
+   ],
+   "earliest_reserve": "Black Mesa Forest Reserve (land added to Tonto 1908)",
+   "earliest_date": "1898-08-17",
+   "earliest_president": "McKinley",
+   "origin": "pre-TR",
+   "primary_predecessor": "Tonto Forest Reserve",
+   "primary_date": "1905-10-03",
+   "primary_origin": "TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": "unknown",
+   "includes_tr_lands": true,
+   "mixed_lineage": true,
+   "confidence": "medium",
+   "note": "Tonto FR Oct 3 1905 + Pinal Mtns FR (Mar 20 1905) merged Jan 13 1908; land from Black Mesa (1898 reserve, enlarged by TR) added Jul 1 1908. Crook NF (Mt Graham 1902) part added 1953. Primary origin TR.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Coronado National Forest",
+   "admin_unit": "Coronado National Forest",
+   "states": [
+    "AZ",
+    "NM"
+   ],
+   "earliest_reserve": "Santa Rita Forest Reserve",
+   "earliest_date": "1902-04-11",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Santa Catalina / Santa Rita Forest Reserves",
+   "primary_date": "1902-04-11",
+   "primary_origin": "TR",
+   "first_tr_year": 1902,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "Coronado est. Jul 2 1908 from Santa Catalina (Jul 2 1902), Santa Rita (Apr 11 1902), Dragoon (1907); Garces (Baboquivari, Huachuca, Tumacacori 1906) added 1911; Chiricahua (Jul 30 1902) 1917; Crook (Mt Graham Jul 22 1902) 1953.",
+   "sources": [
+    "FS612",
+    "DAVIS",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Gila National Forest",
+   "admin_unit": "Gila National Forest",
+   "states": [
+    "NM"
+   ],
+   "earliest_reserve": "Gila River Forest Reserve",
+   "earliest_date": "1899-03-02",
+   "earliest_president": "McKinley",
+   "origin": "pre-TR",
+   "primary_predecessor": "Gila River Forest Reserve",
+   "primary_date": "1899-03-02",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": true,
+   "confidence": "high",
+   "note": "TR re-described and renamed it Gila Jul 21 1905 and added Big Burros FR (1907) Jun 18 1908. Datil NF lands added 1931, Crook 1953.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Lincoln National Forest",
+   "admin_unit": "Lincoln National Forest",
+   "states": [
+    "NM"
+   ],
+   "earliest_reserve": "Lincoln Forest Reserve",
+   "earliest_date": "1902-07-26",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Lincoln Forest Reserve",
+   "primary_date": "1902-07-26",
+   "primary_origin": "TR",
+   "first_tr_year": 1902,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "Alamo NF (Guadalupe and Sacramento reserves, 1907) merged 1917; Gallinas (1906) 1908.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Carson National Forest",
+   "admin_unit": "Carson National Forest",
+   "states": [
+    "NM"
+   ],
+   "earliest_reserve": "Jemez Forest Reserve (part, via Carson EO 848/849)",
+   "earliest_date": "1905-10-12",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Taos Forest Reserve",
+   "primary_date": "1906-11-07",
+   "primary_origin": "TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "medium",
+   "note": "Created Jun 26 1908 from Taos FR and part of Jemez; Mar 2 1909 added part of Jicarilla Apache lands. FS-612 records transfers from Santa Fe NF in 1923, 1950, 1962; Santa Fe includes Pecos River FR (1892) lineage, so a pre-TR fragment is possible - unverified.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Santa Fe National Forest",
+   "admin_unit": "Santa Fe National Forest",
+   "states": [
+    "NM"
+   ],
+   "earliest_reserve": "Pecos River Forest Reserve",
+   "earliest_date": "1892-01-11",
+   "earliest_president": "Harrison",
+   "origin": "pre-TR",
+   "primary_predecessor": "Pecos River Forest Reserve + Jemez Forest Reserve",
+   "primary_date": "1892-01-11",
+   "primary_origin": "pre-TR",
+   "first_tr_year": null,
+   "tr_enlarged": "no",
+   "includes_tr_lands": true,
+   "mixed_lineage": true,
+   "confidence": "high",
+   "note": "Pecos River was enlarged by McKinley (1898); FS-612 shows no TR addition to it (renamed Pecos 1908). Santa Fe NF formed Apr 6 1915 by combining Pecos with Jemez NF (Jemez FR Oct 12 1905, TR), so the modern forest contains a large TR-proclaimed share.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Cibola National Forest",
+   "admin_unit": "Cibola National Forest and National Grasslands",
+   "states": [
+    "NM"
+   ],
+   "earliest_reserve": "Mount Taylor Forest Reserve",
+   "earliest_date": "1906-10-05",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Manzano Forest Reserve (renamed Cibola Dec 3 1931)",
+   "primary_date": "1906-11-06",
+   "primary_origin": "TR",
+   "first_tr_year": 1906,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "medium",
+   "note": "Manzano (Nov 6 1906), Mt Taylor (Oct 5 1906), Magdalena and San Mateo (Nov 5 1906) and Zuni (Mar 2 1909) all TR. Datil NF lands added 1931; Datil (1908) had absorbed part of Gila (1899) - possible pre-TR fragment in Magdalena district, unverified. National Grasslands (KS/OK/TX) are separate post-1930s units.",
+   "sources": [
+    "FS612",
+    "DAVIS"
+   ]
+  },
+  {
+   "modern_name": "Ashley National Forest",
+   "admin_unit": "Ashley National Forest",
+   "states": [
+    "UT",
+    "WY"
+   ],
+   "earliest_reserve": "Uintah Forest Reserve",
+   "earliest_date": "1897-02-22",
+   "earliest_president": "Cleveland",
+   "origin": "pre-TR",
+   "primary_predecessor": "Uintah Forest Reserve (Ashley carved Jul 1 1908)",
+   "primary_date": "1897-02-22",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": true,
+   "confidence": "medium",
+   "note": "TR enlarged the Uintah reserve Jul 14 1905, Jan 16 1906 (renamed Uinta), Oct 6 1906; Ashley created Jul 1 1908 (EO 884) from it.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Uinta National Forest",
+   "admin_unit": "Uinta-Wasatch-Cache National Forest",
+   "states": [
+    "UT"
+   ],
+   "earliest_reserve": "Uintah Forest Reserve",
+   "earliest_date": "1897-02-22",
+   "earliest_president": "Cleveland",
+   "origin": "pre-TR",
+   "primary_predecessor": "Uintah Forest Reserve; Payson FR (Aug 3 1901, McKinley) via Nebo NF",
+   "primary_date": "1897-02-22",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1903,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": true,
+   "confidence": "high",
+   "note": "TR enlarged Uintah 1905-1906 and Payson Nov 5 1903 / Jul 21 1905. Payson + Vernon (1906) became Nebo NF 1908, merged into Uinta 1915.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Wasatch National Forest",
+   "admin_unit": "Uinta-Wasatch-Cache National Forest",
+   "states": [
+    "UT",
+    "WY"
+   ],
+   "earliest_reserve": "Grantsville Forest Reserve",
+   "earliest_date": "1904-05-07",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Wasatch Forest Reserve",
+   "primary_date": "1906-08-16",
+   "primary_origin": "TR",
+   "first_tr_year": 1904,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": true,
+   "confidence": "medium",
+   "note": "Grantsville (May 7 1904) and Salt Lake (May 26 1904) added Jul 2 1908. Later transfers from Uinta (1915, 1929, 1935) carry Uintah 1897 lineage - possible pre-TR fragments.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Cache National Forest",
+   "admin_unit": "Uinta-Wasatch-Cache National Forest",
+   "states": [
+    "UT",
+    "ID"
+   ],
+   "earliest_reserve": "Logan Forest Reserve",
+   "earliest_date": "1903-05-29",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Bear River Forest Reserve (from Logan FR)",
+   "primary_date": "1906-05-28",
+   "primary_origin": "TR",
+   "first_tr_year": 1903,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "Logan FR (May 29 1903) became Bear River 1906; remainder became Cache May 26 1908. Pocatello NF (Sep 5 1903) lands added 1915.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Caribou National Forest",
+   "admin_unit": "Caribou-Targhee National Forest",
+   "states": [
+    "ID",
+    "UT",
+    "WY"
+   ],
+   "earliest_reserve": "Pocatello Forest Reserve",
+   "earliest_date": "1903-09-05",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Caribou Forest Reserve",
+   "primary_date": "1907-01-15",
+   "primary_origin": "TR",
+   "first_tr_year": 1903,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "medium",
+   "note": "Caribou FR Jan 15 1907; Port Neuf (Mar 2 1907) via Pocatello; transfers from Cache 1939/1942 and Targhee 1961 (all TR-era lineage).",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Targhee National Forest",
+   "admin_unit": "Caribou-Targhee National Forest",
+   "states": [
+    "ID",
+    "WY"
+   ],
+   "earliest_reserve": "Henrys Lake Forest Reserve",
+   "earliest_date": "1905-05-23",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Henrys Lake FR + Idaho part of Yellowstone FR (Targhee est. Jul 1 1908)",
+   "primary_date": "1905-05-23",
+   "primary_origin": "TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "low",
+   "note": "Its Wyoming strip west of the Tetons came from Yellowstone FR; if any of it was in the original Teton FR (Feb 22 1897) the strict earliest would be pre-TR - unverified. Palisade NF (1910) returned 1917.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Bridger National Forest",
+   "admin_unit": "Bridger-Teton National Forest",
+   "states": [
+    "WY"
+   ],
+   "earliest_reserve": "Yellowstone Forest Reserve expansion lands (Wyoming NF est. Jul 1 1908)",
+   "earliest_date": "1903-01-29",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Wyoming National Forest (renamed Bridger Mar 10 1941)",
+   "primary_date": "1908-07-01",
+   "primary_origin": "TR",
+   "first_tr_year": 1903,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "low",
+   "note": "Wyoming NF was split from the Yellowstone FR, whose southern Wyoming extensions were added by TR (Jan 29 1903, May 4 1904, Mar 2 1907). Bonneville NF (1908) and first Bridger NF (1911) folded in. Earliest year depends on which Yellowstone proclamation first covered these ranges - verify (1903 assumed).",
+   "sources": [
+    "FS612",
+    "DAVIS",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Teton National Forest",
+   "admin_unit": "Bridger-Teton National Forest",
+   "states": [
+    "WY"
+   ],
+   "earliest_reserve": "Teton Forest Reserve",
+   "earliest_date": "1897-02-22",
+   "earliest_president": "Cleveland",
+   "origin": "pre-TR",
+   "primary_predecessor": "Teton Forest Reserve",
+   "primary_date": "1897-02-22",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1902,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "TR re-described Teton May 22 1902, merged it into Yellowstone FR Jan 29 1903 (with major additions), and re-established Teton NF Jul 1 1908.",
+   "sources": [
+    "FS612",
+    "DAVIS",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Boise National Forest",
+   "admin_unit": "Boise National Forest",
+   "states": [
+    "ID"
+   ],
+   "earliest_reserve": "Sawtooth Forest Reserve",
+   "earliest_date": "1905-05-29",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Payette Forest Reserve (old) / Boise est. Jun 26 1908",
+   "primary_date": "1905-06-03",
+   "primary_origin": "TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "Created Jun 26 1908 from parts of Payette (Jun 3 1905) and Sawtooth (May 29 1905); old Payette NF merged 1944.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Payette National Forest",
+   "admin_unit": "Payette National Forest",
+   "states": [
+    "ID"
+   ],
+   "earliest_reserve": "Weiser Forest Reserve",
+   "earliest_date": "1905-05-25",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Weiser + Idaho National Forests (new Payette Mar 18 1944)",
+   "primary_date": "1905-05-25",
+   "primary_origin": "TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Salmon National Forest",
+   "admin_unit": "Salmon-Challis National Forest",
+   "states": [
+    "ID"
+   ],
+   "earliest_reserve": "Salmon River and Lemhi Forest Reserves",
+   "earliest_date": "1906-11-05",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Salmon River Forest Reserve",
+   "primary_date": "1906-11-05",
+   "primary_origin": "TR",
+   "first_tr_year": 1906,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "Lemhi NF divided between Salmon and Challis 1938.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Challis National Forest",
+   "admin_unit": "Salmon-Challis National Forest",
+   "states": [
+    "ID"
+   ],
+   "earliest_reserve": "Sawtooth Forest Reserve",
+   "earliest_date": "1905-05-29",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Salmon River + Sawtooth Forest Reserves (Challis est. Jun 25 1908)",
+   "primary_date": "1905-05-29",
+   "primary_origin": "TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Sawtooth National Forest",
+   "admin_unit": "Sawtooth National Forest",
+   "states": [
+    "ID",
+    "UT"
+   ],
+   "earliest_reserve": "Sawtooth Forest Reserve",
+   "earliest_date": "1905-05-29",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Sawtooth Forest Reserve",
+   "primary_date": "1905-05-29",
+   "primary_origin": "TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "Minidoka NF (Cassia 1905 + Raft River 1906) merged 1953.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Dixie National Forest",
+   "admin_unit": "Dixie National Forest",
+   "states": [
+    "UT"
+   ],
+   "earliest_reserve": "Aquarius Forest Reserve",
+   "earliest_date": "1903-10-24",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Dixie Forest Reserve",
+   "primary_date": "1905-09-25",
+   "primary_origin": "TR",
+   "first_tr_year": 1903,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "Sevier (May 12 1905) lands 1922; Powell NF (Aquarius FR Oct 24 1903) merged 1945.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Fishlake National Forest",
+   "admin_unit": "Fishlake National Forest",
+   "states": [
+    "UT"
+   ],
+   "earliest_reserve": "Fish Lake Forest Reserve",
+   "earliest_date": "1899-02-10",
+   "earliest_president": "McKinley",
+   "origin": "pre-TR",
+   "primary_predecessor": "Fish Lake Forest Reserve",
+   "primary_date": "1899-02-10",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1904,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": true,
+   "confidence": "high",
+   "note": "TR added land May 2 1904, Jan 22 1906, Apr 29 1907, and Glenwood FR (1907) in 1908. Beaver/Fillmore (1906) lands added 1923.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Manti-La Sal National Forest",
+   "admin_unit": "Manti-La Sal National Forest",
+   "states": [
+    "UT",
+    "CO"
+   ],
+   "earliest_reserve": "Manti Forest Reserve",
+   "earliest_date": "1903-05-29",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Manti Forest Reserve; La Sal Forest Reserve (Jan 25 1906)",
+   "primary_date": "1903-05-29",
+   "primary_origin": "TR",
+   "first_tr_year": 1903,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "La Sal (incl. Monticello 1907) merged 1949; renamed Manti-La Sal 1950.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Humboldt National Forest",
+   "admin_unit": "Humboldt-Toiyabe National Forest",
+   "states": [
+    "NV"
+   ],
+   "earliest_reserve": "Ruby Mountains Forest Reserve",
+   "earliest_date": "1906-05-03",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Ruby Mountains + Independence Forest Reserves (Humboldt est. Jul 2 1908)",
+   "primary_date": "1906-05-03",
+   "primary_origin": "TR",
+   "first_tr_year": 1906,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "Nevada NF (Feb 10 1909, TR) lands added 1957; Santa Rosa division (1911) post-TR.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Toiyabe National Forest",
+   "admin_unit": "Humboldt-Toiyabe National Forest",
+   "states": [
+    "NV",
+    "CA"
+   ],
+   "earliest_reserve": "Lake Tahoe Forest Reserve (via Tahoe NF transfer 1945) / possibly Sierra FR (via Mono NF)",
+   "earliest_date": "1899-04-13",
+   "earliest_president": "McKinley",
+   "origin": "pre-TR",
+   "primary_predecessor": "Toiyabe Forest Reserve",
+   "primary_date": "1907-03-01",
+   "primary_origin": "TR",
+   "first_tr_year": 1906,
+   "tr_enlarged": "unknown",
+   "includes_tr_lands": true,
+   "mixed_lineage": true,
+   "confidence": "low",
+   "note": "Toiyabe FR proclaimed Mar 1 1907 (same days as the midnight reserves, but Nevada was not under the Fulton restriction). First Toiyabe merged into Nevada NF 1932 and re-established 1938. Spring Mountains via Moapa (Charleston FR Nov 5 1906). Received Mono NF lands (1910, 1945; Mono formed 1908 partly from Sierra FR of 1893) and Tahoe NF lands (1945; Lake Tahoe FR 1899). Primary origin TR.",
+   "sources": [
+    "FS612",
+    "DAVIS",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Angeles National Forest",
+   "admin_unit": "Angeles National Forest",
+   "states": [
+    "CA"
+   ],
+   "earliest_reserve": "San Gabriel Timber Land Reserve",
+   "earliest_date": "1892-12-20",
+   "earliest_president": "Harrison",
+   "origin": "pre-TR",
+   "primary_predecessor": "San Gabriel Timber Land Reserve",
+   "primary_date": "1892-12-20",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1907,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "TR added land Dec 23 1907; Angeles formed Jul 1 1908 from San Gabriel plus parts of San Bernardino and Santa Barbara.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "San Bernardino National Forest",
+   "admin_unit": "San Bernardino National Forest",
+   "states": [
+    "CA"
+   ],
+   "earliest_reserve": "San Bernardino Forest Reserve",
+   "earliest_date": "1893-02-25",
+   "earliest_president": "Harrison",
+   "origin": "pre-TR",
+   "primary_predecessor": "San Bernardino FR (1893) and San Jacinto FR (1897)",
+   "primary_date": "1893-02-25",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1907,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "Merged into Angeles 1908, re-established 1925 with San Jacinto lands from Cleveland. TR added land to San Jacinto Feb 14 1907 (and deleted from San Bernardino 1904).",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Cleveland National Forest",
+   "admin_unit": "Cleveland National Forest",
+   "states": [
+    "CA"
+   ],
+   "earliest_reserve": "Trabuco Canon Forest Reserve",
+   "earliest_date": "1893-02-25",
+   "earliest_president": "Harrison",
+   "origin": "pre-TR",
+   "primary_predecessor": "Trabuco Canon (1893) + San Jacinto (1897) Forest Reserves",
+   "primary_date": "1893-02-25",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1907,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "TR added land to San Jacinto Feb 14 1907 and to Trabuco Jul 6 1907; combined as Cleveland Jul 2 1908.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Los Padres National Forest",
+   "admin_unit": "Los Padres National Forest",
+   "states": [
+    "CA"
+   ],
+   "earliest_reserve": "Pine Mountain and Zaca Lake Forest Reserve",
+   "earliest_date": "1898-03-02",
+   "earliest_president": "McKinley",
+   "origin": "pre-TR",
+   "primary_predecessor": "Santa Barbara Forest Reserve (Dec 22 1903, from Pine Mtn/Zaca Lake and Santa Ynez)",
+   "primary_date": "1898-03-02",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1903,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": true,
+   "confidence": "high",
+   "note": "TR combined the 1898/1899 reserves into Santa Barbara Dec 22 1903 and added land Oct 3 1906; Monterey (Jun 25 1906), San Luis Obispo (1906), Pinnacles and San Benito (1907) folded in 1908-1919. Renamed Los Padres 1936.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Sierra National Forest",
+   "admin_unit": "Sierra National Forest",
+   "states": [
+    "CA"
+   ],
+   "earliest_reserve": "Sierra Forest Reserve",
+   "earliest_date": "1893-02-14",
+   "earliest_president": "Harrison",
+   "origin": "pre-TR",
+   "primary_predecessor": "Sierra Forest Reserve",
+   "primary_date": "1893-02-14",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "TR added land Feb 7 1905 (from Yosemite NP), Jul 25 1905, Jun 11 1906.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Sequoia National Forest",
+   "admin_unit": "Sequoia National Forest",
+   "states": [
+    "CA"
+   ],
+   "earliest_reserve": "Sierra Forest Reserve",
+   "earliest_date": "1893-02-14",
+   "earliest_president": "Harrison",
+   "origin": "pre-TR",
+   "primary_predecessor": "Sierra Forest Reserve (southern part; Sequoia est. Jul 2 1908)",
+   "primary_date": "1893-02-14",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "Carved from the Sierra FR (which TR enlarged 1905-1906); TR added part of Tule River lands Mar 2 1909. Kern NF (1910) returned 1915.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Stanislaus National Forest",
+   "admin_unit": "Stanislaus National Forest",
+   "states": [
+    "CA"
+   ],
+   "earliest_reserve": "Stanislaus Forest Reserve",
+   "earliest_date": "1897-02-22",
+   "earliest_president": "Cleveland",
+   "origin": "pre-TR",
+   "primary_predecessor": "Stanislaus Forest Reserve",
+   "primary_date": "1897-02-22",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1906,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "TR added land Sep 7 1906 and Oct 26 1907, plus Sierra lands 1908. Calaveras Bigtree NF (authorized by Act of Feb 8 1909, signed by TR; established 1954) later folded in.",
+   "sources": [
+    "FS612",
+    "DAVIS",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Tahoe National Forest",
+   "admin_unit": "Tahoe National Forest",
+   "states": [
+    "CA",
+    "NV"
+   ],
+   "earliest_reserve": "Lake Tahoe Forest Reserve",
+   "earliest_date": "1899-04-13",
+   "earliest_president": "McKinley",
+   "origin": "pre-TR",
+   "primary_predecessor": "Lake Tahoe Forest Reserve",
+   "primary_date": "1899-04-13",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": true,
+   "confidence": "high",
+   "note": "TR re-described/renamed it Tahoe Oct 3 1905 and added Yuba FR (Nov 11 1905) plus other land Sep 17 1906.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Eldorado National Forest",
+   "admin_unit": "Eldorado National Forest",
+   "states": [
+    "CA",
+    "NV"
+   ],
+   "earliest_reserve": "Lake Tahoe Forest Reserve (via Tahoe NF)",
+   "earliest_date": "1899-04-13",
+   "earliest_president": "McKinley",
+   "origin": "pre-TR",
+   "primary_predecessor": "Tahoe National Forest (southern part; Eldorado est. Jul 28 1910 by Taft)",
+   "primary_date": "1899-04-13",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "medium",
+   "note": "Created by Taft from Tahoe NF lands that include the 1899 Lake Tahoe reserve and TR's 1905-1906 Tahoe enlargements. Eldorado proclaimed post-TR, but its land base predates it.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Lake Tahoe Basin Management Unit",
+   "admin_unit": "Lake Tahoe Basin Management Unit",
+   "states": [
+    "CA",
+    "NV"
+   ],
+   "earliest_reserve": "Lake Tahoe Forest Reserve",
+   "earliest_date": "1899-04-13",
+   "earliest_president": "McKinley",
+   "origin": "pre-TR",
+   "primary_predecessor": "Lake Tahoe Forest Reserve",
+   "primary_date": "1899-04-13",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "medium",
+   "note": "Administrative unit (1973) assembled from Eldorado, Tahoe and Toiyabe NF lands in the basin; not a separately proclaimed NF.",
+   "sources": [
+    "FS612"
+   ]
+  },
+  {
+   "modern_name": "Plumas National Forest",
+   "admin_unit": "Plumas National Forest",
+   "states": [
+    "CA"
+   ],
+   "earliest_reserve": "Plumas Forest Reserve",
+   "earliest_date": "1905-03-27",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Plumas Forest Reserve",
+   "primary_date": "1905-03-27",
+   "primary_origin": "TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": true,
+   "confidence": "medium",
+   "note": "Diamond Mtn (1905) lands 1907-1908. Received Tahoe NF lands 1910, 1921, 1965 (Lake Tahoe 1899 lineage) - possible pre-TR fragments.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Lassen National Forest",
+   "admin_unit": "Lassen National Forest",
+   "states": [
+    "CA"
+   ],
+   "earliest_reserve": "Lassen Peak Forest Reserve",
+   "earliest_date": "1905-06-02",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Lassen Peak Forest Reserve",
+   "primary_date": "1905-06-02",
+   "primary_origin": "TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "Diamond Mtn (Jul 14 1905) remainder added 1908.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Modoc National Forest",
+   "admin_unit": "Modoc National Forest",
+   "states": [
+    "CA"
+   ],
+   "earliest_reserve": "Modoc and Warner Mountains Forest Reserves",
+   "earliest_date": "1904-11-29",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Modoc Forest Reserve",
+   "primary_date": "1904-11-29",
+   "primary_origin": "TR",
+   "first_tr_year": 1904,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Klamath National Forest",
+   "admin_unit": "Klamath National Forest",
+   "states": [
+    "CA",
+    "OR"
+   ],
+   "earliest_reserve": "Klamath Forest Reserve",
+   "earliest_date": "1905-05-06",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Klamath Forest Reserve",
+   "primary_date": "1905-05-06",
+   "primary_origin": "TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": true,
+   "confidence": "medium",
+   "note": "Received Crater NF land 1911 and Rogue River land 1948 (Ashland/Cascade Range 1893 lineage) - possible small pre-TR fragments.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Shasta National Forest",
+   "admin_unit": "Shasta-Trinity National Forest",
+   "states": [
+    "CA"
+   ],
+   "earliest_reserve": "Shasta Forest Reserve",
+   "earliest_date": "1905-10-03",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Shasta Forest Reserve",
+   "primary_date": "1905-10-03",
+   "primary_origin": "TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "Drawn by Elers Koch; signed by TR Oct 3 1905 (Davis 2022).",
+   "sources": [
+    "FS612",
+    "DAVIS",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Trinity National Forest",
+   "admin_unit": "Shasta-Trinity National Forest",
+   "states": [
+    "CA"
+   ],
+   "earliest_reserve": "Trinity Forest Reserve",
+   "earliest_date": "1905-04-26",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Trinity Forest Reserve",
+   "primary_date": "1905-04-26",
+   "primary_origin": "TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "TR added part of Hoopa Valley lands Mar 2 1909.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Six Rivers National Forest",
+   "admin_unit": "Six Rivers National Forest",
+   "states": [
+    "CA"
+   ],
+   "earliest_reserve": "Trinity Forest Reserve",
+   "earliest_date": "1905-04-26",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Klamath, Siskiyou and Trinity National Forests (combined Jun 3 1947)",
+   "primary_date": "1905-04-26",
+   "primary_origin": "TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "Established 1947 (Truman) entirely from TR-origin forests: Trinity 1905, Klamath 1905, Siskiyou 1906.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Mendocino National Forest",
+   "admin_unit": "Mendocino National Forest",
+   "states": [
+    "CA"
+   ],
+   "earliest_reserve": "Trinity Forest Reserve (part via California NF)",
+   "earliest_date": "1905-04-26",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Stony Creek Forest Reserve (Feb 6 1907) -> California NF (Jul 2 1908)",
+   "primary_date": "1907-02-06",
+   "primary_origin": "TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "medium",
+   "note": "California NF formed from Stony Creek plus part of Trinity; renamed Mendocino 1932.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Inyo National Forest",
+   "admin_unit": "Inyo National Forest",
+   "states": [
+    "CA",
+    "NV"
+   ],
+   "earliest_reserve": "Inyo Forest Reserve",
+   "earliest_date": "1907-05-25",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Inyo National Forest",
+   "primary_date": "1907-05-25",
+   "primary_origin": "TR",
+   "first_tr_year": 1907,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "low",
+   "note": "Inyo received Sierra NF land Jul 2 1908 and Mono NF lands 1945 (Mono partly from Sierra FR 1893). If those parcels were original 1893 Sierra reserve land, strict earliest would be pre-TR - unverified.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Colville National Forest",
+   "admin_unit": "Colville National Forest",
+   "states": [
+    "WA"
+   ],
+   "earliest_reserve": "Colville Forest Reserve",
+   "earliest_date": "1907-03-01",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Colville Forest Reserve",
+   "primary_date": "1907-03-01",
+   "primary_origin": "TR",
+   "first_tr_year": 1907,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": true,
+   "confidence": "medium",
+   "note": "A Mar 1 1907 midnight reserve. Received Kaniksu NF land in Washington 1943 (Priest River FR 1897 lineage, possibly incl. TR's 1906/1907 additions) - possible pre-TR fragment.",
+   "sources": [
+    "FS612",
+    "DAVIS",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Okanogan National Forest",
+   "admin_unit": "Okanogan-Wenatchee National Forest",
+   "states": [
+    "WA"
+   ],
+   "earliest_reserve": "Washington Forest Reserve",
+   "earliest_date": "1897-02-22",
+   "earliest_president": "Cleveland",
+   "origin": "pre-TR",
+   "primary_predecessor": "Washington FR -> Chelan NF (Jul 1 1908) -> Okanogan (1911/1955)",
+   "primary_date": "1897-02-22",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "medium",
+   "note": "TR added and deleted land in the Washington FR Jun 12 1905 and Mar 2 1907 (net change not computed).",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Wenatchee National Forest",
+   "admin_unit": "Okanogan-Wenatchee National Forest",
+   "states": [
+    "WA"
+   ],
+   "earliest_reserve": "Washington Forest Reserve / Mount Rainier Forest Reserve",
+   "earliest_date": "1897-02-22",
+   "earliest_president": "Cleveland",
+   "origin": "pre-TR",
+   "primary_predecessor": "Washington and Rainier Forest Reserves (Wenatchee est. Jul 1 1908)",
+   "primary_date": "1897-02-22",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "medium",
+   "note": "TR enlarged both parents (Washington 1905, 1907; Rainier Mar 2 1907). Rainier NF lands added 1933.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Mt. Baker National Forest",
+   "admin_unit": "Mt. Baker-Snoqualmie National Forest",
+   "states": [
+    "WA"
+   ],
+   "earliest_reserve": "Washington Forest Reserve",
+   "earliest_date": "1897-02-22",
+   "earliest_president": "Cleveland",
+   "origin": "pre-TR",
+   "primary_predecessor": "Washington Forest Reserve (renamed Mt. Baker 1924)",
+   "primary_date": "1897-02-22",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Snoqualmie National Forest",
+   "admin_unit": "Mt. Baker-Snoqualmie National Forest",
+   "states": [
+    "WA"
+   ],
+   "earliest_reserve": "Washington Forest Reserve / Mount Rainier Forest Reserve",
+   "earliest_date": "1897-02-22",
+   "earliest_president": "Cleveland",
+   "origin": "pre-TR",
+   "primary_predecessor": "Washington and Rainier Forest Reserves (Snoqualmie est. Jul 1 1908)",
+   "primary_date": "1897-02-22",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "medium",
+   "note": "",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Gifford Pinchot National Forest",
+   "admin_unit": "Gifford Pinchot National Forest",
+   "states": [
+    "WA"
+   ],
+   "earliest_reserve": "Mount Rainier Forest Reserve (which absorbed the 1893 Pacific FR)",
+   "earliest_date": "1897-02-22",
+   "earliest_president": "Cleveland",
+   "origin": "pre-TR",
+   "primary_predecessor": "Rainier FR -> Columbia NF (Jul 1 1908) -> Gifford Pinchot (1949)",
+   "primary_date": "1897-02-22",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1907,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "medium",
+   "note": "TR enlarged Mt. Rainier FR Mar 2 1907 (renamed Rainier). The 1893 Pacific FR (Harrison) core is mostly in Mount Rainier NP, so 1897 is used as earliest. Renamed for Pinchot 1949.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Olympic National Forest",
+   "admin_unit": "Olympic National Forest",
+   "states": [
+    "WA"
+   ],
+   "earliest_reserve": "Olympic Forest Reserve",
+   "earliest_date": "1897-02-22",
+   "earliest_president": "Cleveland",
+   "origin": "pre-TR",
+   "primary_predecessor": "Olympic Forest Reserve",
+   "primary_date": "1897-02-22",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1907,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "McKinley deleted large areas 1900-1901; TR added land Mar 2 1907 and carved Mount Olympus NM from it (1909). Much later went to Olympic NP (1938-1943). FHS 1975 list misprints its date as Feb 22 1908.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Mt. Hood National Forest",
+   "admin_unit": "Mt. Hood National Forest",
+   "states": [
+    "OR"
+   ],
+   "earliest_reserve": "Bull Run Timber Land Reserve",
+   "earliest_date": "1892-06-17",
+   "earliest_president": "Harrison",
+   "origin": "pre-TR",
+   "primary_predecessor": "Bull Run TLR (1892) + Cascade Range FR (1893) -> Oregon NF (1908) -> Mt. Hood (1924)",
+   "primary_date": "1892-06-17",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1907,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "TR added land to Cascade Range Jan 25 1907 and Mar 2 1907 (renamed Cascade).",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Willamette National Forest",
+   "admin_unit": "Willamette National Forest",
+   "states": [
+    "OR"
+   ],
+   "earliest_reserve": "Cascade Range Forest Reserve",
+   "earliest_date": "1893-09-28",
+   "earliest_president": "Cleveland",
+   "origin": "pre-TR",
+   "primary_predecessor": "Cascade and Santiam National Forests (combined Apr 6 1933)",
+   "primary_date": "1893-09-28",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1907,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Deschutes National Forest",
+   "admin_unit": "Deschutes National Forest",
+   "states": [
+    "OR"
+   ],
+   "earliest_reserve": "Cascade Range Forest Reserve",
+   "earliest_date": "1893-09-28",
+   "earliest_president": "Cleveland",
+   "origin": "pre-TR",
+   "primary_predecessor": "Cascade FR (part) + Blue Mtns FR (part) (Deschutes est. Jun 13 1908)",
+   "primary_date": "1893-09-28",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1906,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": true,
+   "confidence": "medium",
+   "note": "Includes TR-era Blue Mountains (1906) and Cascade additions (1907). Paulina NF lands 1915.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Umpqua National Forest",
+   "admin_unit": "Umpqua National Forest",
+   "states": [
+    "OR"
+   ],
+   "earliest_reserve": "Cascade Range Forest Reserve (land added to Umpqua 1908)",
+   "earliest_date": "1893-09-28",
+   "earliest_president": "Cleveland",
+   "origin": "pre-TR",
+   "primary_predecessor": "Umpqua Forest Reserve",
+   "primary_date": "1907-03-02",
+   "primary_origin": "TR",
+   "first_tr_year": 1907,
+   "tr_enlarged": "unknown",
+   "includes_tr_lands": true,
+   "mixed_lineage": true,
+   "confidence": "medium",
+   "note": "Umpqua FR is a Mar 2 1907 midnight reserve; land from the Cascade FR (1893 lineage) was added Jun 30 1908, so strict earliest is pre-TR. Primary origin TR.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Rogue River National Forest",
+   "admin_unit": "Rogue River-Siskiyou National Forests",
+   "states": [
+    "OR",
+    "CA"
+   ],
+   "earliest_reserve": "Cascade Range Forest Reserve / Ashland Forest Reserve",
+   "earliest_date": "1893-09-28",
+   "earliest_president": "Cleveland",
+   "origin": "pre-TR",
+   "primary_predecessor": "Ashland + Cascade FR lands -> Crater NF (Jun 30 1908) -> Rogue River (1932)",
+   "primary_date": "1893-09-28",
+   "primary_origin": "pre-TR",
+   "first_tr_year": 1906,
+   "tr_enlarged": "yes",
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "TR added land to Ashland Apr 24 1906 and Mar 2 1907, and to Cascade Range 1907.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Siskiyou National Forest",
+   "admin_unit": "Rogue River-Siskiyou National Forests",
+   "states": [
+    "OR",
+    "CA"
+   ],
+   "earliest_reserve": "Siskiyou Forest Reserve",
+   "earliest_date": "1906-10-05",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Siskiyou Forest Reserve",
+   "primary_date": "1906-10-05",
+   "primary_origin": "TR",
+   "first_tr_year": 1906,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "medium",
+   "note": "Coquille FR (Mar 2 1907) added 1908. Exchanges with Crater/Rogue River (1911) could include small Ashland-lineage parcels - unverified.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Siuslaw National Forest",
+   "admin_unit": "Siuslaw National Forest",
+   "states": [
+    "OR"
+   ],
+   "earliest_reserve": "Tillamook Forest Reserve",
+   "earliest_date": "1907-03-02",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Tillamook FR (+ part of Umpqua) -> Siuslaw (Jun 30 1908)",
+   "primary_date": "1907-03-02",
+   "primary_origin": "TR",
+   "first_tr_year": 1907,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "Tillamook is a midnight reserve.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Fremont National Forest",
+   "admin_unit": "Fremont-Winema National Forest",
+   "states": [
+    "OR"
+   ],
+   "earliest_reserve": "Goose Lake Forest Reserve",
+   "earliest_date": "1906-08-21",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Fremont Forest Reserve",
+   "primary_date": "1906-09-17",
+   "primary_origin": "TR",
+   "first_tr_year": 1906,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": true,
+   "confidence": "medium",
+   "note": "Received Deschutes land Jul 14 1908, Paulina 1915, Deschutes 1933 (Cascade Range 1893 lineage possible) - unverified pre-TR fragments.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Winema National Forest",
+   "admin_unit": "Fremont-Winema National Forest",
+   "states": [
+    "OR"
+   ],
+   "earliest_reserve": "Cascade Range Forest Reserve (via Rogue River/Deschutes transfers, 1961)",
+   "earliest_date": "1893-09-28",
+   "earliest_president": "Cleveland",
+   "origin": "pre-TR",
+   "primary_predecessor": "Former Klamath Indian Reservation lands (Winema est. Jul 26 1961, Kennedy)",
+   "primary_date": "1961-07-26",
+   "primary_origin": "post-TR",
+   "first_tr_year": null,
+   "tr_enlarged": "unknown",
+   "includes_tr_lands": true,
+   "mixed_lineage": true,
+   "confidence": "medium",
+   "note": "Majority of land is post-TR (former Klamath Reservation). Parts transferred from Rogue River and Deschutes NFs carry 1893/TR-era lineage. Recommend mapping as post-TR with a note.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Ochoco National Forest",
+   "admin_unit": "Ochoco National Forest",
+   "states": [
+    "OR"
+   ],
+   "earliest_reserve": "Maury Mountain Forest Reserve",
+   "earliest_date": "1905-06-02",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Deschutes/Malheur NF lands (Ochoco est. Jun 30 1911, Taft)",
+   "primary_date": "1911-06-30",
+   "primary_origin": "TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "medium",
+   "note": "Proclaimed by Taft, but land base came from TR-proclaimed Blue Mountains (1906) and Maury Mountain (1905) reserves via Deschutes and Malheur. If any former Cascade Range (1893) land via Deschutes is inside, strict earliest would change - unlikely, unverified.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Malheur National Forest",
+   "admin_unit": "Malheur National Forest",
+   "states": [
+    "OR"
+   ],
+   "earliest_reserve": "Blue Mountains Forest Reserve",
+   "earliest_date": "1906-03-15",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Blue Mountains Forest Reserve (Malheur est. Jun 13 1908)",
+   "primary_date": "1906-03-15",
+   "primary_origin": "TR",
+   "first_tr_year": 1906,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "medium",
+   "note": "Blue Mountains FR absorbed part of Baker City FR (Feb 5 1904); whether that part went to Malheur or Whitman is unverified (1904 vs 1906).",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Wallowa National Forest",
+   "admin_unit": "Wallowa-Whitman National Forest",
+   "states": [
+    "OR"
+   ],
+   "earliest_reserve": "Wallowa and Chesnimnus Forest Reserves",
+   "earliest_date": "1905-05-06",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Wallowa FR -> Imnaha (Mar 1 1907) -> Wallowa (1908)",
+   "primary_date": "1905-05-06",
+   "primary_origin": "TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Whitman National Forest",
+   "admin_unit": "Wallowa-Whitman National Forest",
+   "states": [
+    "OR"
+   ],
+   "earliest_reserve": "Baker City Forest Reserve",
+   "earliest_date": "1904-02-05",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Blue Mountains Forest Reserve (Whitman est. Jun 13 1908)",
+   "primary_date": "1906-03-15",
+   "primary_origin": "TR",
+   "first_tr_year": 1904,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "medium",
+   "note": "Minam NF (1911) returned 1920.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Umatilla National Forest",
+   "admin_unit": "Umatilla National Forest",
+   "states": [
+    "OR",
+    "WA"
+   ],
+   "earliest_reserve": "Wenaha Forest Reserve",
+   "earliest_date": "1905-05-12",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Heppner + Blue Mtns FR (Umatilla est. Jun 13 1908); Wenaha NF added 1920",
+   "primary_date": "1906-07-18",
+   "primary_origin": "TR",
+   "first_tr_year": 1905,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Tongass National Forest",
+   "admin_unit": "Tongass National Forest",
+   "states": [
+    "AK"
+   ],
+   "earliest_reserve": "Alexander Archipelago Forest Reserve",
+   "earliest_date": "1902-08-20",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Alexander Archipelago FR + Tongass NF (Sep 10 1907)",
+   "primary_date": "1902-08-20",
+   "primary_origin": "TR",
+   "first_tr_year": 1902,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "Combined Jul 2 1908.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Chugach National Forest",
+   "admin_unit": "Chugach National Forest",
+   "states": [
+    "AK"
+   ],
+   "earliest_reserve": "Afognak Forest and Fish Culture Reserve",
+   "earliest_date": "1892-12-24",
+   "earliest_president": "Harrison",
+   "origin": "pre-TR",
+   "primary_predecessor": "Chugach National Forest",
+   "primary_date": "1907-07-23",
+   "primary_origin": "TR",
+   "first_tr_year": 1907,
+   "tr_enlarged": "n/a",
+   "includes_tr_lands": true,
+   "mixed_lineage": true,
+   "confidence": "low",
+   "note": "Afognak (Harrison 1892) was merged into Chugach Jul 2 1908, so strict earliest is pre-TR. Much of Afognak Island has since passed out of federal forest status (ANCSA/later actions) - verify whether any Afognak acreage remains inside today's boundary. Primary origin TR (1907).",
+   "sources": [
+    "FS612",
+    "DAVIS",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "El Yunque National Forest",
+   "admin_unit": "El Yunque National Forest",
+   "states": [
+    "PR"
+   ],
+   "earliest_reserve": "Luquillo Forest Reserve",
+   "earliest_date": "1903-01-17",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Luquillo Forest Reserve (renamed Caribbean NF 1935, El Yunque 2007)",
+   "primary_date": "1903-01-17",
+   "primary_origin": "TR",
+   "first_tr_year": 1903,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "Luquillo lands were a Spanish Crown forest reserve from 1876; first U.S. reservation was TR's proclamation of Jan 17 1903.",
+   "sources": [
+    "FS612",
+    "DAVIS",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Ouachita National Forest",
+   "admin_unit": "Ouachita National Forest",
+   "states": [
+    "AR",
+    "OK"
+   ],
+   "earliest_reserve": "Arkansas National Forest",
+   "earliest_date": "1907-12-18",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Arkansas NF (renamed Ouachita Apr 29 1926)",
+   "primary_date": "1907-12-18",
+   "primary_origin": "TR",
+   "first_tr_year": 1907,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "Oklahoma portion added later (1930s, post-TR). FS-612 OCR shows 'AR/OR' - Arkansas only in 1907.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Ozark National Forest",
+   "admin_unit": "Ozark-St. Francis National Forests",
+   "states": [
+    "AR"
+   ],
+   "earliest_reserve": "Ozark National Forest",
+   "earliest_date": "1908-03-06",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Ozark National Forest",
+   "primary_date": "1908-03-06",
+   "primary_origin": "TR",
+   "first_tr_year": 1908,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "St. Francis NF (1960) is post-TR.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Ocala National Forest",
+   "admin_unit": "National Forests in Florida",
+   "states": [
+    "FL"
+   ],
+   "earliest_reserve": "Ocala National Forest",
+   "earliest_date": "1908-11-24",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Ocala National Forest",
+   "primary_date": "1908-11-24",
+   "primary_origin": "TR",
+   "first_tr_year": 1908,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "medium",
+   "note": "Merged into Florida NF 1911 (with Choctawhatchee) and re-established as Ocala Oct 17 1927. Often called the oldest national forest east of the Mississippi (claim not verified here; Chippewa/Minnesota 1902 is older by act of Congress).",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Choctawhatchee National Forest",
+   "admin_unit": "(none - Eglin Air Force Base)",
+   "states": [
+    "FL"
+   ],
+   "earliest_reserve": "Choctawhatchee National Forest",
+   "earliest_date": "1908-11-27",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Choctawhatchee NF -> Florida NF (1911) -> Choctawhatchee (1927)",
+   "primary_date": "1908-11-27",
+   "primary_origin": "TR",
+   "first_tr_year": 1908,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "medium",
+   "note": "Lands transferred to the War Department by Act of Jun 27 1940 (now Eglin AFB). Davis 2022 still lists it '1927-Present', but it is unlikely to appear in USFS administrative-boundary data. Exclude from map or show as a historical footprint.",
+   "sources": [
+    "FS612",
+    "DAVIS"
+   ]
+  },
+  {
+   "modern_name": "Chippewa National Forest",
+   "admin_unit": "Chippewa National Forest",
+   "states": [
+    "MN"
+   ],
+   "earliest_reserve": "Minnesota Forest Reserve (Morris Act)",
+   "earliest_date": "1902-06-27",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Minnesota National Forest (Act of May 23 1908; renamed Chippewa Jun 22 1928)",
+   "primary_date": "1902-06-27",
+   "primary_origin": "TR",
+   "first_tr_year": 1902,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "medium",
+   "note": "First federal forest reserve created by Congress rather than proclamation (FHS Highlights, 1902). FS-612 dates the Minnesota NF to Act of May 23 1908; the 1902 date is for the Morris Act reserve - verify exact 1902 act date (June 27, 1902 assumed).",
+   "sources": [
+    "FS612",
+    "FHSCHRON",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Superior National Forest",
+   "admin_unit": "Superior National Forest",
+   "states": [
+    "MN"
+   ],
+   "earliest_reserve": "Superior National Forest",
+   "earliest_date": "1909-02-13",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Superior National Forest",
+   "primary_date": "1909-02-13",
+   "primary_origin": "TR",
+   "first_tr_year": 1909,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Huron National Forest",
+   "admin_unit": "Huron-Manistee National Forests",
+   "states": [
+    "MI"
+   ],
+   "earliest_reserve": "Michigan National Forest",
+   "earliest_date": "1909-02-11",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Michigan NF (portion became Huron Jul 30 1928)",
+   "primary_date": "1909-02-11",
+   "primary_origin": "TR",
+   "first_tr_year": 1909,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": false,
+   "confidence": "medium",
+   "note": "Manistee NF (1938) is post-TR.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Manistee National Forest",
+   "admin_unit": "Huron-Manistee National Forests",
+   "states": [
+    "MI"
+   ],
+   "earliest_reserve": "Manistee National Forest",
+   "earliest_date": "1938-10-25",
+   "earliest_president": "F. D. Roosevelt",
+   "origin": "post-TR",
+   "primary_predecessor": "Manistee National Forest",
+   "primary_date": "1938-10-25",
+   "primary_origin": "post-TR",
+   "first_tr_year": null,
+   "tr_enlarged": "n/a",
+   "includes_tr_lands": false,
+   "mixed_lineage": false,
+   "confidence": "high",
+   "note": "Included only because it shares an administrative unit with Huron.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  },
+  {
+   "modern_name": "Hiawatha National Forest",
+   "admin_unit": "Hiawatha National Forest",
+   "states": [
+    "MI"
+   ],
+   "earliest_reserve": "Marquette National Forest (first)",
+   "earliest_date": "1909-02-10",
+   "earliest_president": "T. Roosevelt",
+   "origin": "TR",
+   "primary_predecessor": "Hiawatha National Forest",
+   "primary_date": "1931-01-16",
+   "primary_origin": "post-TR",
+   "first_tr_year": 1909,
+   "tr_enlarged": null,
+   "includes_tr_lands": true,
+   "mixed_lineage": true,
+   "confidence": "low",
+   "note": "Marquette NF (Feb 10 1909, TR) merged into Michigan NF 1915; Michigan NF was renamed Marquette 1931 and merged into Hiawatha 1962. Whether the original 1909 Marquette tract is inside today's Hiawatha is unverified.",
+   "sources": [
+    "FS612",
+    "FHS75"
+   ]
+  }
+ ],
+ "discontinued": [
+  {
+   "name": "Dakota National Forest",
+   "states": [
+    "ND"
+   ],
+   "established": "1908-11-24",
+   "by": "T. Roosevelt",
+   "ended": "1917-07-30 (abolished, Proc. 1387)",
+   "note": "Only national forest ever proclaimed in North Dakota; sand-hill tree-planting site. No modern NF boundary (today's Dakota Prairie Grasslands are unrelated post-1930s land-utilization lands)."
+  },
+  {
+   "name": "Garden City Forest Reserve / Kansas National Forest",
+   "states": [
+    "KS"
+   ],
+   "established": "1905-07-25",
+   "by": "T. Roosevelt",
+   "ended": "1915-10-14 (abolished)",
+   "note": "Renamed Kansas NF May 15 1908. No modern NF."
+  },
+  {
+   "name": "Wichita Forest Reserve / National Forest",
+   "states": [
+    "OK"
+   ],
+   "established": "1901-07-04",
+   "by": "McKinley",
+   "ended": "1936-11-27 (abolished; now Wichita Mountains Wildlife Refuge)",
+   "note": "Pre-TR. TR added land May 29 1906 and made it the Wichita Forest and Game Preserve (1905 act) - verify game-preserve date before publishing."
+  },
+  {
+   "name": "Choctawhatchee National Forest",
+   "states": [
+    "FL"
+   ],
+   "established": "1908-11-27",
+   "by": "T. Roosevelt",
+   "ended": "1940 transfer to War Department (Eglin AFB)",
+   "note": "See units list."
+  },
+  {
+   "name": "Calaveras Bigtree National Forest",
+   "states": [
+    "CA"
+   ],
+   "established": "Authorized by Act of Feb 8 1909 (signed by TR); established 1954",
+   "by": "Act of Congress",
+   "ended": "1990 (land to Calaveras Big Trees State Park / Stanislaus NF)",
+   "note": "Only TR-era by authorization; not a proclaimed reserve under TR."
+  },
+  {
+   "name": "Portales Forest Reserve",
+   "states": [
+    "NM"
+   ],
+   "established": "1905-10-03",
+   "by": "T. Roosevelt",
+   "ended": "1907-03-16 (revoked by TR)",
+   "note": "The one TR reserve abolished outright during his term."
+  }
+ ],
+ "yearly": [
+  {
+   "as_of": "1901-09-14",
+   "count": 41,
+   "count_basis": "computed from FS-612 (reserves proclaimed minus consolidations; Pine Mtn & Zaca Lake counted as one; includes Afognak and Wichita)",
+   "acres": 46400000,
+   "acres_basis": "approximate gross; derived (194,505,325 June 1909 total minus FHS 'more than 148 million acres added' under TR) and consistent with Harrison ~13.4M + Cleveland ~25.8M + McKinley ~7M less eliminations. No exact GLO figure located.",
+   "approximate": true,
+   "source": "FS612; FHSCHRON; DAVIS; MILLER",
+   "note": "Library's ~47 million is in range but slightly high; '~46 million' is the safer public figure."
+  },
+  {
+   "as_of": "1902-09-01",
+   "count": 53,
+   "count_basis": "computed from FS-612",
+   "acres": 58850925,
+   "acres_basis": "official gross (Bureau of Forestry)",
+   "approximate": false,
+   "source": "RF1902",
+   "note": "Report of the Forester for 1902: 'total area of these reserves, September 1, 1902, is 58,850,925 acres.'"
+  },
+  {
+   "as_of": "1902-12-31",
+   "count": 54,
+   "count_basis": "computed from FS-612",
+   "acres": null,
+   "acres_basis": "no official figure for this date located",
+   "approximate": true,
+   "source": "FS612",
+   "note": "Only Absaroka (Sep 4 1902) added after Sep 1; acreage likely ~59-60M."
+  },
+  {
+   "as_of": "1903-12-31",
+   "count": 56,
+   "count_basis": "computed from FS-612",
+   "acres": 62354965,
+   "acres_basis": "Pinchot, Breaking New Ground p. 252: area 'between 1903 and 1909 increased from 62,354,965 acres' - exact 1903 date not stated",
+   "approximate": true,
+   "source": "DAVIS (quoting Pinchot)",
+   "note": "Use as 'about 62 million in 1903'."
+  },
+  {
+   "as_of": "1904-06-30",
+   "count": 61,
+   "count_basis": "computed from FS-612",
+   "acres": 62582428,
+   "acres_basis": "official gross",
+   "approximate": false,
+   "source": "USDA1905",
+   "note": ""
+  },
+  {
+   "as_of": "1904-12-31",
+   "count": 63,
+   "count_basis": "computed from FS-612",
+   "acres": null,
+   "acres_basis": "none located (~63M est.)",
+   "approximate": true,
+   "source": "FS612",
+   "note": ""
+  },
+  {
+   "as_of": "1905-02-01",
+   "count": 60,
+   "count_basis": "official secondary (FHS Highlights; Williams FS-650): '60 forest reserves'",
+   "acres": 56000000,
+   "acres_basis": "'net acreage of some 56 million acres of land actually owned by the Government' (net, not gross; gross was ~63M)",
+   "approximate": true,
+   "source": "FHSCHRON; FS650",
+   "note": "Transfer Act day. My FS-612 tally gives 63, so counting conventions differ."
+  },
+  {
+   "as_of": "1905-06-30",
+   "count": 93,
+   "count_basis": "official: '93 reserves in existence on July 1, 1905' (my FS-612 tally gives 85 - unresolved)",
+   "acres": 85693422,
+   "acres_basis": "official gross",
+   "approximate": false,
+   "source": "USDA1906",
+   "note": ""
+  },
+  {
+   "as_of": "1905-12-31",
+   "count": 97,
+   "count_basis": "computed from FS-612",
+   "acres": null,
+   "acres_basis": "none located",
+   "approximate": true,
+   "source": "FS612",
+   "note": ""
+  },
+  {
+   "as_of": "1906-06-30",
+   "count": 107,
+   "count_basis": "computed from FS-612",
+   "acres": 106999138,
+   "acres_basis": "official gross",
+   "approximate": false,
+   "source": "USDA1906; FHSCHRON",
+   "note": ""
+  },
+  {
+   "as_of": "1906-12-31",
+   "count": 138,
+   "count_basis": "computed from FS-612",
+   "acres": null,
+   "acres_basis": "none located",
+   "approximate": true,
+   "source": "FS612",
+   "note": "Nov 5-7 1906 alone added 27 proclamations."
+  },
+  {
+   "as_of": "1907-03-02",
+   "count": null,
+   "count_basis": "",
+   "acres": 15645631,
+   "acres_basis": "acres ADDED by the Mar 1-2 1907 'midnight' proclamations",
+   "approximate": false,
+   "source": "FHSCHRON; FS612; DAVIS; FS650",
+   "note": "FHS Highlights: 33 proclamations adding 15,645,631 acres. FS-612 lists 33 proclamations dated Mar 1-2 1907 (incl. Toiyabe, NV, outside the six Fulton states). Davis 2022 says 30 (11 new, 19 additions); Williams FS-650 says '17 new or combined forest reserves'; popular accounts say 21 or 32. Library's '33 proclamations, ~15.6 million acres' matches FHS/FS-612."
+  },
+  {
+   "as_of": "1907-03-04",
+   "count": null,
+   "count_basis": "",
+   "acres": null,
+   "acres_basis": "",
+   "approximate": true,
+   "source": "FS612",
+   "note": "Agricultural appropriations act (Fulton amendment) signed; 'forest reserves' renamed 'national forests'."
+  },
+  {
+   "as_of": "1907-06-30",
+   "count": 159,
+   "count_basis": "official ('Grand total, June 30, 1907, 159 National Forests'); my FS-612 tally also gives 159",
+   "acres": 150832665,
+   "acres_basis": "official gross",
+   "approximate": false,
+   "source": "USDA1907",
+   "note": ""
+  },
+  {
+   "as_of": "1907-12-31",
+   "count": 165,
+   "count_basis": "computed from FS-612",
+   "acres": null,
+   "acres_basis": "none located",
+   "approximate": true,
+   "source": "FS612",
+   "note": "Chugach, Tongass, San Benito, Vegas, Arkansas, Verde added Jul-Dec 1907."
+  },
+  {
+   "as_of": "1908-06-30",
+   "count": 164,
+   "count_basis": "official approx: '164 National Forests' under grazing administration Mar 1 1908 / 'on June 30, 1908 ... 164 National Forests'",
+   "acres": 167976886,
+   "acres_basis": "official gross as corrected in 1909 report (1908 report: 'almost 168,000,000')",
+   "approximate": false,
+   "source": "RF1909; USDA1908",
+   "note": "July 1-2 1908 redistricting then merged/renamed dozens of units, so counts before and after are not comparable."
+  },
+  {
+   "as_of": "1909-03-04",
+   "count": 151,
+   "count_basis": "Davis 2022: '151 proclaimed national forests' by 1909; Library uses ~150",
+   "acres": 194505325,
+   "acres_basis": "official gross for June 30, 1909; FS-612 shows no additions between Mar 4 and Jun 30 1909 (only La Sal rename and Sopris split), so this equals TR's closing total within rounding",
+   "approximate": false,
+   "source": "RF1909; DAVIS; FS612",
+   "note": "Gross figure includes ~26.8M acres in Alaska, 65,950 in Puerto Rico and roughly 21M acres of alienated private inholdings (1908 report). Net federal area ~172M by 1910 (FS-650)."
+  }
+ ]
+}

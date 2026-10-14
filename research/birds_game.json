@@ -1,0 +1,1054 @@
+[
+ {
+  "name": "Pelican Island",
+  "cat": "bird",
+  "state": "FL",
+  "date": "1903-03-14",
+  "lat": 27.8,
+  "lon": -80.43,
+  "acres": 5.5,
+  "modern_name": "Pelican Island National Wildlife Refuge",
+  "modern_agency": "FWS",
+  "abolished": null,
+  "note": "A 5.5-acre island in the Indian River Lagoon became the first federal bird reservation, the seed of today's National Wildlife Refuge System. Roosevelt enlarged it on January 26, 1909.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_1014",
+   "https://www.fws.gov/refuge/pelican-island"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Breton Island",
+  "cat": "bird",
+  "state": "LA",
+  "date": "1904-10-04",
+  "lat": 29.49,
+  "lon": -89.17,
+  "acres": null,
+  "modern_name": "Breton National Wildlife Refuge",
+  "modern_agency": "FWS",
+  "abolished": null,
+  "note": "Barrier islands off the Mississippi delta where terns and pelicans nest; Roosevelt came to see it for himself in 1915.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://www.fws.gov/sites/default/files/documents/Breton-factsheet508.pdf",
+   "https://www.presidency.ucsb.edu/node/210560"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Stump Lake",
+  "cat": "bird",
+  "state": "ND",
+  "date": "1905-03-09",
+  "lat": 47.86,
+  "lon": -98.4,
+  "acres": 27.3,
+  "modern_name": "Stump Lake National Wildlife Refuge",
+  "modern_agency": "FWS",
+  "abolished": null,
+  "note": "North Dakota's first federal bird reservation: about 27 acres of islands in a prairie lake, still a refuge today.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://www.fws.gov/refuge/stump-lake"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Huron Islands",
+  "cat": "bird",
+  "state": "MI",
+  "date": "1905-10-10",
+  "lat": 46.96,
+  "lon": -87.99,
+  "acres": null,
+  "modern_name": "Huron National Wildlife Refuge",
+  "modern_agency": "FWS",
+  "abolished": null,
+  "note": "Rocky granite islands in Lake Superior where gulls nest, now also protected as wilderness.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://www.fws.gov/refuge/huron/about-us",
+   "https://en.wikipedia.org/wiki/Huron_Islands"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Siskiwit Islands",
+  "cat": "bird",
+  "state": "MI",
+  "date": "1905-10-10",
+  "lat": 47.98,
+  "lon": -88.8,
+  "acres": null,
+  "modern_name": "Isle Royale National Park (area)",
+  "modern_agency": "NPS",
+  "abolished": "unconfirmed",
+  "note": "Small gull-nesting islands in Siskiwit Bay off Isle Royale, which lie inside Isle Royale National Park today.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Passage Key",
+  "cat": "bird",
+  "state": "FL",
+  "date": "1905-10-10",
+  "lat": 27.56,
+  "lon": -82.74,
+  "acres": 36.37,
+  "modern_name": "Passage Key National Wildlife Refuge",
+  "modern_agency": "FWS",
+  "abolished": null,
+  "note": "A shifting sand key at the mouth of Tampa Bay where seabirds and shorebirds nest.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://www.fws.gov/story/2005-10/passage-key-refuge-turns-100-roosevelts-great-grandson-marks-conservation-milestone"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Indian Key",
+  "cat": "bird",
+  "state": "FL",
+  "date": "1906-02-10",
+  "lat": 27.68,
+  "lon": -82.69,
+  "acres": 90,
+  "modern_name": "Pinellas National Wildlife Refuge (possibly)",
+  "modern_agency": "FWS",
+  "abolished": "unconfirmed",
+  "note": "A small mangrove key in lower Tampa Bay set aside for nesting water birds.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://mocat.library.unt.edu/catalog/320-ch730/citation",
+   "https://en.wikipedia.org/wiki/Pinellas_National_Wildlife_Refuge"
+  ],
+  "confidence": "low"
+ },
+ {
+  "name": "Tern Islands",
+  "cat": "bird",
+  "state": "LA",
+  "date": "1907-08-08",
+  "lat": 29.2,
+  "lon": -89.25,
+  "acres": null,
+  "modern_name": null,
+  "modern_agency": "unknown",
+  "abolished": "unconfirmed",
+  "note": "Low sandy islands near the mouth of the Mississippi River set aside for nesting terns.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b"
+  ],
+  "confidence": "low"
+ },
+ {
+  "name": "Shell Keys",
+  "cat": "bird",
+  "state": "LA",
+  "date": "1907-08-17",
+  "lat": 29.42,
+  "lon": -91.85,
+  "acres": null,
+  "modern_name": "Shell Keys National Wildlife Refuge",
+  "modern_agency": "FWS",
+  "abolished": null,
+  "note": "Tiny shell islands in the Gulf south of Marsh Island, among the smallest refuges in the system.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://www.fws.gov/refuge/shell-keys/about-us"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Three Arch Rocks",
+  "cat": "bird",
+  "state": "OR",
+  "date": "1907-10-14",
+  "lat": 45.46,
+  "lon": -123.98,
+  "acres": null,
+  "modern_name": "Three Arch Rocks National Wildlife Refuge",
+  "modern_agency": "FWS",
+  "abolished": null,
+  "note": "Sea stacks off Oceanside, Oregon, crowded with common murres, tufted puffins and sea lions.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_699"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Flattery Rocks",
+  "cat": "bird",
+  "state": "WA",
+  "date": "1907-10-23",
+  "lat": 48.2,
+  "lon": -124.73,
+  "acres": null,
+  "modern_name": "Flattery Rocks National Wildlife Refuge",
+  "modern_agency": "FWS",
+  "abolished": null,
+  "note": "Rocks and islets off the northwest tip of Washington, one of three Olympic coast seabird refuges Roosevelt created on the same day.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_703"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Quillayute Needles",
+  "cat": "bird",
+  "state": "WA",
+  "date": "1907-10-23",
+  "lat": 47.88,
+  "lon": -124.63,
+  "acres": null,
+  "modern_name": "Quillayute Needles National Wildlife Refuge",
+  "modern_agency": "FWS",
+  "abolished": null,
+  "note": "Rugged sea stacks off La Push where seabirds nest by the thousands.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_705"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Copalis Rock",
+  "cat": "bird",
+  "state": "WA",
+  "date": "1907-10-23",
+  "lat": 47.12,
+  "lon": -124.22,
+  "acres": null,
+  "modern_name": "Copalis National Wildlife Refuge",
+  "modern_agency": "FWS",
+  "abolished": null,
+  "note": "Offshore rocks and reefs on the central Washington coast set aside for nesting seabirds.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_704"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "East Timbalier Island",
+  "cat": "bird",
+  "state": "LA",
+  "date": "1907-12-07",
+  "lat": 29.06,
+  "lon": -90.29,
+  "acres": null,
+  "modern_name": null,
+  "modern_agency": "abolished",
+  "abolished": 1969,
+  "note": "A Gulf barrier island set aside for nesting terns and pelicans; the reservation was revoked in 1969 as the island eroded.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_718"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Mosquito Inlet",
+  "cat": "bird",
+  "state": "FL",
+  "date": "1908-02-24",
+  "lat": 29.08,
+  "lon": -80.92,
+  "acres": null,
+  "modern_name": null,
+  "modern_agency": "abolished",
+  "abolished": 1928,
+  "note": "Islets in today's Ponce de Leon Inlet, enlarged in 1909 and revoked in 1928.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_763",
+   "https://en.wikisource.org/wiki/Executive_Order_1057"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Tortugas Keys",
+  "cat": "bird",
+  "state": "FL",
+  "date": "1908-04-06",
+  "lat": 24.63,
+  "lon": -82.87,
+  "acres": null,
+  "modern_name": "Dry Tortugas National Park",
+  "modern_agency": "NPS",
+  "abolished": 1935,
+  "note": "The Dry Tortugas, famous for huge colonies of sooty and noddy terns, became part of Fort Jefferson National Monument in 1935 and are now a national park.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_779"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Key West",
+  "cat": "bird",
+  "state": "FL",
+  "date": "1908-08-08",
+  "lat": 24.58,
+  "lon": -82.0,
+  "acres": null,
+  "modern_name": "Key West National Wildlife Refuge",
+  "modern_agency": "FWS",
+  "abolished": null,
+  "note": "Mangrove islands west of Key West, a winter haven for wading birds and seabirds.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_923"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Klamath Lake",
+  "cat": "bird",
+  "state": "OR/CA",
+  "date": "1908-08-08",
+  "lat": 41.96,
+  "lon": -121.65,
+  "acres": null,
+  "modern_name": "Lower Klamath National Wildlife Refuge",
+  "modern_agency": "FWS",
+  "abolished": null,
+  "note": "Marshes around Lower Klamath Lake, often called the nation's first refuge set aside for waterfowl.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_924"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Lake Malheur",
+  "cat": "bird",
+  "state": "OR",
+  "date": "1908-08-18",
+  "lat": 43.27,
+  "lon": -118.85,
+  "acres": null,
+  "modern_name": "Malheur National Wildlife Refuge",
+  "modern_agency": "FWS",
+  "abolished": null,
+  "note": "A vast high-desert marsh where plume hunters had been killing egrets and grebes before the reservation.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_929"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Chase Lake",
+  "cat": "bird",
+  "state": "ND",
+  "date": "1908-08-28",
+  "lat": 47.02,
+  "lon": -99.44,
+  "acres": null,
+  "modern_name": "Chase Lake National Wildlife Refuge",
+  "modern_agency": "FWS",
+  "abolished": null,
+  "note": "Home to one of North America's largest nesting colonies of American white pelicans.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_932"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Pine Island",
+  "cat": "bird",
+  "state": "FL",
+  "date": "1908-09-15",
+  "lat": 26.6,
+  "lon": -82.15,
+  "acres": null,
+  "modern_name": "Pine Island National Wildlife Refuge",
+  "modern_agency": "FWS",
+  "abolished": null,
+  "note": "Mangrove islands in Pine Island Sound where herons, egrets and pelicans nest.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_939"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Palma Sola",
+  "cat": "bird",
+  "state": "FL",
+  "date": "1908-09-26",
+  "lat": 27.5,
+  "lon": -82.65,
+  "acres": null,
+  "modern_name": null,
+  "modern_agency": "abolished",
+  "abolished": 1948,
+  "note": "A small bird island in Palma Sola Bay near Bradenton; the reservation was revoked in 1948, apparently after the island washed away.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_942"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Matlacha Pass",
+  "cat": "bird",
+  "state": "FL",
+  "date": "1908-09-26",
+  "lat": 26.65,
+  "lon": -82.07,
+  "acres": null,
+  "modern_name": "Matlacha Pass National Wildlife Refuge",
+  "modern_agency": "FWS",
+  "abolished": null,
+  "note": "Mangrove islands between Pine Island and the mainland, created the same day as Palma Sola.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_943"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Island Bay",
+  "cat": "bird",
+  "state": "FL",
+  "date": "1908-10-23",
+  "lat": 26.8,
+  "lon": -82.22,
+  "acres": null,
+  "modern_name": "Island Bay National Wildlife Refuge",
+  "modern_agency": "FWS",
+  "abolished": null,
+  "note": "Mangrove islands near Cape Haze that shelter nesting wading birds.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_958"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Loch Katrine",
+  "cat": "bird",
+  "state": "WY",
+  "date": "1908-10-26",
+  "lat": 44.45,
+  "lon": -108.95,
+  "acres": 5500,
+  "modern_name": null,
+  "modern_agency": "abolished",
+  "abolished": 1921,
+  "note": "A reservoir site in the Oregon Basin near Cody, about 5,500 acres; revoked in 1921.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_961"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Hawaiian Islands",
+  "cat": "bird",
+  "state": "HI",
+  "date": "1909-02-03",
+  "lat": 23.06,
+  "lon": -161.92,
+  "acres": null,
+  "modern_name": "Hawaiian Islands National Wildlife Refuge (within Papahānaumokuākea Marine National Monument)",
+  "modern_agency": "FWS",
+  "abolished": null,
+  "note": "A string of remote islands and reefs northwest of Kauai, including Laysan and French Frigate Shoals, where millions of seabirds nest.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_1019"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Salt River",
+  "cat": "bird",
+  "state": "AZ",
+  "date": "1909-02-25",
+  "lat": 33.67,
+  "lon": -111.15,
+  "acres": null,
+  "modern_name": null,
+  "modern_agency": "abolished",
+  "abolished": 1961,
+  "note": "Land around the new Roosevelt Dam reservoir, one of 17 reclamation reservoirs Roosevelt made bird reservations in a single order; revoked in 1961.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_1032"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "East Park",
+  "cat": "bird",
+  "state": "CA",
+  "date": "1909-02-25",
+  "lat": 39.36,
+  "lon": -122.52,
+  "acres": null,
+  "modern_name": null,
+  "modern_agency": "abolished",
+  "abolished": 1921,
+  "note": "A reclamation reservoir in the Coast Range foothills; revoked in 1921.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_1032"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Deer Flat",
+  "cat": "bird",
+  "state": "ID",
+  "date": "1909-02-25",
+  "lat": 43.57,
+  "lon": -116.67,
+  "acres": null,
+  "modern_name": "Deer Flat National Wildlife Refuge",
+  "modern_agency": "FWS",
+  "abolished": null,
+  "note": "Lake Lowell near Nampa, still a refuge and a major stop for migrating ducks and geese.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_1032",
+   "https://livingnewdeal.org/sites/deer-flat-national-wildlife-refuge-nampa-id/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Minidoka",
+  "cat": "bird",
+  "state": "ID",
+  "date": "1909-02-25",
+  "lat": 42.67,
+  "lon": -113.5,
+  "acres": null,
+  "modern_name": "Minidoka National Wildlife Refuge",
+  "modern_agency": "FWS",
+  "abolished": null,
+  "note": "Lake Walcott on the Snake River; re-designated as a wildlife refuge in 1936 and still protected today.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_1032",
+   "https://www.presidency.ucsb.edu/documents/executive-order-7417-establishing-minidoka-wildlife-refuge-idaho"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Willow Creek",
+  "cat": "bird",
+  "state": "MT",
+  "date": "1909-02-25",
+  "lat": 47.53,
+  "lon": -112.43,
+  "acres": null,
+  "modern_name": null,
+  "modern_agency": "abolished",
+  "abolished": 1968,
+  "note": "A reclamation reservoir near Augusta, Montana; revoked in 1968 and handed to the Bureau of Reclamation.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_1032"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Carlsbad",
+  "cat": "bird",
+  "state": "NM",
+  "date": "1909-02-25",
+  "lat": 32.6,
+  "lon": -104.35,
+  "acres": null,
+  "modern_name": null,
+  "modern_agency": "abolished",
+  "abolished": 1947,
+  "note": "Reservoirs on the Pecos River above Carlsbad; revoked in 1947.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_1032"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Rio Grande",
+  "cat": "bird",
+  "state": "NM",
+  "date": "1909-02-25",
+  "lat": 33.2,
+  "lon": -107.2,
+  "acres": null,
+  "modern_name": null,
+  "modern_agency": "abolished",
+  "abolished": 1947,
+  "note": "Elephant Butte Reservoir; converted to a wildlife refuge in 1933 and revoked in 1947.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_1032"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Cold Springs",
+  "cat": "bird",
+  "state": "OR",
+  "date": "1909-02-25",
+  "lat": 45.86,
+  "lon": -119.18,
+  "acres": null,
+  "modern_name": "Cold Springs National Wildlife Refuge",
+  "modern_agency": "FWS",
+  "abolished": null,
+  "note": "A reservoir near Hermiston that still draws ducks, geese and bald eagles.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_1032"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Belle Fourche",
+  "cat": "bird",
+  "state": "SD",
+  "date": "1909-02-25",
+  "lat": 44.75,
+  "lon": -103.7,
+  "acres": null,
+  "modern_name": null,
+  "modern_agency": "abolished",
+  "abolished": 1964,
+  "note": "Orman Dam's reservoir near Belle Fourche; revoked in 1964.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_1032"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Strawberry Valley",
+  "cat": "bird",
+  "state": "UT",
+  "date": "1909-02-25",
+  "lat": 40.17,
+  "lon": -111.13,
+  "acres": null,
+  "modern_name": null,
+  "modern_agency": "abolished",
+  "abolished": 1961,
+  "note": "Strawberry Reservoir in the Wasatch high country; revoked in 1961.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_1032"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Keechelus",
+  "cat": "bird",
+  "state": "WA",
+  "date": "1909-02-25",
+  "lat": 47.35,
+  "lon": -121.37,
+  "acres": null,
+  "modern_name": null,
+  "modern_agency": "abolished",
+  "abolished": 1921,
+  "note": "A Cascade mountain lake dammed for irrigation; revoked in 1921.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_1032"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Kachess",
+  "cat": "bird",
+  "state": "WA",
+  "date": "1909-02-25",
+  "lat": 47.27,
+  "lon": -121.2,
+  "acres": null,
+  "modern_name": null,
+  "modern_agency": "abolished",
+  "abolished": 1921,
+  "note": "A Cascade mountain lake dammed for irrigation; revoked in 1921.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_1032"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Clealum",
+  "cat": "bird",
+  "state": "WA",
+  "date": "1909-02-25",
+  "lat": 47.29,
+  "lon": -121.07,
+  "acres": null,
+  "modern_name": null,
+  "modern_agency": "abolished",
+  "abolished": 1921,
+  "note": "Cle Elum Lake in the Cascades; revoked in 1921.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_1032"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Bumping Lake",
+  "cat": "bird",
+  "state": "WA",
+  "date": "1909-02-25",
+  "lat": 46.86,
+  "lon": -121.3,
+  "acres": null,
+  "modern_name": null,
+  "modern_agency": "abolished",
+  "abolished": 1921,
+  "note": "A Cascade reservoir east of Mount Rainier; revoked in 1921.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_1032"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Conconully",
+  "cat": "bird",
+  "state": "WA",
+  "date": "1909-02-25",
+  "lat": 48.55,
+  "lon": -119.75,
+  "acres": null,
+  "modern_name": null,
+  "modern_agency": "abolished",
+  "abolished": 1960,
+  "note": "A reservoir in the Okanogan highlands; revoked in 1960.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_1032"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Pathfinder",
+  "cat": "bird",
+  "state": "WY",
+  "date": "1909-02-25",
+  "lat": 42.47,
+  "lon": -106.85,
+  "acres": null,
+  "modern_name": "Pathfinder National Wildlife Refuge",
+  "modern_agency": "FWS",
+  "abolished": null,
+  "note": "Pathfinder Reservoir on the North Platte; revoked in 1922 but restored as a bird refuge in 1928.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_1032",
+   "https://www.fws.gov/press-release/1928-06/pathfinder-bird-refuge-re-established-wyoming",
+   "https://fws.gov/refuge/pathfinder/about-us"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Shoshone",
+  "cat": "bird",
+  "state": "WY",
+  "date": "1909-02-25",
+  "lat": 44.5,
+  "lon": -109.18,
+  "acres": null,
+  "modern_name": null,
+  "modern_agency": "abolished",
+  "abolished": 1922,
+  "note": "The Shoshone (now Buffalo Bill) Reservoir west of Cody; revoked in 1922.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_1032"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Bering Sea",
+  "cat": "bird",
+  "state": "AK",
+  "date": "1909-02-27",
+  "lat": 60.4,
+  "lon": -172.7,
+  "acres": null,
+  "modern_name": "Alaska Maritime National Wildlife Refuge",
+  "modern_agency": "FWS",
+  "abolished": null,
+  "note": "St. Matthew, Hall and Pinnacle islands, far out in the Bering Sea and thick with seabirds.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_1037"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Tuxedni",
+  "cat": "bird",
+  "state": "AK",
+  "date": "1909-02-27",
+  "lat": 60.15,
+  "lon": -152.6,
+  "acres": null,
+  "modern_name": "Alaska Maritime National Wildlife Refuge",
+  "modern_agency": "FWS",
+  "abolished": null,
+  "note": "Chisik and Duck islands in Cook Inlet, nesting grounds for puffins, kittiwakes and murres.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_1039"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Saint Lazaria",
+  "cat": "bird",
+  "state": "AK",
+  "date": "1909-02-27",
+  "lat": 56.99,
+  "lon": -135.71,
+  "acres": null,
+  "modern_name": "Alaska Maritime National Wildlife Refuge",
+  "modern_agency": "FWS",
+  "abolished": null,
+  "note": "A small volcanic island off Sitka where storm-petrels nest in burrows by the hundreds of thousands.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_1040"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Yukon Delta",
+  "cat": "bird",
+  "state": "AK",
+  "date": "1909-02-27",
+  "lat": 61.8,
+  "lon": -164.5,
+  "acres": null,
+  "modern_name": "Yukon Delta National Wildlife Refuge (area re-protected 1980)",
+  "modern_agency": "abolished",
+  "abolished": 1922,
+  "note": "Millions of acres of tundra between the Yukon and Kuskokwim rivers; revoked in 1922, and the same country is now part of the Yukon Delta National Wildlife Refuge.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_1041",
+   "https://www.fws.gov/sites/default/files/documents/historic-news-releases/1922/19220309.PDF"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Culebra",
+  "cat": "bird",
+  "state": "PR",
+  "date": "1909-02-27",
+  "lat": 18.31,
+  "lon": -65.3,
+  "acres": null,
+  "modern_name": "Culebra National Wildlife Refuge",
+  "modern_agency": "FWS",
+  "abolished": null,
+  "note": "Islands off Puerto Rico's east coast where sooty terns, boobies and tropicbirds nest.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_1042"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Farallon",
+  "cat": "bird",
+  "state": "CA",
+  "date": "1909-02-27",
+  "lat": 37.7,
+  "lon": -123.0,
+  "acres": null,
+  "modern_name": "Farallon Islands National Wildlife Refuge",
+  "modern_agency": "FWS",
+  "abolished": null,
+  "note": "Rocky islands west of the Golden Gate, the largest seabird colony in the lower 48 states.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_1043"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Pribilof",
+  "cat": "bird",
+  "state": "AK",
+  "date": "1909-02-27",
+  "lat": 57.1,
+  "lon": -170.2,
+  "acres": null,
+  "modern_name": "Alaska Maritime National Wildlife Refuge",
+  "modern_agency": "FWS",
+  "abolished": null,
+  "note": "Walrus and Otter islands in the Pribilofs; handed to the Bureau of Fisheries in 1910 and later folded into Alaska Maritime refuge.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_1044"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Bogoslof",
+  "cat": "bird",
+  "state": "AK",
+  "date": "1909-03-02",
+  "lat": 53.93,
+  "lon": -168.03,
+  "acres": null,
+  "modern_name": "Alaska Maritime National Wildlife Refuge",
+  "modern_agency": "FWS",
+  "abolished": null,
+  "note": "A restless volcanic island in the Aleutians, Roosevelt's last bird reservation, made just before he left office.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://standardebooks.org/ebooks/theodore-roosevelt/a-book-lovers-holidays-in-the-open/text/appendix-b",
+   "https://en.wikisource.org/wiki/Executive_Order_1049",
+   "https://archive.kucb.org/news/article/bogoslof-island-celebrates-100-years-of-protection/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Wichita Game Preserve",
+  "cat": "game",
+  "state": "OK",
+  "date": "1905-06-02",
+  "lat": 34.73,
+  "lon": -98.71,
+  "acres": 57120,
+  "modern_name": "Wichita Mountains Wildlife Refuge",
+  "modern_agency": "FWS",
+  "abolished": null,
+  "note": "Roosevelt turned the Wichita Forest Reserve into a game preserve, and Bronx Zoo bison arrived in 1907 to restart a wild herd.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://www.presidency.ucsb.edu/documents/proclamation-563-redesignating-the-wichita-forest-reserve-oklahoma-game-preserve",
+   "https://www.fws.gov/refuge/wichita-mountains/about-us"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Grand Canyon Game Preserve",
+  "cat": "game",
+  "state": "AZ",
+  "date": "1906-11-28",
+  "lat": 36.5,
+  "lon": -112.2,
+  "acres": null,
+  "modern_name": "Kaibab National Forest (North Kaibab Ranger District) and part of Grand Canyon National Park",
+  "modern_agency": "USFS/NPS",
+  "abolished": null,
+  "note": "The Kaibab Plateau north of the Grand Canyon, set aside to protect its deer.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://www.presidency.ucsb.edu/documents/proclamation-694-setting-aside-game-preserve-grand-canyon-forest-reserve-arizona",
+   "https://www.law.cornell.edu/uscode/text/16/684"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "National Bison Range",
+  "cat": "game",
+  "state": "MT",
+  "date": "1908-05-23",
+  "lat": 47.33,
+  "lon": -114.25,
+  "acres": 18521,
+  "modern_name": "Bison Range (held in trust for the Confederated Salish and Kootenai Tribes)",
+  "modern_agency": "tribal",
+  "abolished": null,
+  "note": "Congress created this range to save one of the last bison herds, and the land has since been returned to the Confederated Salish and Kootenai Tribes.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://www.doi.gov/pressreleases/interior-transfers-national-bison-range-lands-trust-confederated-salish-and-kootenai"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Fire Island Reservation",
+  "cat": "game",
+  "state": "AK",
+  "date": "1909-02-27",
+  "lat": 61.15,
+  "lon": -150.2,
+  "acres": null,
+  "modern_name": null,
+  "modern_agency": "abolished",
+  "abolished": 1955,
+  "note": "An island in Cook Inlet near today's Anchorage where cow moose came to have their calves.",
+  "sources": [
+   "https://www.archive.org/download/CAT31414456/CAT31414456.pdf",
+   "https://en.wikisource.org/wiki/Executive_Order_1038"
+  ],
+  "confidence": "high"
+ }
+]

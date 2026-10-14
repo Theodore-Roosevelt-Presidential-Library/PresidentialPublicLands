@@ -1,0 +1,474 @@
+[
+ {
+  "name": "Crater Lake National Park",
+  "cat": "park",
+  "state": "OR",
+  "date": "1902-05-22",
+  "acres": 159360,
+  "lat": 42.94,
+  "lon": -122.1,
+  "note": "A collapsed volcano holding the deepest lake in the United States. Roosevelt signed the bill creating the park on May 22, 1902.",
+  "sources": [
+   "https://www.craterlakeinstitute.com/general-natural-history-articles/general-natural-history-articles-index/report-on-crater-lake-and-others-1907/",
+   "https://www.nps.gov/crla/index.htm"
+  ],
+  "confidence": "high: act of May 22, 1902 (32 Stat. 202); 249 sq mi = 159,360 acres per 1907 Interior report",
+  "correction": null
+ },
+ {
+  "name": "Wind Cave National Park",
+  "cat": "park",
+  "state": "SD",
+  "date": "1903-01-09",
+  "acres": 10560,
+  "lat": 43.57,
+  "lon": -103.48,
+  "note": "The first national park anywhere created to protect a cave. Roosevelt signed the act on January 9, 1903.",
+  "sources": [
+   "https://www.craterlakeinstitute.com/general-natural-history-articles/general-natural-history-articles-index/report-on-crater-lake-and-others-1907/",
+   "https://www.nps.gov/wica/learn/historyculture/birth-of-a-national-park-a-national-park-is-created.htm",
+   "https://en.wikipedia.org/wiki/Wind_Cave_National_Park"
+  ],
+  "confidence": "high on date and claim; medium on acreage (1907 Interior report: 16.5 sq mi, 10,560 acres; 10,522 is also cited, unsourced here)",
+  "correction": "Acreage: 10,522 not confirmed; contemporary Interior report gives 16.5 sq mi (10,560 acres). Small difference, survey rounding."
+ },
+ {
+  "name": "Sully's Hill National Park",
+  "cat": "park",
+  "state": "ND",
+  "date": "1904-06-02",
+  "acres": 960,
+  "lat": 47.99,
+  "lon": -98.98,
+  "note": "A wooded hill above Devils Lake, reserved by Roosevelt's proclamation of June 2, 1904. It became a game preserve in 1931 and, at the Spirit Lake Tribe's request, was renamed White Horse Hill National Game Preserve in 2019.",
+  "sources": [
+   "https://www.presidency.ucsb.edu/documents/proclamation-530-partial-opening-lands-the-sisseton-wahpeton-and-cut-head-bands-the-sioux",
+   "https://www.fws.gov/refuge/white-horse-hill-national-game-preserve/about-us",
+   "https://www.craterlakeinstitute.com/general-natural-history-articles/general-natural-history-articles-index/report-on-crater-lake-and-others-1907/"
+  ],
+  "confidence": "high on date and renamings; medium on acreage (act authorized 'about nine hundred and sixty acres'; 1907 Interior report: 'about 960 acres')",
+  "correction": "Date: April 27, 1904 is the act that authorized the park; Roosevelt's proclamation reserving 'Sully's Hill Park' is dated June 2, 1904. Acreage: 780 not supported; sources give about 960. Note omitted the 2019 renaming to White Horse Hill National Game Preserve."
+ },
+ {
+  "name": "Mesa Verde National Park",
+  "cat": "park",
+  "state": "CO",
+  "date": "1906-06-29",
+  "acres": 42376,
+  "lat": 37.18,
+  "lon": -108.49,
+  "note": "The first national park set aside to preserve the works of people: the cliff dwellings and mesa-top villages of the Ancestral Puebloans. Roosevelt signed the act on June 29, 1906.",
+  "sources": [
+   "https://www.nps.gov/articles/000/mesa-verde-national-park-colorado.htm",
+   "https://npshistory.com/publications/annual_reports/meve/1909b.htm",
+   "https://www.craterlakeinstitute.com/general-natural-history-articles/general-natural-history-articles-index/report-on-crater-lake-and-others-1907/"
+  ],
+  "confidence": "high on date and claim (NPS: 'preserve the works of man'); medium on acreage (1909 superintendent report: 66.2 sq mi, 42,376 acres; 1907 Interior report: 41,920)",
+  "correction": null
+ },
+ {
+  "name": "Platt National Park",
+  "cat": "park",
+  "state": "OK",
+  "date": "1906-06-29",
+  "acres": 848,
+  "lat": 34.5,
+  "lon": -96.97,
+  "note": "Mineral and freshwater springs at Sulphur. Roosevelt signed the 1902 act creating the Sulphur Springs Reservation and the 1906 resolution renaming it Platt National Park. Since 1976 it has been part of Chickasaw National Recreation Area.",
+  "sources": [
+   "https://www.craterlakeinstitute.com/general-natural-history-articles/general-natural-history-articles-index/report-on-crater-lake-and-others-1907/",
+   "https://www.nps.gov/chic/learn/historyculture/pnp-1900s.htm"
+  ],
+  "confidence": "high: reservation act July 1, 1902 (629.33 acres) plus April 21, 1904 addition (218.89 acres) = 848.22 acres when renamed by joint resolution of June 29, 1906",
+  "correction": null
+ },
+ {
+  "name": "Devils Tower",
+  "cat": "monument",
+  "state": "WY",
+  "date": "1906-09-24",
+  "acres": 1153,
+  "lat": 44.59,
+  "lon": -104.72,
+  "note": "The first national monument, proclaimed under the brand-new Antiquities Act. The proclamation called the tower 'such an extraordinary example of the effect of erosion in the higher mountains as to be a natural wonder.'",
+  "sources": [
+   "https://www.presidency.ucsb.edu/documents/proclamation-658-setting-aside-devils-tower-national-monument-wyoming",
+   "https://web.archive.org/web/20200214180323/https://www.nps.gov/archeology/sites/antiquities/monumentslist.htm",
+   "https://www.nps.gov/articles/lee-story-proclamation.htm"
+  ],
+  "confidence": "high (NPS list: 1,152.91 acres)",
+  "correction": null
+ },
+ {
+  "name": "El Morro",
+  "cat": "monument",
+  "state": "NM",
+  "date": "1906-12-08",
+  "acres": 160,
+  "lat": 35.04,
+  "lon": -108.35,
+  "note": "A sandstone bluff where centuries of travelers, from Ancestral Puebloans to Spanish and American passersby, carved their marks. The first monument set aside mainly for its history.",
+  "sources": [
+   "https://www.presidency.ucsb.edu/documents/proclamation-695-setting-aside-el-morro-national-monument-new-mexico",
+   "https://web.archive.org/web/20200214180323/https://www.nps.gov/archeology/sites/antiquities/monumentslist.htm",
+   "https://www.nps.gov/articles/lee-story-proclamation.htm"
+  ],
+  "confidence": "high",
+  "correction": null
+ },
+ {
+  "name": "Montezuma Castle",
+  "cat": "monument",
+  "state": "AZ",
+  "date": "1906-12-08",
+  "acres": 161,
+  "lat": 34.61,
+  "lon": -111.84,
+  "note": "A five-story Sinagua cliff dwelling tucked into a limestone cliff above Beaver Creek.",
+  "sources": [
+   "https://www.presidency.ucsb.edu/documents/proclamation-696-setting-aside-montezuma-castle-national-monument-arizona",
+   "https://web.archive.org/web/20200214180323/https://www.nps.gov/archeology/sites/antiquities/monumentslist.htm",
+   "https://www.nps.gov/articles/lee-story-proclamation.htm",
+   "https://www.nps.gov/moca/index.htm"
+  ],
+  "confidence": "high (NPS list: 161.39 acres; proclamation's legal subdivisions are 160 nominal acres; Lee gives 160)",
+  "correction": null
+ },
+ {
+  "name": "Petrified Forest",
+  "cat": "monument",
+  "state": "AZ",
+  "date": "1906-12-08",
+  "acres": 60776,
+  "lat": 34.91,
+  "lon": -109.81,
+  "note": "Fallen logs from ancient forests, turned to stone and scattered across the painted desert. It became a national park in 1962.",
+  "sources": [
+   "https://www.presidency.ucsb.edu/documents/proclamation-697-setting-aside-petrified-forest-national-monument-arizona",
+   "https://web.archive.org/web/20200214180323/https://www.nps.gov/archeology/sites/antiquities/monumentslist.htm"
+  ],
+  "confidence": "high (NPS list: 60,776.02 acres; the 90 sections named in the proclamation agree; Lee's '6,776' appears to be a typo)",
+  "correction": null
+ },
+ {
+  "name": "Chaco Canyon",
+  "cat": "monument",
+  "state": "NM",
+  "date": "1907-03-11",
+  "acres": 20629,
+  "lat": 36.06,
+  "lon": -107.96,
+  "note": "Great houses like Pueblo Bonito made this canyon the center of the Ancestral Puebloan world. Today it is Chaco Culture National Historical Park.",
+  "sources": [
+   "https://www.presidency.ucsb.edu/documents/proclamation-740-setting-aside-chaco-canyon-national-monument-new-mexico",
+   "https://web.archive.org/web/20200214180323/https://www.nps.gov/archeology/sites/antiquities/monumentslist.htm",
+   "https://www.nps.gov/articles/lee-story-proclamation.htm"
+  ],
+  "confidence": "high (NPS list 20,629.40 acres; Lee 20,629; the 31 sections plus partial tracts in the proclamation total about 20,640 nominal acres)",
+  "correction": "Acreage: 10,643 is wrong; the original monument was 20,629 acres."
+ },
+ {
+  "name": "Lassen Peak",
+  "cat": "monument",
+  "state": "CA",
+  "date": "1907-05-06",
+  "acres": 1280,
+  "lat": 40.49,
+  "lon": -121.51,
+  "note": "The volcano at the southern end of the Cascade Range. Its eruptions of 1914 to 1917 helped make it the heart of Lassen Volcanic National Park in 1916.",
+  "sources": [
+   "https://www.presidency.ucsb.edu/documents/proclamation-754-setting-aside-lassen-peak-national-monument-california",
+   "https://web.archive.org/web/20200214180323/https://www.nps.gov/archeology/sites/antiquities/monumentslist.htm",
+   "https://www.theodorerooseveltcenter.org/collections/national-park-service/notes-from-the-national-park-vagabond-lassen-volcanic-national-park/"
+  ],
+  "confidence": "high on date; medium on acreage (proclamation and NPS list give no figure; 1,280 from secondary sources)",
+  "correction": null
+ },
+ {
+  "name": "Cinder Cone",
+  "cat": "monument",
+  "state": "CA",
+  "date": "1907-05-06",
+  "acres": 5120,
+  "lat": 40.55,
+  "lon": -121.32,
+  "note": "A cone of volcanic cinders beside a lava field, Snag Lake and Lake Bidwell, set aside for what it shows about the region's volcanoes. Now part of Lassen Volcanic National Park.",
+  "sources": [
+   "https://www.presidency.ucsb.edu/documents/proclamation-753-setting-aside-cinder-cone-national-monument-california",
+   "https://web.archive.org/web/20200214180323/https://www.nps.gov/archeology/sites/antiquities/monumentslist.htm",
+   "https://tipurdy.org/books/lassen-volcanic-national-park/"
+  ],
+  "confidence": "high on date; medium on acreage (proclamation and NPS list give no figure; 5,120 from secondary sources)",
+  "correction": null
+ },
+ {
+  "name": "Gila Cliff Dwellings",
+  "cat": "monument",
+  "state": "NM",
+  "date": "1907-11-16",
+  "acres": 160,
+  "lat": 33.23,
+  "lon": -108.27,
+  "note": "Mogollon homes built into cliff caves above a fork of the Gila River. The proclamation called them 'the best representative of the Cliff-Dwellers' remains of that region.'",
+  "sources": [
+   "https://www.presidency.ucsb.edu/documents/proclamation-781-establishment-the-gila-cliff-dwellings-national-monument-new-mexico",
+   "https://web.archive.org/web/20200214180323/https://www.nps.gov/archeology/sites/antiquities/monumentslist.htm"
+  ],
+  "confidence": "high on date; medium on acreage (proclamation and NPS list give no figure; 160 is the commonly cited original size)",
+  "correction": null
+ },
+ {
+  "name": "Tonto",
+  "cat": "monument",
+  "state": "AZ",
+  "date": "1907-12-19",
+  "acres": 640,
+  "lat": 33.65,
+  "lon": -111.11,
+  "note": "Salado cliff dwellings that today look out over Theodore Roosevelt Lake, the reservoir behind Roosevelt Dam.",
+  "sources": [
+   "https://www.presidency.ucsb.edu/documents/proclamation-787-establishment-the-tonto-national-monument-arizona",
+   "https://web.archive.org/web/20200214180323/https://www.nps.gov/archeology/sites/antiquities/monumentslist.htm",
+   "https://www.nps.gov/tont/index.htm"
+  ],
+  "confidence": "high (one section, 640 acres)",
+  "correction": null
+ },
+ {
+  "name": "Muir Woods",
+  "cat": "monument",
+  "state": "CA",
+  "date": "1908-01-09",
+  "acres": 295,
+  "lat": 37.9,
+  "lon": -122.58,
+  "note": "Old-growth coast redwoods given to the nation by William and Elizabeth Thacher Kent, the first monument created on donated land. It was named for John Muir.",
+  "sources": [
+   "https://www.presidency.ucsb.edu/documents/proclamation-793-setting-aside-muir-woods-national-monument-california",
+   "https://web.archive.org/web/20200214180323/https://www.nps.gov/archeology/sites/antiquities/monumentslist.htm",
+   "https://www.nps.gov/articles/lee-story-proclamation.htm"
+  ],
+  "confidence": "high (proclamation: 'two hundred ninety-five acres a little more or less')",
+  "correction": "Note named only William Kent; the deed and proclamation name William Kent and his wife, Elizabeth Thacher Kent."
+ },
+ {
+  "name": "Grand Canyon",
+  "cat": "monument",
+  "state": "AZ",
+  "date": "1908-01-11",
+  "acres": 808120,
+  "lat": 36.1,
+  "lon": -112.11,
+  "note": "Roosevelt stood at the rim in 1903 and said: \"Leave it as it is. You cannot improve on it. The ages have been at work on it, and man can only mar it.\" (Remarks at the Grand Canyon, May 6, 1903.) It became a national park in 1919.",
+  "sources": [
+   "https://www.presidency.ucsb.edu/documents/proclamation-794-setting-aside-grand-canyon-national-monument-arizona",
+   "https://web.archive.org/web/20200214180323/https://www.nps.gov/archeology/sites/antiquities/monumentslist.htm",
+   "https://www.nps.gov/articles/lee-story-proclamation.htm",
+   "https://www.presidency.ucsb.edu/documents/remarks-grand-canyon-arizona"
+  ],
+  "confidence": "high on date and quote; medium on acreage (NPS list: 808,120; NPS/Lee: 818,560; proclamation gives no figure)",
+  "correction": "Acreage: two NPS sources disagree (808,120 in the NPS Antiquities Act list; 818,560 in Lee). Quote verified verbatim; it needed its date and source."
+ },
+ {
+  "name": "Pinnacles",
+  "cat": "monument",
+  "state": "CA",
+  "date": "1908-01-16",
+  "acres": 2060,
+  "lat": 36.49,
+  "lon": -121.18,
+  "note": "Volcanic spires and talus caves in the Gabilan Mountains. It became Pinnacles National Park in 2013.",
+  "sources": [
+   "https://www.presidency.ucsb.edu/documents/proclamation-796-setting-aside-pinnacles-national-monument-california",
+   "https://web.archive.org/web/20200214180323/https://www.nps.gov/archeology/sites/antiquities/monumentslist.htm",
+   "https://www.govinfo.gov/link/statute/35/2177",
+   "https://npshistory.com/publications/pinn/index.htm"
+  ],
+  "confidence": "medium: NPS dates it January 16, 1908 (also the Statutes at Large heading and diagram), but the signing clause in the Statutes and UCSB text reads 'twenty-eighth day of January'; acreage NPS list 2,060 vs 2,080 elsewhere",
+  "correction": "Acreage: NPS list gives 2,060, not 2,080 (2,080 appears in other sources). Date kept as NPS's January 16, 1908, but flagged: the proclamation's own attestation reads January 28."
+ },
+ {
+  "name": "Jewel Cave",
+  "cat": "monument",
+  "state": "SD",
+  "date": "1908-02-07",
+  "acres": 1275,
+  "lat": 43.73,
+  "lon": -103.83,
+  "note": "A cave lined with sparkling calcite crystals in the Black Hills, now known to be one of the longest caves in the world.",
+  "sources": [
+   "https://www.presidency.ucsb.edu/documents/proclamation-799-setting-aside-jewel-cave-national-monument-south-dakota",
+   "https://web.archive.org/web/20200214180323/https://www.nps.gov/archeology/sites/antiquities/monumentslist.htm",
+   "https://www.nps.gov/jeca/index.htm"
+  ],
+  "confidence": "high (NPS list: 1,274.56 acres)",
+  "correction": "Acreage: minor; NPS lists 1,274.56 acres rather than 1,280."
+ },
+ {
+  "name": "Natural Bridges",
+  "cat": "monument",
+  "state": "UT",
+  "date": "1908-04-16",
+  "acres": 120,
+  "lat": 37.61,
+  "lon": -110.01,
+  "note": "Three great stone bridges carved by White Canyon and its streams. Utah's first national monument.",
+  "sources": [
+   "https://www.presidency.ucsb.edu/documents/proclamation-804-setting-aside-natural-bridges-national-monument-utah",
+   "https://web.archive.org/web/20200214180323/https://www.nps.gov/archeology/sites/antiquities/monumentslist.htm",
+   "https://www.nps.gov/nabr/index.htm"
+  ],
+  "confidence": "high (proclamation: 40 acres around each of three bridges)",
+  "correction": null
+ },
+ {
+  "name": "Lewis and Clark Cavern",
+  "cat": "monument",
+  "state": "MT",
+  "date": "1908-05-11",
+  "acres": 160,
+  "lat": 45.84,
+  "lon": -111.86,
+  "note": "A limestone cavern above the Jefferson River. Congress transferred it to Montana in 1937; it is now Lewis and Clark Caverns State Park.",
+  "sources": [
+   "https://www.presidency.ucsb.edu/documents/proclamation-807-setting-aside-lewis-and-clark-cavern-national-monument-montana",
+   "https://web.archive.org/web/20200214180323/https://www.nps.gov/archeology/sites/antiquities/monumentslist.htm"
+  ],
+  "confidence": "high",
+  "correction": null
+ },
+ {
+  "name": "Tumacácori",
+  "cat": "monument",
+  "state": "AZ",
+  "date": "1908-09-15",
+  "acres": 10,
+  "lat": 31.57,
+  "lon": -111.05,
+  "note": "Ruins of a Spanish colonial mission church on the Santa Cruz River, now Tumacácori National Historical Park.",
+  "sources": [
+   "https://www.presidency.ucsb.edu/documents/proclamation-821-setting-aside-the-tumacacori-national-monument-arizona",
+   "https://web.archive.org/web/20200214180323/https://www.nps.gov/archeology/sites/antiquities/monumentslist.htm"
+  ],
+  "confidence": "high (proclamation: ten acres)",
+  "correction": null
+ },
+ {
+  "name": "Wheeler",
+  "cat": "monument",
+  "state": "CO",
+  "date": "1908-12-07",
+  "acres": 300,
+  "lat": 37.87,
+  "lon": -106.79,
+  "note": "Eroded spires of volcanic tuff high in the San Juan Mountains. Congress abolished the monument in 1950; it is now the Wheeler Geologic Area of Rio Grande National Forest.",
+  "sources": [
+   "https://www.presidency.ucsb.edu/documents/proclamation-831-setting-aside-the-wheeler-national-monument-colorado",
+   "https://web.archive.org/web/20200214180323/https://www.nps.gov/archeology/sites/antiquities/monumentslist.htm",
+   "https://www.fs.usda.gov/r02/riogrande/recreation/wheeler-geologic-area"
+  ],
+  "confidence": "high on date and 1950 abolition; medium on acreage (proclamation and NPS list give no figure; 300 commonly cited)",
+  "correction": "Coordinates: moved to USFS location 37.87, -106.79 (row had 37.95, about 9 km north)."
+ },
+ {
+  "name": "Mount Olympus",
+  "cat": "monument",
+  "state": "WA",
+  "date": "1909-03-02",
+  "acres": 608640,
+  "lat": 47.8,
+  "lon": -123.71,
+  "note": "Proclaimed two days before Roosevelt left office, to protect glaciers and the summer range of the Olympic elk, named Cervus roosevelti in his honor. It became Olympic National Park in 1938.",
+  "sources": [
+   "https://www.presidency.ucsb.edu/documents/proclamation-869-setting-aside-mount-olympus-national-monument-washington",
+   "https://web.archive.org/web/20200214180323/https://www.nps.gov/archeology/sites/antiquities/monumentslist.htm",
+   "https://npshistory.com/handbooks/natural/1a/nh1ak.htm"
+  ],
+  "confidence": "high on date and elk purpose (proclamation text); medium on acreage (NPS list 608,640; other figures 610,560, 615,000, 639,200)",
+  "correction": "Acreage: 639,200 not supported by NPS; NPS Antiquities Act list gives 608,640."
+ },
+ {
+  "name": "Yellowstone National Park",
+  "cat": "park_pre",
+  "state": "WY/MT/ID",
+  "date": "1872-03-01",
+  "acres": null,
+  "lat": 44.43,
+  "lon": -110.59,
+  "note": "The first national park, signed into law by President Ulysses S. Grant on March 1, 1872.",
+  "sources": [
+   "https://www.archives.gov/milestone-documents/act-establishing-yellowstone-national-park",
+   "https://www.nps.gov/yell/learn/historyculture/yellowstoneestablishment.htm",
+   "https://npshistory.com/publications/yell/brochures/1935.pdf"
+  ],
+  "confidence": "high on date; acreage left null: the 1872 act drew a rectangle by survey lines, not acres (roughly 3,300+ sq mi; boundary adjusted 1929 and 1932)",
+  "correction": null
+ },
+ {
+  "name": "Sequoia National Park",
+  "cat": "park_pre",
+  "state": "CA",
+  "date": "1890-09-25",
+  "acres": 48640,
+  "lat": 36.56,
+  "lon": -118.77,
+  "note": "Created to protect giant sequoias. A second act a week later, on October 1, 1890, roughly tripled its size.",
+  "sources": [
+   "https://www.govinfo.gov/link/statute/26/478",
+   "https://www.govinfo.gov/link/statute/26/650",
+   "https://www.nps.gov/seki/learn/news/fact-sheet.htm"
+  ],
+  "confidence": "high on date; acreage is nominal from the act (two townships plus four sections = 76 sq mi = 48,640 acres)",
+  "correction": null
+ },
+ {
+  "name": "General Grant National Park",
+  "cat": "park_pre",
+  "state": "CA",
+  "date": "1890-10-01",
+  "acres": 2560,
+  "lat": 36.75,
+  "lon": -118.97,
+  "note": "Four sections around the General Grant Tree. It was folded into Kings Canyon National Park in 1940.",
+  "sources": [
+   "https://www.govinfo.gov/link/statute/26/650",
+   "https://www.nps.gov/seki/learn/news/fact-sheet.htm"
+  ],
+  "confidence": "high on date; acreage nominal (four sections = 2,560 acres; NPS later listed 4 sq mi)",
+  "correction": null
+ },
+ {
+  "name": "Yosemite National Park",
+  "cat": "park_pre",
+  "state": "CA",
+  "date": "1890-10-01",
+  "acres": 967680,
+  "lat": 37.85,
+  "lon": -119.55,
+  "note": "In 1890 the park surrounded, but did not include, Yosemite Valley and the Mariposa Grove, which California held. Roosevelt signed the joint resolution of June 11, 1906, that brought them into the national park.",
+  "sources": [
+   "https://www.govinfo.gov/link/statute/26/650",
+   "https://npshistory.com/publications/annual_reports/yose/1914b.htm",
+   "https://www.govinfo.gov/link/statute/34/831"
+  ],
+  "confidence": "high on date and 1906 resolution (Pub. Res. No. 27, 34 Stat. 831, approved June 11, 1906); medium on acreage (1,512 sq mi per 1914 superintendent's report)",
+  "correction": null
+ },
+ {
+  "name": "Mount Rainier National Park",
+  "cat": "park_pre",
+  "state": "WA",
+  "date": "1899-03-02",
+  "acres": 207360,
+  "lat": 46.85,
+  "lon": -121.76,
+  "note": "A glacier-wrapped volcano set aside about two and a half years before Roosevelt became president.",
+  "sources": [
+   "https://www.nps.gov/mora/faqs.htm",
+   "https://npshistory.com/publications/annual_reports/mora/1915b.htm",
+   "https://npshistory.com/publications/mora/brochures/1923.pdf"
+  ],
+  "confidence": "high on date; acreage per early NPS reports (324 sq mi = 207,360 acres; today 236,381)",
+  "correction": null
+ }
+]
