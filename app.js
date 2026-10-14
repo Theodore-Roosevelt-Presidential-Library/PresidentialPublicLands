@@ -28,7 +28,7 @@ const FOREST = [
   {y:1909, v:194.51, when:"194,505,325 acres in 1909 (Report of the Forester)"},
 ];
 const YEARS = [1901,1902,1903,1904,1905,1906,1907,1908,1909];
-const YSUB = {1901:"Took office Sept. 14", 1909:"Left office March 4"};
+const YSUB = {1901:"Took office", 1909:"Left office"};
 
 const $ = id => document.getElementById(id);
 const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
@@ -36,7 +36,7 @@ const fmtDate = s => { if(!s) return ""; const [y,m,d]=s.split("-").map(Number);
 const fmtN = n => n==null ? "—" : n>=1e6 ? (n/1e6).toFixed(n>=1e7?0:1).replace(/\.0$/,"")+"M" : n>=1e4 ? Math.round(n/1e3)+"K" : n.toLocaleString("en-US",{maximumFractionDigits:n<100?1:0});
 const esc = s => String(s??"").replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 
-let SITES=[], BYID=new Map(), BBOX=new Map(), BYDATE=[];
+let LANDS=null, SITEFC=null, SITES=[], BYID=new Map(), BBOX=new Map(), BYDATE=[];
 let year = 1909, active = new Set(ORDER), showPre = true, selected = null, listAll = false;
 
 // ---------- State in the URL (so a view can be shared)
@@ -85,7 +85,7 @@ const map = new maplibregl.Map({
   container:"map",
   style:"https://tiles.openfreemap.org/styles/positron",
   bounds: window.innerWidth<=760 ? [[-127.5,24.5],[-65.5,49.5]] : [[-125,24.5],[-66.5,49.5]],
-  fitBoundsOptions:{padding: window.innerWidth<=760 ? {top:150,bottom:230,left:6,right:6} : {top:70,bottom:110,left:20,right:20}},
+  fitBoundsOptions:{padding: window.innerWidth<=760 ? {top:150,bottom:230,left:6,right:6} : {top:70,bottom:200,left:20,right:20}},
   minZoom:1.5, maxZoom:13, attributionControl:false, dragRotate:false, pitchWithRotate:false,
 });
 map.touchZoomRotate.disableRotation();
@@ -100,7 +100,7 @@ const REGIONS = [
   ["Puerto Rico",[[-67.6,17.8],[-65.1,18.6]]],
 ];
 for (const [n,b] of REGIONS){ const bt=document.createElement("button"); bt.textContent=n; bt.onclick=()=>map.fitBounds(b,{padding:pad(),duration:900}); $("jump").appendChild(bt); }
-const pad = () => window.innerWidth<=760 ? {top:110,bottom:110,left:16,right:16} : {top:100,bottom:110,left:40,right:180};
+const pad = () => window.innerWidth<=760 ? {top:110,bottom:190,left:16,right:16} : {top:100,bottom:110,left:40,right:180};
 
 function filters(){
   const cats = ["in",["get","cat"],["literal",[...active]]];
@@ -108,6 +108,9 @@ function filters(){
   return {cats, when};
 }
 function applyFilters(){
+  for (const m of (typeof MAPS!=="undefined"?MAPS:[map])) filterMap(m);
+}
+function filterMap(map){
   if (!map.getLayer("lands-fill")) return;
   const {cats,when} = filters();
   map.setFilter("lands-fill", ["all",cats,when]);
@@ -117,7 +120,78 @@ function applyFilters(){
   map.setFilter("pts", ["all",cats,when,["!",["all",["==",["get","cat"],"forest"],["get","shape"]]]]);
   map.setFilter("pts-new", ["all",cats,["==",["get","era"],"tr"],["==",["get","year"],year],year>1901,["!",["all",["==",["get","cat"],"forest"],["get","shape"]]]]);
   map.setFilter("sel-line", ["==",["get","sid"],selected||""]);
-  map.setFilter("sel-pt", ["==",["get","id"],selected||""]);
+  map.setFilter("sel-pt", ["all",["==",["get","id"],selected||""],["!",["all",["==",["get","cat"],"forest"],["get","shape"]]]]);
+}
+
+
+function dress(m, inset){
+  // Soften the basemap toward the Library's paper tone
+  for (const l of m.getStyle().layers){
+    if (l.type==="background") m.setPaintProperty(l.id,"background-color","#F4F2EA");
+    if (l.id==="water" || l.id.startsWith("water")) { try{ m.setPaintProperty(l.id,"fill-color","#DCE6E8"); }catch(e){} }
+  }
+  const firstLabel = m.getStyle().layers.find(l=>l.type==="symbol")?.id;
+  if (inset) for (const l of m.getStyle().layers) if (l.type==="symbol") m.setLayoutProperty(l.id,"visibility","none");
+  for (const k of ORDER){
+    m.addImage("i-"+k, drawIcon(CATS[k].shape, CATS[k].c, 48).getContext("2d").getImageData(0,0,48,48), {pixelRatio:2});
+    m.addImage("p-"+k, drawIcon(CATS[k].shape, PRE_C, 48).getContext("2d").getImageData(0,0,48,48), {pixelRatio:2});
+  }
+  const sz = inset ? 0.55 : 1;
+  m.addSource("lands",{type:"geojson",data:LANDS,promoteId:"sid"});
+  m.addSource("sites",{type:"geojson",data:SITEFC});
+  m.addLayer({id:"lands-fill",type:"fill",source:"lands",paint:{"fill-color":fillColor,"fill-opacity":["case",["==",["get","era"],"pre"],0.55,0.5]}}, firstLabel);
+  m.addLayer({id:"lands-line",type:"line",source:"lands",paint:{"line-color":["case",["==",["get","era"],"pre"],"#9a8f74",["match",["get","cat"],...ORDER.flatMap(k=>[k,CATS[k].c]),"#666"]],"line-width":["interpolate",["linear"],["zoom"],3,0.3,8,1.2],"line-opacity":0.8}}, firstLabel);
+  m.addLayer({id:"lands-enl",type:"line",source:"lands",paint:{"line-color":ENL_C,"line-width":["interpolate",["linear"],["zoom"],3,1,8,2.4],"line-dasharray":[2,1.5]}}, firstLabel);
+  m.addLayer({id:"lands-new",type:"line",source:"lands",paint:{"line-color":NEW_C,"line-width":["interpolate",["linear"],["zoom"],3,1.6,8,3.2]}}, firstLabel);
+  m.addLayer({id:"sel-line",type:"line",source:"lands",paint:{"line-color":"#25282A","line-width":3.2}});
+  m.addLayer({id:"sel-pt",type:"circle",source:"sites",paint:{"circle-radius":["interpolate",["linear"],["zoom"],3,13*sz,9,18],"circle-color":"rgba(0,0,0,0)","circle-stroke-color":"#25282A","circle-stroke-width":2.5}});
+  m.addLayer({id:"pts-new",type:"circle",source:"sites",paint:{"circle-radius":["interpolate",["linear"],["zoom"],3,9*sz,9,14],"circle-color":"rgba(226,112,63,.18)","circle-stroke-color":NEW_C,"circle-stroke-width":1.8}});
+  m.addLayer({id:"pts",type:"symbol",source:"sites",layout:{
+    "icon-image":["concat",["case",["==",["get","era"],"pre"],"p-","i-"],["get","cat"]],
+    "icon-size": inset ? 0.6 : ["interpolate",["linear"],["zoom"],2,0.62,6,0.85,10,1.05],
+    "icon-allow-overlap":true,"icon-ignore-placement":true,
+    "symbol-sort-key":["match",["get","cat"],"park",1,"monument",2,"game",3,"water",4,"bird",5,6]}});
+}
+
+// ---------- Hover and click, shared by the main map and the insets
+function attach(m, onEmpty){
+  const tip = $("tip");
+  const pickAt = p => { const fs = m.queryRenderedFeatures(p,{layers:["pts","lands-fill"]}); if(!fs.length) return null; const pt = fs.find(f=>f.layer.id==="pts"); const f = pt || fs[0]; return BYID.get(f.properties.id || f.properties.sid); };
+  m.on("mousemove", e => {
+    const s = pickAt(e.point);
+    m.getCanvas().style.cursor = s || onEmpty ? "pointer" : "";
+    if (!s){ tip.hidden = true; return; }
+    tip.innerHTML = `${esc(s.name)}<span>${esc(s.era==="pre"?"Protected before 1901":(CATS[s.cat].one))} · ${esc(s.st)} · ${s.era==="pre"?yOf(s):s.y}</span>`;
+    tip.hidden = false;
+    const v = document.querySelector(".viewer").getBoundingClientRect(), c = m.getContainer().getBoundingClientRect();
+    let x = c.left-v.left+e.point.x+14, y = c.top-v.top+e.point.y+14;
+    if (x+270>v.width) x -= 290; if (y+50>v.height) y -= 70;
+    tip.style.left=x+"px"; tip.style.top=y+"px";
+  });
+  m.on("mouseout", ()=>tip.hidden=true);
+  m.on("click", e => { const s = pickAt(e.point); if (s) select(s.id,!!onEmpty); else if (onEmpty) onEmpty(); });
+}
+
+// ---------- Inset maps for Alaska, Hawaii and Puerto Rico
+const INSETS = [
+  {id:"ak", label:"Alaska",         b:[[-179.2,51.2],[-129.5,71.4]]},
+  {id:"hi", label:"Hawaiian Islands", b:[[-178.6,18.7],[-154.6,28.6]]},
+  {id:"pr", label:"Puerto Rico",    b:[[-67.35,17.85],[-65.2,18.55]]},
+];
+const MAPS = [map];
+function makeInsets(){
+  const wrap = $("insets");
+  for (const r of INSETS){
+    const box = document.createElement("div"); box.className = "inset inset-"+r.id;
+    box.innerHTML = `<span class="lbl">${r.label}</span><div class="im"></div>`;
+    box.title = `Zoom the main map to ${r.label}`;
+    wrap.appendChild(box);
+    const m = new maplibregl.Map({container:box.querySelector(".im"), style:"https://tiles.openfreemap.org/styles/positron",
+      bounds:r.b, fitBoundsOptions:{padding:6}, dragPan:false, scrollZoom:false, boxZoom:false, dragRotate:false, keyboard:false, doubleClickZoom:false, touchZoomRotate:false, touchPitch:false, attributionControl:false, fadeDuration:0});
+    m.on("load", ()=>{ dress(m,true); attach(m, ()=>map.fitBounds(r.b,{padding:pad(),duration:900})); applyFilters(); });
+    const ro = new ResizeObserver(()=>{ m.resize(); m.fitBounds(r.b,{padding:6,duration:0}); }); ro.observe(box);
+    MAPS.push(m);
+  }
 }
 
 const fillColor = ["case",["==",["get","era"],"pre"],PRE_C,["match",["get","cat"],...ORDER.flatMap(k=>[k,CATS[k].c]),"#888"]];
@@ -133,49 +207,12 @@ map.on("load", async () => {
     walk(f.geometry.coordinates); BBOX.set(f.properties.sid,b);
   }
 
-  // Soften the basemap toward the Library's paper tone
-  for (const l of map.getStyle().layers){
-    if (l.type==="background") map.setPaintProperty(l.id,"background-color","#F4F2EA");
-    if (l.id==="water" || l.id.startsWith("water")) { try{ map.setPaintProperty(l.id,"fill-color","#DCE6E8"); }catch(e){} }
-  }
-  const firstLabel = map.getStyle().layers.find(l=>l.type==="symbol")?.id;
+  LANDS = lands;
+  SITEFC = {type:"FeatureCollection",features:SITES.map(s=>({type:"Feature",geometry:{type:"Point",coordinates:[s.lon,s.lat]},properties:{id:s.id,cat:s.cat,era:s.era,year:s.y,shape:!!s.shape}}))};
+  dress(map,false);
+  makeInsets();
 
-  for (const k of ORDER){
-    map.addImage("i-"+k, drawIcon(CATS[k].shape, CATS[k].c, 48).getContext("2d").getImageData(0,0,48,48), {pixelRatio:2});
-    map.addImage("p-"+k, drawIcon(CATS[k].shape, PRE_C, 48).getContext("2d").getImageData(0,0,48,48), {pixelRatio:2});
-  }
-
-  map.addSource("lands",{type:"geojson",data:lands,promoteId:"sid"});
-  map.addSource("sites",{type:"geojson",data:{type:"FeatureCollection",features:SITES.map(s=>({type:"Feature",geometry:{type:"Point",coordinates:[s.lon,s.lat]},properties:{id:s.id,cat:s.cat,era:s.era,year:s.y,shape:!!s.shape}}))}});
-
-  map.addLayer({id:"lands-fill",type:"fill",source:"lands",paint:{"fill-color":fillColor,"fill-opacity":["case",["==",["get","era"],"pre"],0.55,0.5]}}, firstLabel);
-  map.addLayer({id:"lands-line",type:"line",source:"lands",paint:{"line-color":["case",["==",["get","era"],"pre"],"#9a8f74",["match",["get","cat"],...ORDER.flatMap(k=>[k,CATS[k].c]),"#666"]],"line-width":["interpolate",["linear"],["zoom"],3,0.3,8,1.2],"line-opacity":0.8}}, firstLabel);
-  map.addLayer({id:"lands-enl",type:"line",source:"lands",paint:{"line-color":ENL_C,"line-width":["interpolate",["linear"],["zoom"],3,1,8,2.4],"line-dasharray":[2,1.5]}}, firstLabel);
-  map.addLayer({id:"lands-new",type:"line",source:"lands",paint:{"line-color":NEW_C,"line-width":["interpolate",["linear"],["zoom"],3,1.6,8,3.2]}}, firstLabel);
-  map.addLayer({id:"sel-line",type:"line",source:"lands",paint:{"line-color":"#25282A","line-width":3.2}});
-  map.addLayer({id:"sel-pt",type:"circle",source:"sites",paint:{"circle-radius":["interpolate",["linear"],["zoom"],3,13,9,18],"circle-color":"rgba(0,0,0,0)","circle-stroke-color":"#25282A","circle-stroke-width":2.5}});
-  map.addLayer({id:"pts-new",type:"circle",source:"sites",paint:{"circle-radius":["interpolate",["linear"],["zoom"],3,9,9,14],"circle-color":"rgba(226,112,63,.18)","circle-stroke-color":NEW_C,"circle-stroke-width":1.8}});
-  map.addLayer({id:"pts",type:"symbol",source:"sites",layout:{
-    "icon-image":["concat",["case",["==",["get","era"],"pre"],"p-","i-"],["get","cat"]],
-    "icon-size":["interpolate",["linear"],["zoom"],2,0.62,6,0.85,10,1.05],
-    "icon-allow-overlap":true,"icon-ignore-placement":true,
-    "symbol-sort-key":["match",["get","cat"],"park",1,"monument",2,"game",3,"water",4,"bird",5,6]}});
-
-  // Hover and click
-  const tip = $("tip");
-  const pickAt = p => { const fs = map.queryRenderedFeatures(p,{layers:["pts","lands-fill"]}); if(!fs.length) return null; const pt = fs.find(f=>f.layer.id==="pts"); const f = pt || fs[0]; return BYID.get(f.properties.id || f.properties.sid); };
-  map.on("mousemove", e => {
-    const s = pickAt(e.point);
-    map.getCanvas().style.cursor = s ? "pointer" : "";
-    if (!s){ tip.hidden = true; return; }
-    tip.innerHTML = `${esc(s.name)}<span>${esc(s.era==="pre"?"Protected before 1901":(CATS[s.cat].one))} · ${esc(s.st)} · ${s.era==="pre"?yOf(s):s.y}</span>`;
-    tip.hidden = false;
-    const r = map.getContainer().getBoundingClientRect();
-    let x = e.point.x+14, y = e.point.y+14; if (x+270>r.width) x -= 290; tip.style.left=x+"px"; tip.style.top=y+"px";
-  });
-  map.on("mouseout", ()=>tip.hidden=true);
-  map.on("click", e => { const s = pickAt(e.point); if (s) select(s.id,false); });
-
+  attach(map);
   document.querySelector(".maplibregl-ctrl-attrib")?.classList.remove("maplibregl-compact-show");
   const start = readHash();
   renderAll();
@@ -211,7 +248,7 @@ function renderTabs(){
 const tInput = $("t"), playBtn = $("play");
 function renderTicks(){
   const row = $("tickrow"); row.innerHTML = "";
-  for (const y of YEARS){ const b=document.createElement("button"); b.className = y===year?"on":""; b.innerHTML = `${y}${YSUB[y]?`<small>${y===1901?"Took office":"Left office"}</small>`:""}`; b.tabIndex=-1; b.onclick=()=>{ stop(); setYear(y); }; row.appendChild(b); }
+  for (const y of YEARS){ const b=document.createElement("button"); b.className = y===year?"on":""; b.innerHTML = `<span class="full">${y}</span><span class="short">’${String(y).slice(2)}</span>${YSUB[y]?`<small>${y===1901?"Took office":"Left office"}</small>`:""}`; b.tabIndex=-1; b.onclick=()=>{ stop(); setYear(y); }; row.appendChild(b); }
 }
 function setYear(y){ year = y; tInput.value = y; update(); }
 tInput.addEventListener("input", ()=>{ stop(); setYear(+tInput.value); });
